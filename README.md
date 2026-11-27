@@ -120,6 +120,9 @@ npm run dev -- --port 5173
 
 配置集中在 `backend/app/config.py`，通过环境变量或 `backend/.env` 覆盖，完整清单见 [.env.example](.env.example)。
 
+运行时的模型切换另存 `backend/llm_config.json`（`/settings` 页写入）。仓库只带
+`backend/llm_config.example.json`，首次运行复制一份再填 key；真实配置文件已在 `.gitignore` 中，不入库。
+
 | 变量 | 默认 | 说明 |
 | --- | --- | --- |
 | `DATABASE_URL` | `sqlite+aiosqlite:///./p4agent.db` | 业务库；生产用 `postgresql+asyncpg://...` |
