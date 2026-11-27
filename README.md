@@ -60,7 +60,7 @@ P4Gear 是一个完整的电商后端与客服前端示例：商城侧提供商�
 
 ## 系统架构
 
-![系统架构](docs/images/architecture.svg)
+![系统架构](docs/images/architecture.png)
 
 请求路径：前端 → 接入层（鉴权 / 限流 / 去重 / 注入归一化）→ LangGraph 编排（理解 → Supervisor → 域 Agent）→ 工具执行层（注册表 + 六道关）→ 数据层（PG / pgvector / Redis / 文件资产）。
 
