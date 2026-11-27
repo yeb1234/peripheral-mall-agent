@@ -1,0 +1,283 @@
+{
+  "schema_version": "1.0.0",
+  "sku": "MS-LARGE-D",
+  "identity": {
+    "sku": "MS-LARGE-D",
+    "name": "P4 有线鼠标 Large-D（大手）",
+    "brand": "P4Gear",
+    "category": "mouse",
+    "price": 269.0,
+    "description": "大手型有线电竞鼠标，95g，PAW3950，8000Hz 回报率，长对称机身。",
+    "featured": false,
+    "category_cn": "电竞鼠标",
+    "currency": "CNY",
+    "stock": 130
+  },
+  "specs": {
+    "核心参数": {
+      "传感器": "原相 PAW3950",
+      "最高 DPI": "26000",
+      "追踪速度": "650 IPS",
+      "最大加速度": "50 G",
+      "微动": "光学微动",
+      "按键数": 7,
+      "分辨率档位": "板载 5 档 + 软体自定义"
+    },
+    "人体工学": {
+      "适用手型": "大手（19cm+）",
+      "推荐握姿": "趴握 / 抓握",
+      "重量": "95 g",
+      "尺寸": "130×67×42",
+      "表面处理": "磨砂 UV 涂层",
+      "按键寿命": "80 万次"
+    },
+    "连接": {
+      "连接方式": "有线 USB-C（伞绳）",
+      "回报率": "8000 Hz",
+      "续航": "0 h",
+      "充电": "—（有线直供）",
+      "无线延迟": "0.4 ms"
+    },
+    "电竞特性": {
+      "静默高度 LOD": "1.0 mm",
+      "点击延迟": "0.6 ms",
+      "板载内存": "支持",
+      "脚贴": "100% PTFE",
+      "表面校准": "支持"
+    },
+    "兼容系统": [
+      "Windows 10+",
+      "macOS 11+",
+      "Linux"
+    ]
+  },
+  "specs_flat": {
+    "传感器": "原相 PAW3950",
+    "最高 DPI": "26000",
+    "追踪速度": "650 IPS",
+    "最大加速度": "50 G",
+    "微动": "光学微动",
+    "按键数": "7",
+    "分辨率档位": "板载 5 档 + 软体自定义",
+    "适用手型": "大手（19cm+）",
+    "推荐握姿": "趴握 / 抓握",
+    "重量": "95 g",
+    "尺寸": "130×67×42",
+    "表面处理": "磨砂 UV 涂层",
+    "按键寿命": "80 万次",
+    "连接方式": "有线 USB-C（伞绳）",
+    "回报率": "8000 Hz",
+    "续航": "0 h",
+    "充电": "—（有线直供）",
+    "无线延迟": "0.4 ms",
+    "静默高度 LOD": "1.0 mm",
+    "点击延迟": "0.6 ms",
+    "板载内存": "支持",
+    "脚贴": "100% PTFE",
+    "表面校准": "支持",
+    "兼容系统": "Windows 10+、macOS 11+、Linux"
+  },
+  "copy": {
+    "tagline": "每一次移动，都算数。",
+    "lead": "重量、握感与追踪，只服务于准星",
+    "short_copy": "P4 有线鼠标 Large-D（大手）｜重量、握感与追踪，只服务于准星。大手型有线电竞鼠标，95g，PAW3950，8000Hz 回报率，长对称机身。",
+    "long_copy": "P4 有线鼠标 Large-D（大手） 是 P4Gear 面向竞技玩家与中大手用户推出的电竞鼠标。大手型有线电竞鼠标，95g，PAW3950，8000Hz 回报率，长对称机身。\n我们不把参数藏在宣传页脚注里：重量 95 g、传感器 原相 PAW3950、DPI 26000。从连接方式到驱动软件，完整规格都可以在商品页与资源下载中心查到；驱动、用户手册与快速入门支持按型号检索下载，下载文件提供 SHA256 校验。\nP4Gear 每一次移动，都算数。",
+    "selling_points": [
+      {
+        "key": "weight_g",
+        "label": "重量",
+        "fact": "95 g",
+        "headline": "重量 · 95 g",
+        "benefit": "轻量化让长时间甩枪不拖手腕",
+        "copy": "95 g｜轻量化让长时间甩枪不拖手腕"
+      },
+      {
+        "key": "sensor",
+        "label": "传感器",
+        "fact": "原相 PAW3950",
+        "headline": "传感器 · 原相 PAW3950",
+        "benefit": "高 IPS 与加速度，快速转身不丢帧",
+        "copy": "原相 PAW3950｜高 IPS 与加速度，快速转身不丢帧"
+      },
+      {
+        "key": "dpi",
+        "label": "DPI",
+        "fact": "26000",
+        "headline": "DPI · 26000",
+        "benefit": "档位随手感切换，FPS 与 MOBA 各一套",
+        "copy": "26000｜档位随手感切换，FPS 与 MOBA 各一套"
+      },
+      {
+        "key": "polling_hz",
+        "label": "回报率",
+        "fact": "8000 Hz",
+        "headline": "回报率 · 8000 Hz",
+        "benefit": "高频轮询让光标跟手",
+        "copy": "8000 Hz｜高频轮询让光标跟手"
+      },
+      {
+        "key": "connect",
+        "label": "连接",
+        "fact": "有线 USB-C（伞绳）",
+        "headline": "连接 · 有线 USB-C（伞绳）",
+        "benefit": "有线 / 2.4G / 蓝牙按需切换",
+        "copy": "有线 USB-C（伞绳）｜有线 / 2.4G / 蓝牙按需切换"
+      }
+    ],
+    "scenes": [
+      {
+        "scene": "FPS 训练场连续甩枪",
+        "angle": "以「FPS 训练场连续甩枪」为真实使用场景，突出重量、握感与追踪，只服务于准星"
+      },
+      {
+        "scene": "长时间 MOBA 对线",
+        "angle": "以「长时间 MOBA 对线」为真实使用场景，突出重量、握感与追踪，只服务于准星"
+      },
+      {
+        "scene": "出差带着笔记本轻量办公",
+        "angle": "以「出差带着笔记本轻量办公」为真实使用场景，突出重量、握感与追踪，只服务于准星"
+      }
+    ],
+    "video_script": {
+      "title": "P4 有线鼠标 Large-D（大手） · 30 秒产品短片",
+      "duration_seconds": 30,
+      "aspect_ratio": "16:9",
+      "style": "浅色专业电竞外设 / 干净棚拍 / 快切；中性灰底 + 单一红色强调",
+      "brand_tone": "克制、专业、参数说话；不堆形容词，不承诺未标注的性能",
+      "shots": [
+        {
+          "no": 1,
+          "timecode": "0-4",
+          "visual": "低机位贴桌推轨：鼠标在浅色布垫上快速划过，留一点运动模糊",
+          "overlay_text": "95 g · 轻量化",
+          "voiceover": "P4 有线鼠标 Large-D（大手）。移动之前，先让手腕没有负担。",
+          "asset_ref": "category_visual"
+        },
+        {
+          "no": 2,
+          "timecode": "4-10",
+          "visual": "俯拍手掌握持特写，切换趴握 / 抓握两种姿势",
+          "overlay_text": "大手（19cm+）",
+          "voiceover": "模具跟着手型走，不是手去迁就模具。",
+          "asset_ref": "product_card"
+        },
+        {
+          "no": 3,
+          "timecode": "10-17",
+          "visual": "屏幕录制准星急停点射，画中画叠传感器参数字幕",
+          "overlay_text": "原相 PAW3950 · 26000",
+          "voiceover": "追踪稳，急停才停得住。",
+          "asset_ref": "category_visual"
+        },
+        {
+          "no": 4,
+          "timecode": "17-24",
+          "visual": "切换有线 / 2.4G / 蓝牙三个连接状态灯，快切三格",
+          "overlay_text": "有线 USB-C（伞绳）",
+          "voiceover": "桌面、赛场、出差，一台就够。",
+          "asset_ref": "product_card"
+        },
+        {
+          "no": 5,
+          "timecode": "24-30",
+          "visual": "定格产品侧影 + 品牌字标，右下角 SKU",
+          "overlay_text": "P4 有线鼠标 Large-D（大手） · MS-LARGE-D",
+          "voiceover": "P4Gear 每一次移动，都算数。 驱动与说明书在资源下载中心。",
+          "asset_ref": "brand_hero"
+        }
+      ],
+      "bgm_hint": "极简电子脉冲 / 100 BPM / 甩枪瞬间留白一拍",
+      "cta": "前往 P4 资源下载中心搜索 MS-LARGE-D，获取驱动与完整说明书",
+      "compliance_note": "字幕与口播中的数字参数均取自商品库真实规格，不得自行追加未标注性能；个别规格缺失处使用不含数字的描述性措辞，仅为语句完整，不作为性能承诺"
+    },
+    "keywords": [
+      "MS-LARGE-D",
+      "P4 有线鼠标 Large-D（大手）",
+      "P4Gear",
+      "电竞鼠标",
+      "FPS 训练场连续甩枪",
+      "长时间 MOBA 对线",
+      "出差带着笔记本轻量办公",
+      "重量",
+      "传感器",
+      "DPI",
+      "回报率",
+      "连接",
+      "官方驱动",
+      "说明书"
+    ]
+  },
+  "images": {
+    "product_card": {
+      "path": "images/products/MS-LARGE-D.svg",
+      "url": "http://127.0.0.1:8000/p4-assets/images/products/MS-LARGE-D.svg",
+      "mime_type": "image/svg+xml",
+      "width": 600,
+      "height": 400,
+      "purpose": "产品卡图 / 视频内嵌素材",
+      "note": "矢量，可无损放大；浅色卡片含品牌、品类图标与产品名"
+    },
+    "category_visual": {
+      "path": "images/visuals/mouse-16x9.svg",
+      "url": "http://127.0.0.1:8000/p4-assets/images/visuals/mouse-16x9.svg",
+      "mime_type": "image/svg+xml",
+      "width": 1600,
+      "height": 900,
+      "purpose": "16:9 视频封面 / 分镜背景板",
+      "note": ""
+    },
+    "brand_hero": {
+      "path": "images/brand/hero.png",
+      "url": "http://127.0.0.1:8000/p4-assets/images/brand/hero.png",
+      "mime_type": "image/png",
+      "width": 1536,
+      "height": 1024,
+      "purpose": "品牌主视觉 / 片尾",
+      "note": "暗调电竞产品渲染，适合片尾品牌帧"
+    }
+  },
+  "downloads": [
+    {
+      "kind": "driver",
+      "title": "P4 有线鼠标 Large-D（大手） 驱动",
+      "file_url": "/api/drivers/e28f480d750e4b30bba5159d328df9a7/download?os=Windows",
+      "sha256": "f32ce71bca43b7e68be1e735b90f2319ab12a39d1517cb94bc3cfc76124e1dec"
+    },
+    {
+      "kind": "driver",
+      "title": "P4 有线鼠标 Large-D（大手） 驱动",
+      "file_url": "/api/drivers/80ca983cecfa43e8a1756cad53499e10/download?os=macOS",
+      "sha256": "d42f7a04ccd30b8ab0c4e33a65f9d59ac8c8de2d0c4b3fa43b53d0826c9cd53d"
+    },
+    {
+      "kind": "driver",
+      "title": "P4 有线鼠标 Large-D（大手） 驱动",
+      "file_url": "/api/drivers/ca5ca999b4ac45349f7dffa86a789b19/download?os=Linux",
+      "sha256": "a9a493144fcdb9305d7cae8d952b07756b6ff66820424adda63152e3242d3125"
+    },
+    {
+      "kind": "manual",
+      "title": "P4 有线鼠标 Large-D（大手） 用户手册",
+      "file_url": "/api/resources/manual/fc12465e0e4b47c78e67639f567f83fa/download",
+      "sha256": "0e53ef9bd09dd2281f5dec812db195d73e11ea3eb82ff7fc55ac7a06bd13cd4c"
+    },
+    {
+      "kind": "resource",
+      "title": "P4 有线鼠标 Large-D（大手） 快速入门指南",
+      "file_url": "/api/resources/resource/6fc92c6972484f4694456ca9ae05b8c6/download",
+      "sha256": "ae935adf9e1bb7b5b50744b33201c890af84cdd0e3fa5e9105c66c1ba54363e4"
+    },
+    {
+      "kind": "resource",
+      "title": "P4 有线鼠标 Large-D（大手） 保修服务卡",
+      "file_url": "/api/resources/resource/bc2a6ed9d2bc498c882532b334912585/download",
+      "sha256": "b0d9d61bd5813016480e63ed9ad441e83d2edb2d9ca7bbd75aa8d8b0ad74cfc0"
+    }
+  ],
+  "provenance": {
+    "source": "P4 外设商城 · products 表",
+    "generated_by": "backend/tools/build_assets.py",
+    "copy_generator": "backend/app/services/asset_copy.py（确定性模板 + 真实规格）",
+    "asset_base_url": "http://127.0.0.1:8000/p4-assets"
+  }
+}

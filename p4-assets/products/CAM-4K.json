@@ -1,0 +1,273 @@
+{
+  "schema_version": "1.0.0",
+  "sku": "CAM-4K",
+  "identity": {
+    "sku": "CAM-4K",
+    "name": "P4 4K 直播摄像头",
+    "brand": "P4Vision",
+    "category": "webcam",
+    "price": 399.0,
+    "description": "4K 30fps / 1080P 60fps 网络摄像头，自动对焦，自带物理隐私遮罩。",
+    "featured": true,
+    "category_cn": "高清摄像头",
+    "currency": "CNY",
+    "stock": 60
+  },
+  "specs": {
+    "核心参数": {
+      "分辨率": "3840×2160",
+      "帧率": "4K@30 / 1080P@60",
+      "传感器": "1/2.5\" CMOS",
+      "光圈": "f/2.0",
+      "视场角 FOV": "78°",
+      "对焦": "自动对焦（PDAF）",
+      "数码变焦": "4× 数码"
+    },
+    "连接": {
+      "接口": "USB-A 3.0",
+      "带宽": "5Gbps",
+      "线缆长度": "1.5 m",
+      "兼容": [
+        "Windows 10+",
+        "macOS 11+",
+        "Linux (UVC)"
+      ]
+    },
+    "特性": {
+      "隐私遮罩": "物理滑盖遮罩",
+      "智能补光": "智能补光（两档）",
+      "自动取景构图": "支持自动取景",
+      "麦克风": "双阵列降噪麦",
+      "AI 降噪": "支持"
+    },
+    "设计": {
+      "重量": "150 g",
+      "尺寸": "90×50×50",
+      "支架": "阻尼折叠支架"
+    }
+  },
+  "specs_flat": {
+    "分辨率": "3840×2160",
+    "帧率": "4K@30 / 1080P@60",
+    "传感器": "1/2.5\" CMOS",
+    "光圈": "f/2.0",
+    "视场角 FOV": "78°",
+    "对焦": "自动对焦（PDAF）",
+    "数码变焦": "4× 数码",
+    "接口": "USB-A 3.0",
+    "带宽": "5Gbps",
+    "线缆长度": "1.5 m",
+    "兼容": "Windows 10+、macOS 11+、Linux (UVC)",
+    "隐私遮罩": "物理滑盖遮罩",
+    "智能补光": "智能补光（两档）",
+    "自动取景构图": "支持自动取景",
+    "麦克风": "双阵列降噪麦",
+    "AI 降噪": "支持",
+    "重量": "150 g",
+    "尺寸": "90×50×50",
+    "支架": "阻尼折叠支架"
+  },
+  "copy": {
+    "tagline": "让画面替你说清楚。",
+    "lead": "会议、直播与录课，开箱即用",
+    "short_copy": "P4 4K 直播摄像头｜会议、直播与录课，开箱即用。4K 30fps / 1080P 60fps 网络摄像头，自动对焦，自带物理隐私遮罩。",
+    "long_copy": "P4 4K 直播摄像头 是 P4Vision 面向会议、直播与录课用户推出的高清摄像头。4K 30fps / 1080P 60fps 网络摄像头，自动对焦，自带物理隐私遮罩。\n我们不把参数藏在宣传页脚注里：分辨率 3840×2160、帧率 4K@30 / 1080P@60、对焦 自动对焦（PDAF）。从连接方式到驱动软件，完整规格都可以在商品页与资源下载中心查到；驱动、用户手册与快速入门支持按型号检索下载，下载文件提供 SHA256 校验。\nP4Vision 让画面替你说清楚。",
+    "selling_points": [
+      {
+        "key": "resolution",
+        "label": "分辨率",
+        "fact": "3840×2160",
+        "headline": "分辨率 · 3840×2160",
+        "benefit": "细节清楚，白板文字也读得出",
+        "copy": "3840×2160｜细节清楚，白板文字也读得出"
+      },
+      {
+        "key": "fps",
+        "label": "帧率",
+        "fact": "4K@30 / 1080P@60",
+        "headline": "帧率 · 4K@30 / 1080P@60",
+        "benefit": "口型与动作不脱节",
+        "copy": "4K@30 / 1080P@60｜口型与动作不脱节"
+      },
+      {
+        "key": "focus",
+        "label": "对焦",
+        "fact": "自动对焦（PDAF）",
+        "headline": "对焦 · 自动对焦（PDAF）",
+        "benefit": "走近走远都保持清晰",
+        "copy": "自动对焦（PDAF）｜走近走远都保持清晰"
+      },
+      {
+        "key": "mic",
+        "label": "麦克风",
+        "fact": "双阵列降噪麦",
+        "headline": "麦克风 · 双阵列降噪麦",
+        "benefit": "不用额外再架一支麦",
+        "copy": "双阵列降噪麦｜不用额外再架一支麦"
+      },
+      {
+        "key": "privacy",
+        "label": "隐私",
+        "fact": "物理滑盖遮罩",
+        "headline": "隐私 · 物理滑盖遮罩",
+        "benefit": "物理遮挡盖，不开会就盖上",
+        "copy": "物理滑盖遮罩｜物理遮挡盖，不开会就盖上"
+      }
+    ],
+    "scenes": [
+      {
+        "scene": "远程周会共享方案",
+        "angle": "以「远程周会共享方案」为真实使用场景，突出会议、直播与录课，开箱即用"
+      },
+      {
+        "scene": "在家直播或录课",
+        "angle": "以「在家直播或录课」为真实使用场景，突出会议、直播与录课，开箱即用"
+      },
+      {
+        "scene": "面试前的画面检查",
+        "angle": "以「面试前的画面检查」为真实使用场景，突出会议、直播与录课，开箱即用"
+      }
+    ],
+    "video_script": {
+      "title": "P4 4K 直播摄像头 · 30 秒产品短片",
+      "duration_seconds": 30,
+      "aspect_ratio": "16:9",
+      "style": "浅色专业电竞外设 / 干净棚拍 / 快切；中性灰底 + 单一红色强调",
+      "brand_tone": "克制、专业、参数说话；不堆形容词，不承诺未标注的性能",
+      "shots": [
+        {
+          "no": 1,
+          "timecode": "0-4",
+          "visual": "显示器上沿特写：镜头卡扣扣上，指示灯亮起",
+          "overlay_text": "3840×2160 · 即插即用",
+          "voiceover": "P4 4K 直播摄像头。插上就能开始，不必先装驱动。",
+          "asset_ref": "category_visual"
+        },
+        {
+          "no": 2,
+          "timecode": "4-10",
+          "visual": "画面由模糊到清晰的对焦动画，字幕叠参数",
+          "overlay_text": "自动对焦（PDAF）",
+          "voiceover": "人一动，焦点也跟着走。",
+          "asset_ref": "product_card"
+        },
+        {
+          "no": 3,
+          "timecode": "10-17",
+          "visual": "分屏：会议窗口里的人物特写 + 白板文字可辨",
+          "overlay_text": "3840×2160 · 4K@30 / 1080P@60",
+          "voiceover": "脸清楚，写的东西也清楚。",
+          "asset_ref": "category_visual"
+        },
+        {
+          "no": 4,
+          "timecode": "17-24",
+          "visual": "手指拨上物理遮挡盖，指示灯熄灭",
+          "overlay_text": "物理滑盖遮罩",
+          "voiceover": "会议结束，画面就该彻底关掉。",
+          "asset_ref": "product_card"
+        },
+        {
+          "no": 5,
+          "timecode": "24-30",
+          "visual": "桌面全景定格 + 品牌字标与 SKU",
+          "overlay_text": "P4 4K 直播摄像头 · CAM-4K",
+          "voiceover": "P4Vision 让画面替你说清楚。 固件与说明书在资源下载中心。",
+          "asset_ref": "brand_hero"
+        }
+      ],
+      "bgm_hint": "轻快干净的原声吉他 / 90 BPM",
+      "cta": "前往 P4 资源下载中心搜索 CAM-4K，获取驱动与完整说明书",
+      "compliance_note": "字幕与口播中的数字参数均取自商品库真实规格，不得自行追加未标注性能；个别规格缺失处使用不含数字的描述性措辞，仅为语句完整，不作为性能承诺"
+    },
+    "keywords": [
+      "CAM-4K",
+      "P4 4K 直播摄像头",
+      "P4Vision",
+      "高清摄像头",
+      "远程周会共享方案",
+      "在家直播或录课",
+      "面试前的画面检查",
+      "分辨率",
+      "帧率",
+      "对焦",
+      "麦克风",
+      "隐私",
+      "官方驱动",
+      "说明书"
+    ]
+  },
+  "images": {
+    "product_card": {
+      "path": "images/products/CAM-4K.svg",
+      "url": "http://127.0.0.1:8000/p4-assets/images/products/CAM-4K.svg",
+      "mime_type": "image/svg+xml",
+      "width": 600,
+      "height": 400,
+      "purpose": "产品卡图 / 视频内嵌素材",
+      "note": "矢量，可无损放大；浅色卡片含品牌、品类图标与产品名"
+    },
+    "category_visual": {
+      "path": "images/visuals/webcam-16x9.svg",
+      "url": "http://127.0.0.1:8000/p4-assets/images/visuals/webcam-16x9.svg",
+      "mime_type": "image/svg+xml",
+      "width": 1600,
+      "height": 900,
+      "purpose": "16:9 视频封面 / 分镜背景板",
+      "note": ""
+    },
+    "brand_hero": {
+      "path": "images/brand/hero.png",
+      "url": "http://127.0.0.1:8000/p4-assets/images/brand/hero.png",
+      "mime_type": "image/png",
+      "width": 1536,
+      "height": 1024,
+      "purpose": "品牌主视觉 / 片尾",
+      "note": "暗调电竞产品渲染，适合片尾品牌帧"
+    }
+  },
+  "downloads": [
+    {
+      "kind": "driver",
+      "title": "P4 4K 直播摄像头 驱动",
+      "file_url": "/api/drivers/25a5eef6e6894ceaba0f38acd08a41b6/download?os=Windows",
+      "sha256": "26c32837b1da7d11596b9da86917703c206af67d18c6f19543139fa9a79b0ec5"
+    },
+    {
+      "kind": "driver",
+      "title": "P4 4K 直播摄像头 驱动",
+      "file_url": "/api/drivers/c5604cdea7e1439990c6146ec8d5b30b/download?os=macOS",
+      "sha256": "3100b4a941abb7c6ae6f308192f443fb36af9ec4f6214d58f40ec86355cebff0"
+    },
+    {
+      "kind": "driver",
+      "title": "P4 4K 直播摄像头 驱动",
+      "file_url": "/api/drivers/c15331d5ff0a40a2ae65fbce471e1add/download?os=Linux",
+      "sha256": "4063b291665f2d3d686b05ef230eb290295033aca78aa2f34a70ad1e9868a61b"
+    },
+    {
+      "kind": "manual",
+      "title": "P4 4K 直播摄像头 用户手册",
+      "file_url": "/api/resources/manual/8f3899e21ca24583826e22c5c97fe112/download",
+      "sha256": "cb7a97c6b635adaff3addba5b37989f28a7d78cb9e8d3eef18e50182118e264a"
+    },
+    {
+      "kind": "resource",
+      "title": "P4 4K 直播摄像头 快速入门指南",
+      "file_url": "/api/resources/resource/85cb0b99d28e468d9a55c61d3e7943c0/download",
+      "sha256": "4fe932d4e02e081f0c23b8d9f4cff28d7b4c8d85eac1f465d1b49d6dce50f954"
+    },
+    {
+      "kind": "resource",
+      "title": "P4 4K 直播摄像头 保修服务卡",
+      "file_url": "/api/resources/resource/c2e3f9cb87944d989dda778dbcead9fc/download",
+      "sha256": "f4fb81a30707c99037eb1837b8d7957da17ad92e0ae68bbd4e969fca6e9a109e"
+    }
+  ],
+  "provenance": {
+    "source": "P4 外设商城 · products 表",
+    "generated_by": "backend/tools/build_assets.py",
+    "copy_generator": "backend/app/services/asset_copy.py（确定性模板 + 真实规格）",
+    "asset_base_url": "http://127.0.0.1:8000/p4-assets"
+  }
+}

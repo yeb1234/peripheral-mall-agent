@@ -1,0 +1,277 @@
+{
+  "schema_version": "1.0.0",
+  "sku": "HS-ANC-D",
+  "identity": {
+    "sku": "HS-ANC-D",
+    "name": "P4 降噪耳机 ANC-D（有线）",
+    "brand": "P4Audio",
+    "category": "headset",
+    "price": 599.0,
+    "description": "有线 ANC 游戏耳机，40mm 单元，USB-C / 3.5mm 双模，AI ENC 通话降噪，零续航焦虑。",
+    "featured": false,
+    "category_cn": "游戏耳机",
+    "currency": "CNY",
+    "stock": 70
+  },
+  "specs": {
+    "核心参数": {
+      "单元直径": "40 mm",
+      "单元类型": "动圈",
+      "频响范围": "20Hz–20kHz",
+      "阻抗": "32 Ω",
+      "灵敏度": "102 dB"
+    },
+    "降噪": {
+      "主动降噪 ANC": "支持",
+      "ANC 类型": "前馈 ANC（有线生效）",
+      "通透模式": "不支持",
+      "通话降噪 ENC": "AI 单麦 ENC"
+    },
+    "连接": {
+      "连接方式": "USB-C + 3.5mm",
+      "无线协议": "有线直连",
+      "续航": "0 h",
+      "游戏延迟": "0 ms",
+      "多点连接": "不支持"
+    },
+    "麦克风": {
+      "指向性": "全指向",
+      "可拆卸": "不可拆卸",
+      "采样率": "16kHz / 16bit",
+      "AI 防风噪": "支持"
+    },
+    "兼容平台": [
+      "Windows",
+      "macOS",
+      "Android",
+      "iOS",
+      "PS5",
+      "Switch"
+    ],
+    "设计": {
+      "重量": "280 g",
+      "耳罩": "记忆海绵 + 蛋白皮",
+      "头梁": "金属头梁",
+      "尺寸": "188×165×78"
+    }
+  },
+  "specs_flat": {
+    "单元直径": "40 mm",
+    "单元类型": "动圈",
+    "频响范围": "20Hz–20kHz",
+    "阻抗": "32 Ω",
+    "灵敏度": "102 dB",
+    "主动降噪 ANC": "支持",
+    "ANC 类型": "前馈 ANC（有线生效）",
+    "通透模式": "不支持",
+    "通话降噪 ENC": "AI 单麦 ENC",
+    "连接方式": "USB-C + 3.5mm",
+    "无线协议": "有线直连",
+    "续航": "0 h",
+    "游戏延迟": "0 ms",
+    "多点连接": "不支持",
+    "指向性": "全指向",
+    "可拆卸": "不可拆卸",
+    "采样率": "16kHz / 16bit",
+    "AI 防风噪": "支持",
+    "兼容平台": "Windows、macOS、Android、iOS、PS5、Switch",
+    "重量": "280 g",
+    "耳罩": "记忆海绵 + 蛋白皮",
+    "头梁": "金属头梁",
+    "尺寸": "188×165×78"
+  },
+  "copy": {
+    "tagline": "只留下该听见的声音。",
+    "lead": "定位、语音与佩戴，一场比赛都不掉线",
+    "short_copy": "P4 降噪耳机 ANC-D（有线）｜定位、语音与佩戴，一场比赛都不掉线。有线 ANC 游戏耳机，40mm 单元，USB-C / 3.5mm 双模，AI ENC 通话降噪，零续航焦虑。",
+    "long_copy": "P4 降噪耳机 ANC-D（有线） 是 P4Audio 面向FPS 玩家与远程会议用户推出的游戏耳机。有线 ANC 游戏耳机，40mm 单元，USB-C / 3.5mm 双模，AI ENC 通话降噪，零续航焦虑。\n我们不把参数藏在宣传页脚注里：降噪 支持、单元 40 mm、麦克风 全指向。从连接方式到驱动软件，完整规格都可以在商品页与资源下载中心查到；驱动、用户手册与快速入门支持按型号检索下载，下载文件提供 SHA256 校验。\nP4Audio 只留下该听见的声音。",
+    "selling_points": [
+      {
+        "key": "anc",
+        "label": "降噪",
+        "fact": "支持",
+        "headline": "降噪 · 支持",
+        "benefit": "把环境噪声挡在耳罩外，只留脚步",
+        "copy": "支持｜把环境噪声挡在耳罩外，只留脚步"
+      },
+      {
+        "key": "driver",
+        "label": "单元",
+        "fact": "40 mm",
+        "headline": "单元 · 40 mm",
+        "benefit": "声场开阔，方位感更清楚",
+        "copy": "40 mm｜声场开阔，方位感更清楚"
+      },
+      {
+        "key": "mic",
+        "label": "麦克风",
+        "fact": "全指向",
+        "headline": "麦克风 · 全指向",
+        "benefit": "通话清晰，指挥不重复第二遍",
+        "copy": "全指向｜通话清晰，指挥不重复第二遍"
+      },
+      {
+        "key": "connect",
+        "label": "连接",
+        "fact": "USB-C + 3.5mm",
+        "headline": "连接 · USB-C + 3.5mm",
+        "benefit": "低延迟无线与蓝牙可同时待机",
+        "copy": "USB-C + 3.5mm｜低延迟无线与蓝牙可同时待机"
+      }
+    ],
+    "scenes": [
+      {
+        "scene": "深夜排位不想吵到家人",
+        "angle": "以「深夜排位不想吵到家人」为真实使用场景，突出定位、语音与佩戴，一场比赛都不掉线"
+      },
+      {
+        "scene": "开黑语音指挥",
+        "angle": "以「开黑语音指挥」为真实使用场景，突出定位、语音与佩戴，一场比赛都不掉线"
+      },
+      {
+        "scene": "通勤路上切到手机听歌",
+        "angle": "以「通勤路上切到手机听歌」为真实使用场景，突出定位、语音与佩戴，一场比赛都不掉线"
+      }
+    ],
+    "video_script": {
+      "title": "P4 降噪耳机 ANC-D（有线） · 30 秒产品短片",
+      "duration_seconds": 30,
+      "aspect_ratio": "16:9",
+      "style": "浅色专业电竞外设 / 干净棚拍 / 快切；中性灰底 + 单一红色强调",
+      "brand_tone": "克制、专业、参数说话；不堆形容词，不承诺未标注的性能",
+      "shots": [
+        {
+          "no": 1,
+          "timecode": "0-4",
+          "visual": "暗环境侧光：耳罩轮廓缓缓亮起，环境音波形被「压平」的图形动画",
+          "overlay_text": "支持",
+          "voiceover": "P4 降噪耳机 ANC-D（有线）。先安静下来，再谈听声辨位。",
+          "asset_ref": "category_visual"
+        },
+        {
+          "no": 2,
+          "timecode": "4-10",
+          "visual": "耳机佩戴特写，头梁与耳罩贴合，镜头绕半圈",
+          "overlay_text": "40 mm",
+          "voiceover": "包耳不夹头，戴满一整场也不想摘。",
+          "asset_ref": "product_card"
+        },
+        {
+          "no": 3,
+          "timecode": "10-17",
+          "visual": "游戏画面录屏 + 脚步声方位指示环，字幕标出前后左右",
+          "overlay_text": "精准声场",
+          "voiceover": "脚步从哪来，耳朵先于眼睛知道。",
+          "asset_ref": "category_visual"
+        },
+        {
+          "no": 4,
+          "timecode": "17-24",
+          "visual": "麦克风杆翻下/上翻的静音动作，语音波形随之消失",
+          "overlay_text": "全指向 · 上翻静音",
+          "voiceover": "一个动作就能闭麦，不用在软件里找按钮。",
+          "asset_ref": "product_card"
+        },
+        {
+          "no": 5,
+          "timecode": "24-30",
+          "visual": "桌面定格，耳机灯效与屏幕同步，品牌字标淡入",
+          "overlay_text": "P4 降噪耳机 ANC-D（有线） · HS-ANC-D",
+          "voiceover": "P4Audio 只留下该听见的声音。 官方驱动与说明书可下载。",
+          "asset_ref": "brand_hero"
+        }
+      ],
+      "bgm_hint": "空间感氛围铺底 / 脚步与语音做前景拟音",
+      "cta": "前往 P4 资源下载中心搜索 HS-ANC-D，获取驱动与完整说明书",
+      "compliance_note": "字幕与口播中的数字参数均取自商品库真实规格，不得自行追加未标注性能；个别规格缺失处使用不含数字的描述性措辞，仅为语句完整，不作为性能承诺"
+    },
+    "keywords": [
+      "HS-ANC-D",
+      "P4 降噪耳机 ANC-D（有线）",
+      "P4Audio",
+      "游戏耳机",
+      "深夜排位不想吵到家人",
+      "开黑语音指挥",
+      "通勤路上切到手机听歌",
+      "降噪",
+      "单元",
+      "麦克风",
+      "连接",
+      "官方驱动",
+      "说明书"
+    ]
+  },
+  "images": {
+    "product_card": {
+      "path": "images/products/HS-ANC-D.svg",
+      "url": "http://127.0.0.1:8000/p4-assets/images/products/HS-ANC-D.svg",
+      "mime_type": "image/svg+xml",
+      "width": 600,
+      "height": 400,
+      "purpose": "产品卡图 / 视频内嵌素材",
+      "note": "矢量，可无损放大；浅色卡片含品牌、品类图标与产品名"
+    },
+    "category_visual": {
+      "path": "images/visuals/headset-16x9.svg",
+      "url": "http://127.0.0.1:8000/p4-assets/images/visuals/headset-16x9.svg",
+      "mime_type": "image/svg+xml",
+      "width": 1600,
+      "height": 900,
+      "purpose": "16:9 视频封面 / 分镜背景板",
+      "note": ""
+    },
+    "brand_hero": {
+      "path": "images/brand/hero.png",
+      "url": "http://127.0.0.1:8000/p4-assets/images/brand/hero.png",
+      "mime_type": "image/png",
+      "width": 1536,
+      "height": 1024,
+      "purpose": "品牌主视觉 / 片尾",
+      "note": "暗调电竞产品渲染，适合片尾品牌帧"
+    }
+  },
+  "downloads": [
+    {
+      "kind": "driver",
+      "title": "P4 降噪耳机 ANC-D（有线） 驱动",
+      "file_url": "/api/drivers/b53a74ae62f546c09518060c08989aa7/download?os=Windows",
+      "sha256": "c644db3c432a6a8afaa2e677deea32e07e0ae40ea8d2b5d492e06039952597f4"
+    },
+    {
+      "kind": "driver",
+      "title": "P4 降噪耳机 ANC-D（有线） 驱动",
+      "file_url": "/api/drivers/84cc7a8923f04be5b9d979dbbd0e4354/download?os=macOS",
+      "sha256": "b79d5e7eb812b84ed93aa7ae45e55c2a495c041d5d50c8da268010446c4d0193"
+    },
+    {
+      "kind": "driver",
+      "title": "P4 降噪耳机 ANC-D（有线） 驱动",
+      "file_url": "/api/drivers/5da50c2efa0c4f1d874da42cc8fbbffd/download?os=Linux",
+      "sha256": "89f64b1cf154b1d14920587554f53c3e2ea9de9a7641172fd0d97332d10a95e0"
+    },
+    {
+      "kind": "manual",
+      "title": "P4 降噪耳机 ANC-D（有线） 用户手册",
+      "file_url": "/api/resources/manual/ee99f3020c224912a1c4db4c0c2d9146/download",
+      "sha256": "cedcc9f17738d195d15cf241612aa7e8190b7f6560dabf8461743f82dbc2bf8b"
+    },
+    {
+      "kind": "resource",
+      "title": "P4 降噪耳机 ANC-D（有线） 快速入门指南",
+      "file_url": "/api/resources/resource/9e3c9468e0d0428387a72207f7a33980/download",
+      "sha256": "fe3773cf1a17b87ee8341a45b5985455b253d06c4b212e406444a2f8b3620086"
+    },
+    {
+      "kind": "resource",
+      "title": "P4 降噪耳机 ANC-D（有线） 保修服务卡",
+      "file_url": "/api/resources/resource/5981396729e44f048660434b68ab1a0d/download",
+      "sha256": "6561fa75ac84c3a4a6f97a13d5165941bd2df063a9f81c43fdbe712bc72bdcde"
+    }
+  ],
+  "provenance": {
+    "source": "P4 外设商城 · products 表",
+    "generated_by": "backend/tools/build_assets.py",
+    "copy_generator": "backend/app/services/asset_copy.py（确定性模板 + 真实规格）",
+    "asset_base_url": "http://127.0.0.1:8000/p4-assets"
+  }
+}

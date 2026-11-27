@@ -1,0 +1,86 @@
+name: ci
+
+on:
+  push:
+    branches: [main, "feat/**", "eval/**"]
+  pull_request:
+
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: pgvector/pgvector:pg16
+        env:
+          POSTGRES_USER: p4
+          POSTGRES_PASSWORD: p4pass
+          POSTGRES_DB: p4agent
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U p4 -d p4agent"
+          --health-interval 5s
+          --health-timeout 3s
+          --health-retries 10
+      redis:
+        image: redis:7-alpine
+        ports: ["6379:6379"]
+        options: >-
+          --health-cmd "redis-cli ping"
+          --health-interval 5s
+          --health-timeout 3s
+          --health-retries 10
+    env:
+      DATABASE_URL: postgresql+asyncpg://p4:p4pass@127.0.0.1:5432/p4agent
+      CACHE_BACKEND: redis
+      REDIS_URL: redis://127.0.0.1:6379/0
+      LLM_BACKEND: mock
+      RAG_ENABLED: "false"          # CI 不调外部 embedding，只验证建表与降级路径
+      PGVECTOR_ENABLED: "true"
+      STORAGE_DIR: ./storage
+      REQUIRE_BUYER_TOKEN: "false"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: backend/requirements.txt
+      - name: Install
+        working-directory: backend
+        run: pip install -r requirements.txt
+
+      - name: Static gates
+        working-directory: backend
+        run: |
+          python scripts/security_scan.py
+          python scripts/check_structure.py
+
+      - name: Boot with Postgres + Redis
+        working-directory: backend
+        run: |
+          python -m uvicorn app.main:app --host 127.0.0.1 --port 8000 &
+          for i in $(seq 1 30); do
+            curl -sf http://127.0.0.1:8000/api/health && break || sleep 2
+          done
+          curl -sf http://127.0.0.1:8000/api/health
+          curl -sf http://127.0.0.1:8000/api/vector/status
+          curl -sf http://127.0.0.1:8000/api/files/manifest | head -c 300
+          python scripts/probe_security.py --quick
+
+      - name: Loadtest baseline (products)
+        working-directory: backend
+        run: python scripts/loadtest.py --target products -c 10 -n 100 --out /tmp/loadtest.json
+
+  frontend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - working-directory: frontend
+        run: npm ci
+      - working-directory: frontend
+        run: npm run build

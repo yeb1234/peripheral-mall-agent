@@ -1,0 +1,136 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://p4.example/assets/schema.json",
+  "title": "P4 产品资产包",
+  "description": "单个 SKU 的完整宣传素材：参数、文案、图片、短视频分镜、下载引用",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "sku",
+    "identity",
+    "specs",
+    "copy",
+    "images",
+    "downloads"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "sku": {
+      "type": "string"
+    },
+    "identity": {
+      "type": "object",
+      "required": [
+        "sku",
+        "name",
+        "brand",
+        "category",
+        "price"
+      ],
+      "properties": {
+        "sku": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "brand": {
+          "type": "string"
+        },
+        "category": {
+          "type": "string"
+        },
+        "category_cn": {
+          "type": "string"
+        },
+        "price": {
+          "type": "number"
+        },
+        "currency": {
+          "type": "string"
+        },
+        "featured": {
+          "type": "boolean"
+        }
+      }
+    },
+    "specs": {
+      "type": "object",
+      "description": "分组原始规格（DB 原样）"
+    },
+    "specs_flat": {
+      "type": "object",
+      "description": "压平后的 {属性: 值}，便于字幕取值"
+    },
+    "copy": {
+      "type": "object",
+      "required": [
+        "tagline",
+        "short_copy",
+        "long_copy",
+        "video_script"
+      ],
+      "properties": {
+        "tagline": {
+          "type": "string"
+        },
+        "lead": {
+          "type": "string"
+        },
+        "short_copy": {
+          "type": "string"
+        },
+        "long_copy": {
+          "type": "string"
+        },
+        "selling_points": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "scenes": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "video_script": {
+          "type": "object",
+          "required": [
+            "shots"
+          ],
+          "properties": {
+            "shots": {
+              "type": "array"
+            }
+          }
+        },
+        "keywords": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "images": {
+      "type": "object",
+      "description": "每类图片含 path/url/mime_type/width/height/purpose",
+      "additionalProperties": {
+        "type": "object"
+      }
+    },
+    "downloads": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "provenance": {
+      "type": "object"
+    }
+  }
+}

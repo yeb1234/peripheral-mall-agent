@@ -1,0 +1,261 @@
+{
+  "schema_version": "1.0.0",
+  "sku": "DOCK-11IN1",
+  "identity": {
+    "sku": "DOCK-11IN1",
+    "name": "P4 扩展坞 11 合 1",
+    "brand": "P4Connect",
+    "category": "dock",
+    "price": 599.0,
+    "description": "11 合 1 Type-C 扩展坞，双 HDMI 4K、PD 100W 供电、2.5G 网口，桌面生产力利器。",
+    "featured": true,
+    "category_cn": "扩展坞",
+    "currency": "CNY",
+    "stock": 90
+  },
+  "specs": {
+    "核心参数": {
+      "接口总数": "11 合 1",
+      "视频输出": "2× HDMI 2.0（双 4K@60）",
+      "最大分辨率": "双 4K@60Hz",
+      "PD 供电": "100 W",
+      "网口": "2.5G RJ45",
+      "读卡器": "SD 3.0 / microSD",
+      "数据接口": "3× USB-A 3.2 + 1× USB-C 10Gbps"
+    },
+    "连接": {
+      "主机接口": "USB-C（DP Alt + PD）",
+      "兼容系统": [
+        "Windows 10+",
+        "macOS 11+",
+        "Linux",
+        "iPadOS",
+        "Android"
+      ]
+    },
+    "设计": {
+      "重量": "220 g",
+      "尺寸": "140×70×18",
+      "散热": "铝合金被动散热",
+      "外壳": "阳极铝合金"
+    }
+  },
+  "specs_flat": {
+    "接口总数": "11 合 1",
+    "视频输出": "2× HDMI 2.0（双 4K@60）",
+    "最大分辨率": "双 4K@60Hz",
+    "PD 供电": "100 W",
+    "网口": "2.5G RJ45",
+    "读卡器": "SD 3.0 / microSD",
+    "数据接口": "3× USB-A 3.2 + 1× USB-C 10Gbps",
+    "主机接口": "USB-C（DP Alt + PD）",
+    "兼容系统": "Windows 10+、macOS 11+、Linux、iPadOS、Android",
+    "重量": "220 g",
+    "尺寸": "140×70×18",
+    "散热": "铝合金被动散热",
+    "外壳": "阳极铝合金"
+  },
+  "copy": {
+    "tagline": "一根线，收好整张桌面。",
+    "lead": "显示、供电、网口与读卡，全部归到一处",
+    "short_copy": "P4 扩展坞 11 合 1｜显示、供电、网口与读卡，全部归到一处。11 合 1 Type-C 扩展坞，双 HDMI 4K、PD 100W 供电、2.5G 网口，桌面生产力利器。",
+    "long_copy": "P4 扩展坞 11 合 1 是 P4Connect 面向多屏办公与内容创作者推出的扩展坞。11 合 1 Type-C 扩展坞，双 HDMI 4K、PD 100W 供电、2.5G 网口，桌面生产力利器。\n我们不把参数藏在宣传页脚注里：接口数量 11 合 1、视频输出 2× HDMI 2.0（双 4K@60）、最高分辨率 双 4K@60Hz。从连接方式到驱动软件，完整规格都可以在商品页与资源下载中心查到；驱动、用户手册与快速入门支持按型号检索下载，下载文件提供 SHA256 校验。\nP4Connect 一根线，收好整张桌面。",
+    "selling_points": [
+      {
+        "key": "ports_total",
+        "label": "接口数量",
+        "fact": "11 合 1",
+        "headline": "接口数量 · 11 合 1",
+        "benefit": "外设一次接齐，不再反复插拔",
+        "copy": "11 合 1｜外设一次接齐，不再反复插拔"
+      },
+      {
+        "key": "video",
+        "label": "视频输出",
+        "fact": "2× HDMI 2.0（双 4K@60）",
+        "headline": "视频输出 · 2× HDMI 2.0（双 4K@60）",
+        "benefit": "外接显示器即插即亮",
+        "copy": "2× HDMI 2.0（双 4K@60）｜外接显示器即插即亮"
+      },
+      {
+        "key": "max_res",
+        "label": "最高分辨率",
+        "fact": "双 4K@60Hz",
+        "headline": "最高分辨率 · 双 4K@60Hz",
+        "benefit": "高刷与高分辨率都留有余量",
+        "copy": "双 4K@60Hz｜高刷与高分辨率都留有余量"
+      },
+      {
+        "key": "pd_w",
+        "label": "反向供电",
+        "fact": "100 W",
+        "headline": "反向供电 · 100 W",
+        "benefit": "一根线同时给笔记本充电",
+        "copy": "100 W｜一根线同时给笔记本充电"
+      },
+      {
+        "key": "ethernet",
+        "label": "网口",
+        "fact": "2.5G RJ45",
+        "headline": "网口 · 2.5G RJ45",
+        "benefit": "有线网络更稳，会议不掉线",
+        "copy": "2.5G RJ45｜有线网络更稳，会议不掉线"
+      }
+    ],
+    "scenes": [
+      {
+        "scene": "工位一根线切换笔记本",
+        "angle": "以「工位一根线切换笔记本」为真实使用场景，突出显示、供电、网口与读卡，全部归到一处"
+      },
+      {
+        "scene": "双屏剪辑或看盘",
+        "angle": "以「双屏剪辑或看盘」为真实使用场景，突出显示、供电、网口与读卡，全部归到一处"
+      },
+      {
+        "scene": "会议室投屏",
+        "angle": "以「会议室投屏」为真实使用场景，突出显示、供电、网口与读卡，全部归到一处"
+      }
+    ],
+    "video_script": {
+      "title": "P4 扩展坞 11 合 1 · 30 秒产品短片",
+      "duration_seconds": 30,
+      "aspect_ratio": "16:9",
+      "style": "浅色专业电竞外设 / 干净棚拍 / 快切；中性灰底 + 单一红色强调",
+      "brand_tone": "克制、专业、参数说话；不堆形容词，不承诺未标注的性能",
+      "shots": [
+        {
+          "no": 1,
+          "timecode": "0-4",
+          "visual": "俯拍凌乱桌面 → 一根 Type-C 插入，线缆与外设依次「归位」的定格动画",
+          "overlay_text": "11 合 1",
+          "voiceover": "P4 扩展坞 11 合 1。桌面乱，多半只是接口不够用。",
+          "asset_ref": "category_visual"
+        },
+        {
+          "no": 2,
+          "timecode": "4-10",
+          "visual": "接口侧面巡览：HDMI / DP / 网口 / 读卡器逐个点亮",
+          "overlay_text": "2× HDMI 2.0（双 4K@60） · 2.5G RJ45",
+          "voiceover": "该有的口，一次给齐。",
+          "asset_ref": "product_card"
+        },
+        {
+          "no": 3,
+          "timecode": "10-17",
+          "visual": "双屏点亮，窗口从笔记本拖到外接显示器",
+          "overlay_text": "双 4K@60Hz",
+          "voiceover": "屏幕多了，桌面反而更干净。",
+          "asset_ref": "category_visual"
+        },
+        {
+          "no": 4,
+          "timecode": "17-24",
+          "visual": "笔记本电量图标上升动画，字幕标供电功率",
+          "overlay_text": "100 W 反向供电",
+          "voiceover": "显示和充电，同一根线就够。",
+          "asset_ref": "product_card"
+        },
+        {
+          "no": 5,
+          "timecode": "24-30",
+          "visual": "收纳完成的桌面定格 + 品牌字标与 SKU",
+          "overlay_text": "P4 扩展坞 11 合 1 · DOCK-11IN1",
+          "voiceover": "P4Connect 一根线，收好整张桌面。 规格与说明书可在资源下载中心查到。",
+          "asset_ref": "brand_hero"
+        }
+      ],
+      "bgm_hint": "克制的环境电子 / 每次「归位」给一个轻点击音",
+      "cta": "前往 P4 资源下载中心搜索 DOCK-11IN1，获取驱动与完整说明书",
+      "compliance_note": "字幕与口播中的数字参数均取自商品库真实规格，不得自行追加未标注性能；个别规格缺失处使用不含数字的描述性措辞，仅为语句完整，不作为性能承诺"
+    },
+    "keywords": [
+      "DOCK-11IN1",
+      "P4 扩展坞 11 合 1",
+      "P4Connect",
+      "扩展坞",
+      "工位一根线切换笔记本",
+      "双屏剪辑或看盘",
+      "会议室投屏",
+      "接口数量",
+      "视频输出",
+      "最高分辨率",
+      "反向供电",
+      "网口",
+      "官方驱动",
+      "说明书"
+    ]
+  },
+  "images": {
+    "product_card": {
+      "path": "images/products/DOCK-11IN1.svg",
+      "url": "http://127.0.0.1:8000/p4-assets/images/products/DOCK-11IN1.svg",
+      "mime_type": "image/svg+xml",
+      "width": 600,
+      "height": 400,
+      "purpose": "产品卡图 / 视频内嵌素材",
+      "note": "矢量，可无损放大；浅色卡片含品牌、品类图标与产品名"
+    },
+    "category_visual": {
+      "path": "images/visuals/dock-16x9.svg",
+      "url": "http://127.0.0.1:8000/p4-assets/images/visuals/dock-16x9.svg",
+      "mime_type": "image/svg+xml",
+      "width": 1600,
+      "height": 900,
+      "purpose": "16:9 视频封面 / 分镜背景板",
+      "note": ""
+    },
+    "brand_hero": {
+      "path": "images/brand/hero.png",
+      "url": "http://127.0.0.1:8000/p4-assets/images/brand/hero.png",
+      "mime_type": "image/png",
+      "width": 1536,
+      "height": 1024,
+      "purpose": "品牌主视觉 / 片尾",
+      "note": "暗调电竞产品渲染，适合片尾品牌帧"
+    }
+  },
+  "downloads": [
+    {
+      "kind": "driver",
+      "title": "P4 扩展坞 11 合 1 驱动",
+      "file_url": "/api/drivers/8b79557eec7e4270a38e66aa408f9502/download?os=Windows",
+      "sha256": "859cda2499ebb4647787e5e0c5417684063a112fb25bac16e685717ae4448f09"
+    },
+    {
+      "kind": "driver",
+      "title": "P4 扩展坞 11 合 1 驱动",
+      "file_url": "/api/drivers/67e91b032c354b5badd0e4f7cdb19dc6/download?os=macOS",
+      "sha256": "a43c527a7652b769ca03eb4643a4c4b8b8dedf384bbd627e1468cc4a1c1fe6ae"
+    },
+    {
+      "kind": "driver",
+      "title": "P4 扩展坞 11 合 1 驱动",
+      "file_url": "/api/drivers/a63516ab5a8545e1848ac95e113a0b20/download?os=Linux",
+      "sha256": "f1129a781371a04458854af8601a48790d884bce467528c01425d475fadc2d6e"
+    },
+    {
+      "kind": "manual",
+      "title": "P4 扩展坞 11 合 1 用户手册",
+      "file_url": "/api/resources/manual/e771f16654d145f49a9aecc5d45caeb7/download",
+      "sha256": "9c0efbfcce6b868e0a65d09e0a9d71cf4e2294e202a137be0af1c2d6b344e5b6"
+    },
+    {
+      "kind": "resource",
+      "title": "P4 扩展坞 11 合 1 快速入门指南",
+      "file_url": "/api/resources/resource/0c97b2ebef42468ead1f59ddb2771a29/download",
+      "sha256": "73842fcc8e971586d56245cdf3063f714d10eef2a0034f3025cdfc9d38c16ceb"
+    },
+    {
+      "kind": "resource",
+      "title": "P4 扩展坞 11 合 1 保修服务卡",
+      "file_url": "/api/resources/resource/705894de0c81404b95603c4ad366aca2/download",
+      "sha256": "68db29a82895c784d4e042875e7db0774b5b604daf297df70d91f54478aa3967"
+    }
+  ],
+  "provenance": {
+    "source": "P4 外设商城 · products 表",
+    "generated_by": "backend/tools/build_assets.py",
+    "copy_generator": "backend/app/services/asset_copy.py（确定性模板 + 真实规格）",
+    "asset_base_url": "http://127.0.0.1:8000/p4-assets"
+  }
+}

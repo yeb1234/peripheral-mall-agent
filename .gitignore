@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.db
+.env
+
+# 文件资产：文档/驱动正文落盘，DB 只存元数据
+backend/storage/
+
+# Node / Vite
+node_modules/
+frontend/dist/
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+
+# Project runtime data (not source)
+.workbuddy/
+
+# Eval response cache (reproducible, not source)
+docs/eval_llm/.cache/
+
+# 面试与评审材料（本地保留，不随仓库发布）
+interview/
+
+# 本地运行时数据
+backend/*.db-shm
+backend/*.db-wal
+backend/.embed_cache.json.gz

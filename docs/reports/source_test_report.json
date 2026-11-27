@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-11-25T00:13:10",
+  "passed": 7,
+  "total": 7,
+  "checks": [
+    {
+      "name": "p3.mcp.tools",
+      "ok": true,
+      "detail": "tools=['compare_products', 'get_product_facts', 'search_products', 'benchmark_ranking']"
+    },
+    {
+      "name": "p3.compare",
+      "ok": true,
+      "detail": "scene=time_spy metric=overall products=2"
+    },
+    {
+      "name": "router.p3",
+      "ok": true,
+      "detail": "source=p3 coverage=1.0 missing=[] reason=None"
+    },
+    {
+      "name": "router.peripheral_miss",
+      "ok": true,
+      "detail": "source=none reason=无法判断“Keychron Q1”是 CPU / GPU / 手机 SoC / 车型，请显式指定 kind"
+    },
+    {
+      "name": "tool.local_sku",
+      "ok": true,
+      "detail": "chain=['p4_catalog']"
+    },
+    {
+      "name": "tool.market_p3",
+      "ok": true,
+      "detail": "chain=['p3'] obs=内部事实库（P3，第一信源）\n3DMark 口径：Time Spy · 综合分\n【RTX 5080】3DMark Time Spy 综合分 32642分；TDP 360W；显存 16GB（覆盖 33%）\n【RX 9070 XT】3DMark"
+    },
+    {
+      "name": "tool.peripheral_web",
+      "ok": true,
+      "detail": "chain=['p3', 'websearch'] obs=内部事实库（P3）未覆盖（无法判断“Keychron Q1”是 CPU / GPU / 手机 SoC / 车型，请显式指定 kind）。以下为公开网络信息（第二信源），参数以品牌官网/商品页为准：\n以下信息来自公开网络检索（公开网络），仅供"
+    }
+  ]
+}

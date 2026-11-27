@@ -1,0 +1,286 @@
+{
+  "schema_version": "1.0.0",
+  "sku": "HS-ANC7",
+  "identity": {
+    "sku": "HS-ANC7",
+    "name": "P4 降噪耳机 ANC7（无线）",
+    "brand": "P4Audio",
+    "category": "headset",
+    "price": 899.0,
+    "description": "双反馈混合 ANC 头戴耳机，40mm 动圈，2.4G 低延迟游戏模式，续航 35h。",
+    "featured": true,
+    "category_cn": "游戏耳机",
+    "currency": "CNY",
+    "stock": 80
+  },
+  "specs": {
+    "核心参数": {
+      "单元直径": "40 mm",
+      "单元类型": "动圈",
+      "频响范围": "20Hz–40kHz",
+      "阻抗": "32 Ω",
+      "灵敏度": "105 dB"
+    },
+    "降噪": {
+      "主动降噪 ANC": "支持",
+      "ANC 类型": "混合式双反馈（前馈+反馈）",
+      "通透模式": "支持",
+      "通话降噪 ENC": "AI 双麦 ENC"
+    },
+    "连接": {
+      "连接方式": "2.4G + 蓝牙 5.3 + 3.5mm",
+      "无线协议": "P4 低延迟 2.4G",
+      "续航": "35 h",
+      "游戏延迟": "60 ms",
+      "多点连接": "支持（双设备）"
+    },
+    "麦克风": {
+      "指向性": "全指向",
+      "可拆卸": "可拆卸",
+      "采样率": "48kHz / 16bit",
+      "AI 防风噪": "支持"
+    },
+    "兼容平台": [
+      "Windows",
+      "macOS",
+      "Android",
+      "iOS",
+      "PS5",
+      "Switch"
+    ],
+    "设计": {
+      "重量": "290 g",
+      "耳罩": "记忆海绵 + 蛋白皮",
+      "头梁": "金属头梁",
+      "尺寸": "190×170×80"
+    }
+  },
+  "specs_flat": {
+    "单元直径": "40 mm",
+    "单元类型": "动圈",
+    "频响范围": "20Hz–40kHz",
+    "阻抗": "32 Ω",
+    "灵敏度": "105 dB",
+    "主动降噪 ANC": "支持",
+    "ANC 类型": "混合式双反馈（前馈+反馈）",
+    "通透模式": "支持",
+    "通话降噪 ENC": "AI 双麦 ENC",
+    "连接方式": "2.4G + 蓝牙 5.3 + 3.5mm",
+    "无线协议": "P4 低延迟 2.4G",
+    "续航": "35 h",
+    "游戏延迟": "60 ms",
+    "多点连接": "支持（双设备）",
+    "指向性": "全指向",
+    "可拆卸": "可拆卸",
+    "采样率": "48kHz / 16bit",
+    "AI 防风噪": "支持",
+    "兼容平台": "Windows、macOS、Android、iOS、PS5、Switch",
+    "重量": "290 g",
+    "耳罩": "记忆海绵 + 蛋白皮",
+    "头梁": "金属头梁",
+    "尺寸": "190×170×80"
+  },
+  "copy": {
+    "tagline": "只留下该听见的声音。",
+    "lead": "定位、语音与佩戴，一场比赛都不掉线",
+    "short_copy": "P4 降噪耳机 ANC7（无线）｜定位、语音与佩戴，一场比赛都不掉线。双反馈混合 ANC 头戴耳机，40mm 动圈，2.4G 低延迟游戏模式，续航 35h。",
+    "long_copy": "P4 降噪耳机 ANC7（无线） 是 P4Audio 面向FPS 玩家与远程会议用户推出的游戏耳机。双反馈混合 ANC 头戴耳机，40mm 动圈，2.4G 低延迟游戏模式，续航 35h。\n我们不把参数藏在宣传页脚注里：降噪 支持、单元 40 mm、麦克风 全指向。从连接方式到驱动软件，完整规格都可以在商品页与资源下载中心查到；驱动、用户手册与快速入门支持按型号检索下载，下载文件提供 SHA256 校验。\nP4Audio 只留下该听见的声音。",
+    "selling_points": [
+      {
+        "key": "anc",
+        "label": "降噪",
+        "fact": "支持",
+        "headline": "降噪 · 支持",
+        "benefit": "把环境噪声挡在耳罩外，只留脚步",
+        "copy": "支持｜把环境噪声挡在耳罩外，只留脚步"
+      },
+      {
+        "key": "driver",
+        "label": "单元",
+        "fact": "40 mm",
+        "headline": "单元 · 40 mm",
+        "benefit": "声场开阔，方位感更清楚",
+        "copy": "40 mm｜声场开阔，方位感更清楚"
+      },
+      {
+        "key": "mic",
+        "label": "麦克风",
+        "fact": "全指向",
+        "headline": "麦克风 · 全指向",
+        "benefit": "通话清晰，指挥不重复第二遍",
+        "copy": "全指向｜通话清晰，指挥不重复第二遍"
+      },
+      {
+        "key": "connect",
+        "label": "连接",
+        "fact": "2.4G + 蓝牙 5.3 + 3.5mm",
+        "headline": "连接 · 2.4G + 蓝牙 5.3 + 3.5mm",
+        "benefit": "低延迟无线与蓝牙可同时待机",
+        "copy": "2.4G + 蓝牙 5.3 + 3.5mm｜低延迟无线与蓝牙可同时待机"
+      },
+      {
+        "key": "battery",
+        "label": "续航",
+        "fact": "35 h",
+        "headline": "续航 · 35 h",
+        "benefit": "一次充电覆盖整周训练",
+        "copy": "35 h｜一次充电覆盖整周训练"
+      }
+    ],
+    "scenes": [
+      {
+        "scene": "深夜排位不想吵到家人",
+        "angle": "以「深夜排位不想吵到家人」为真实使用场景，突出定位、语音与佩戴，一场比赛都不掉线"
+      },
+      {
+        "scene": "开黑语音指挥",
+        "angle": "以「开黑语音指挥」为真实使用场景，突出定位、语音与佩戴，一场比赛都不掉线"
+      },
+      {
+        "scene": "通勤路上切到手机听歌",
+        "angle": "以「通勤路上切到手机听歌」为真实使用场景，突出定位、语音与佩戴，一场比赛都不掉线"
+      }
+    ],
+    "video_script": {
+      "title": "P4 降噪耳机 ANC7（无线） · 30 秒产品短片",
+      "duration_seconds": 30,
+      "aspect_ratio": "16:9",
+      "style": "浅色专业电竞外设 / 干净棚拍 / 快切；中性灰底 + 单一红色强调",
+      "brand_tone": "克制、专业、参数说话；不堆形容词，不承诺未标注的性能",
+      "shots": [
+        {
+          "no": 1,
+          "timecode": "0-4",
+          "visual": "暗环境侧光：耳罩轮廓缓缓亮起，环境音波形被「压平」的图形动画",
+          "overlay_text": "支持",
+          "voiceover": "P4 降噪耳机 ANC7（无线）。先安静下来，再谈听声辨位。",
+          "asset_ref": "category_visual"
+        },
+        {
+          "no": 2,
+          "timecode": "4-10",
+          "visual": "耳机佩戴特写，头梁与耳罩贴合，镜头绕半圈",
+          "overlay_text": "40 mm",
+          "voiceover": "包耳不夹头，戴满一整场也不想摘。",
+          "asset_ref": "product_card"
+        },
+        {
+          "no": 3,
+          "timecode": "10-17",
+          "visual": "游戏画面录屏 + 脚步声方位指示环，字幕标出前后左右",
+          "overlay_text": "精准声场",
+          "voiceover": "脚步从哪来，耳朵先于眼睛知道。",
+          "asset_ref": "category_visual"
+        },
+        {
+          "no": 4,
+          "timecode": "17-24",
+          "visual": "麦克风杆翻下/上翻的静音动作，语音波形随之消失",
+          "overlay_text": "全指向 · 上翻静音",
+          "voiceover": "一个动作就能闭麦，不用在软件里找按钮。",
+          "asset_ref": "product_card"
+        },
+        {
+          "no": 5,
+          "timecode": "24-30",
+          "visual": "桌面定格，耳机灯效与屏幕同步，品牌字标淡入",
+          "overlay_text": "P4 降噪耳机 ANC7（无线） · HS-ANC7",
+          "voiceover": "P4Audio 只留下该听见的声音。 官方驱动与说明书可下载。",
+          "asset_ref": "brand_hero"
+        }
+      ],
+      "bgm_hint": "空间感氛围铺底 / 脚步与语音做前景拟音",
+      "cta": "前往 P4 资源下载中心搜索 HS-ANC7，获取驱动与完整说明书",
+      "compliance_note": "字幕与口播中的数字参数均取自商品库真实规格，不得自行追加未标注性能；个别规格缺失处使用不含数字的描述性措辞，仅为语句完整，不作为性能承诺"
+    },
+    "keywords": [
+      "HS-ANC7",
+      "P4 降噪耳机 ANC7（无线）",
+      "P4Audio",
+      "游戏耳机",
+      "深夜排位不想吵到家人",
+      "开黑语音指挥",
+      "通勤路上切到手机听歌",
+      "降噪",
+      "单元",
+      "麦克风",
+      "连接",
+      "续航",
+      "官方驱动",
+      "说明书"
+    ]
+  },
+  "images": {
+    "product_card": {
+      "path": "images/products/HS-ANC7.svg",
+      "url": "http://127.0.0.1:8000/p4-assets/images/products/HS-ANC7.svg",
+      "mime_type": "image/svg+xml",
+      "width": 600,
+      "height": 400,
+      "purpose": "产品卡图 / 视频内嵌素材",
+      "note": "矢量，可无损放大；浅色卡片含品牌、品类图标与产品名"
+    },
+    "category_visual": {
+      "path": "images/visuals/headset-16x9.svg",
+      "url": "http://127.0.0.1:8000/p4-assets/images/visuals/headset-16x9.svg",
+      "mime_type": "image/svg+xml",
+      "width": 1600,
+      "height": 900,
+      "purpose": "16:9 视频封面 / 分镜背景板",
+      "note": ""
+    },
+    "brand_hero": {
+      "path": "images/brand/hero.png",
+      "url": "http://127.0.0.1:8000/p4-assets/images/brand/hero.png",
+      "mime_type": "image/png",
+      "width": 1536,
+      "height": 1024,
+      "purpose": "品牌主视觉 / 片尾",
+      "note": "暗调电竞产品渲染，适合片尾品牌帧"
+    }
+  },
+  "downloads": [
+    {
+      "kind": "driver",
+      "title": "P4 降噪耳机 ANC7（无线） 驱动",
+      "file_url": "/api/drivers/1694785e1b874e52b4bf71a079f00076/download?os=Windows",
+      "sha256": "57192b0ac82f89286c97c76a5ecdd0adfd78856bee354cd6a8cce9c3ca2b4bd3"
+    },
+    {
+      "kind": "driver",
+      "title": "P4 降噪耳机 ANC7（无线） 驱动",
+      "file_url": "/api/drivers/90684ed5c40f4a18812bf4570627ace6/download?os=macOS",
+      "sha256": "23a06c0084bf47dc404a0e4ca3bde6e79a11ce4425de1582d86cefa1ebc3acf8"
+    },
+    {
+      "kind": "driver",
+      "title": "P4 降噪耳机 ANC7（无线） 驱动",
+      "file_url": "/api/drivers/4792da7b1b33407ba0bf93e864ad1beb/download?os=Linux",
+      "sha256": "c2ac5cc3f67c1ff749c252faba105026b163e1f886857ebf5d115deee400bd54"
+    },
+    {
+      "kind": "manual",
+      "title": "P4 降噪耳机 ANC7（无线） 用户手册",
+      "file_url": "/api/resources/manual/785f7f7028d041c2aa19fd0ced3f6ba4/download",
+      "sha256": "c682d0f210cfbcf8c6f4a28ca13f3c051359e950e2c5c5fb999204a132f42faa"
+    },
+    {
+      "kind": "resource",
+      "title": "P4 降噪耳机 ANC7（无线） 快速入门指南",
+      "file_url": "/api/resources/resource/a32f34053e7c450a839722e88ea6f59c/download",
+      "sha256": "42c8028a754e56248783a82e124379db3ab84152a8d47a370d6ec7116f8971f0"
+    },
+    {
+      "kind": "resource",
+      "title": "P4 降噪耳机 ANC7（无线） 保修服务卡",
+      "file_url": "/api/resources/resource/a3f9f279c01e4cecafa8e4b83a145c5f/download",
+      "sha256": "a466036a4e14dbec8c7748ffba4a0e514ba69d25d5065ac7930b611bfe30a633"
+    }
+  ],
+  "provenance": {
+    "source": "P4 外设商城 · products 表",
+    "generated_by": "backend/tools/build_assets.py",
+    "copy_generator": "backend/app/services/asset_copy.py（确定性模板 + 真实规格）",
+    "asset_base_url": "http://127.0.0.1:8000/p4-assets"
+  }
+}

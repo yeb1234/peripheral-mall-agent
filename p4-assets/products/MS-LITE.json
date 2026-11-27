@@ -1,0 +1,283 @@
+{
+  "schema_version": "1.0.0",
+  "sku": "MS-LITE",
+  "identity": {
+    "sku": "MS-LITE",
+    "name": "P4 无线鼠标 Lite（入门）",
+    "brand": "P4Gear",
+    "category": "mouse",
+    "price": 159.0,
+    "description": "入门中手型静音无线鼠标，85g，原相 PAW3311，办公轻游戏两用，静音点击。",
+    "featured": false,
+    "category_cn": "电竞鼠标",
+    "currency": "CNY",
+    "stock": 300
+  },
+  "specs": {
+    "核心参数": {
+      "传感器": "原相 PAW3311",
+      "最高 DPI": "16000",
+      "追踪速度": "400 IPS",
+      "最大加速度": "40 G",
+      "微动": "静音机械微动",
+      "按键数": 3,
+      "分辨率档位": "板载 5 档 + 软体自定义"
+    },
+    "人体工学": {
+      "适用手型": "中手（通用）",
+      "推荐握姿": "趴握",
+      "重量": "85 g",
+      "尺寸": "115×60×38",
+      "表面处理": "抛光涂层",
+      "按键寿命": "50 万次"
+    },
+    "连接": {
+      "连接方式": "2.4G 无线",
+      "回报率": "1000 Hz",
+      "续航": "120 h",
+      "充电": "USB-C（2.5h 充满）",
+      "无线延迟": "3.0 ms"
+    },
+    "电竞特性": {
+      "静默高度 LOD": "2.0 mm",
+      "点击延迟": "2.0 ms",
+      "板载内存": "支持",
+      "脚贴": "100% PTFE",
+      "表面校准": "支持"
+    },
+    "兼容系统": [
+      "Windows 10+",
+      "macOS 11+",
+      "Linux"
+    ]
+  },
+  "specs_flat": {
+    "传感器": "原相 PAW3311",
+    "最高 DPI": "16000",
+    "追踪速度": "400 IPS",
+    "最大加速度": "40 G",
+    "微动": "静音机械微动",
+    "按键数": "3",
+    "分辨率档位": "板载 5 档 + 软体自定义",
+    "适用手型": "中手（通用）",
+    "推荐握姿": "趴握",
+    "重量": "85 g",
+    "尺寸": "115×60×38",
+    "表面处理": "抛光涂层",
+    "按键寿命": "50 万次",
+    "连接方式": "2.4G 无线",
+    "回报率": "1000 Hz",
+    "续航": "120 h",
+    "充电": "USB-C（2.5h 充满）",
+    "无线延迟": "3.0 ms",
+    "静默高度 LOD": "2.0 mm",
+    "点击延迟": "2.0 ms",
+    "板载内存": "支持",
+    "脚贴": "100% PTFE",
+    "表面校准": "支持",
+    "兼容系统": "Windows 10+、macOS 11+、Linux"
+  },
+  "copy": {
+    "tagline": "每一次移动，都算数。",
+    "lead": "重量、握感与追踪，只服务于准星",
+    "short_copy": "P4 无线鼠标 Lite（入门）｜重量、握感与追踪，只服务于准星。入门中手型静音无线鼠标，85g，原相 PAW3311，办公轻游戏两用，静音点击。",
+    "long_copy": "P4 无线鼠标 Lite（入门） 是 P4Gear 面向竞技玩家与中大手用户推出的电竞鼠标。入门中手型静音无线鼠标，85g，原相 PAW3311，办公轻游戏两用，静音点击。\n我们不把参数藏在宣传页脚注里：重量 85 g、传感器 原相 PAW3311、DPI 16000。从连接方式到驱动软件，完整规格都可以在商品页与资源下载中心查到；驱动、用户手册与快速入门支持按型号检索下载，下载文件提供 SHA256 校验。\nP4Gear 每一次移动，都算数。",
+    "selling_points": [
+      {
+        "key": "weight_g",
+        "label": "重量",
+        "fact": "85 g",
+        "headline": "重量 · 85 g",
+        "benefit": "轻量化让长时间甩枪不拖手腕",
+        "copy": "85 g｜轻量化让长时间甩枪不拖手腕"
+      },
+      {
+        "key": "sensor",
+        "label": "传感器",
+        "fact": "原相 PAW3311",
+        "headline": "传感器 · 原相 PAW3311",
+        "benefit": "高 IPS 与加速度，快速转身不丢帧",
+        "copy": "原相 PAW3311｜高 IPS 与加速度，快速转身不丢帧"
+      },
+      {
+        "key": "dpi",
+        "label": "DPI",
+        "fact": "16000",
+        "headline": "DPI · 16000",
+        "benefit": "档位随手感切换，FPS 与 MOBA 各一套",
+        "copy": "16000｜档位随手感切换，FPS 与 MOBA 各一套"
+      },
+      {
+        "key": "polling_hz",
+        "label": "回报率",
+        "fact": "1000 Hz",
+        "headline": "回报率 · 1000 Hz",
+        "benefit": "高频轮询让光标跟手",
+        "copy": "1000 Hz｜高频轮询让光标跟手"
+      },
+      {
+        "key": "connect",
+        "label": "连接",
+        "fact": "2.4G 无线",
+        "headline": "连接 · 2.4G 无线",
+        "benefit": "有线 / 2.4G / 蓝牙按需切换",
+        "copy": "2.4G 无线｜有线 / 2.4G / 蓝牙按需切换"
+      }
+    ],
+    "scenes": [
+      {
+        "scene": "FPS 训练场连续甩枪",
+        "angle": "以「FPS 训练场连续甩枪」为真实使用场景，突出重量、握感与追踪，只服务于准星"
+      },
+      {
+        "scene": "长时间 MOBA 对线",
+        "angle": "以「长时间 MOBA 对线」为真实使用场景，突出重量、握感与追踪，只服务于准星"
+      },
+      {
+        "scene": "出差带着笔记本轻量办公",
+        "angle": "以「出差带着笔记本轻量办公」为真实使用场景，突出重量、握感与追踪，只服务于准星"
+      }
+    ],
+    "video_script": {
+      "title": "P4 无线鼠标 Lite（入门） · 30 秒产品短片",
+      "duration_seconds": 30,
+      "aspect_ratio": "16:9",
+      "style": "浅色专业电竞外设 / 干净棚拍 / 快切；中性灰底 + 单一红色强调",
+      "brand_tone": "克制、专业、参数说话；不堆形容词，不承诺未标注的性能",
+      "shots": [
+        {
+          "no": 1,
+          "timecode": "0-4",
+          "visual": "低机位贴桌推轨：鼠标在浅色布垫上快速划过，留一点运动模糊",
+          "overlay_text": "85 g · 轻量化",
+          "voiceover": "P4 无线鼠标 Lite（入门）。移动之前，先让手腕没有负担。",
+          "asset_ref": "category_visual"
+        },
+        {
+          "no": 2,
+          "timecode": "4-10",
+          "visual": "俯拍手掌握持特写，切换趴握 / 抓握两种姿势",
+          "overlay_text": "中手（通用）",
+          "voiceover": "模具跟着手型走，不是手去迁就模具。",
+          "asset_ref": "product_card"
+        },
+        {
+          "no": 3,
+          "timecode": "10-17",
+          "visual": "屏幕录制准星急停点射，画中画叠传感器参数字幕",
+          "overlay_text": "原相 PAW3311 · 16000",
+          "voiceover": "追踪稳，急停才停得住。",
+          "asset_ref": "category_visual"
+        },
+        {
+          "no": 4,
+          "timecode": "17-24",
+          "visual": "切换有线 / 2.4G / 蓝牙三个连接状态灯，快切三格",
+          "overlay_text": "2.4G 无线",
+          "voiceover": "桌面、赛场、出差，一台就够。",
+          "asset_ref": "product_card"
+        },
+        {
+          "no": 5,
+          "timecode": "24-30",
+          "visual": "定格产品侧影 + 品牌字标，右下角 SKU",
+          "overlay_text": "P4 无线鼠标 Lite（入门） · MS-LITE",
+          "voiceover": "P4Gear 每一次移动，都算数。 驱动与说明书在资源下载中心。",
+          "asset_ref": "brand_hero"
+        }
+      ],
+      "bgm_hint": "极简电子脉冲 / 100 BPM / 甩枪瞬间留白一拍",
+      "cta": "前往 P4 资源下载中心搜索 MS-LITE，获取驱动与完整说明书",
+      "compliance_note": "字幕与口播中的数字参数均取自商品库真实规格，不得自行追加未标注性能；个别规格缺失处使用不含数字的描述性措辞，仅为语句完整，不作为性能承诺"
+    },
+    "keywords": [
+      "MS-LITE",
+      "P4 无线鼠标 Lite（入门）",
+      "P4Gear",
+      "电竞鼠标",
+      "FPS 训练场连续甩枪",
+      "长时间 MOBA 对线",
+      "出差带着笔记本轻量办公",
+      "重量",
+      "传感器",
+      "DPI",
+      "回报率",
+      "连接",
+      "官方驱动",
+      "说明书"
+    ]
+  },
+  "images": {
+    "product_card": {
+      "path": "images/products/MS-LITE.svg",
+      "url": "http://127.0.0.1:8000/p4-assets/images/products/MS-LITE.svg",
+      "mime_type": "image/svg+xml",
+      "width": 600,
+      "height": 400,
+      "purpose": "产品卡图 / 视频内嵌素材",
+      "note": "矢量，可无损放大；浅色卡片含品牌、品类图标与产品名"
+    },
+    "category_visual": {
+      "path": "images/visuals/mouse-16x9.svg",
+      "url": "http://127.0.0.1:8000/p4-assets/images/visuals/mouse-16x9.svg",
+      "mime_type": "image/svg+xml",
+      "width": 1600,
+      "height": 900,
+      "purpose": "16:9 视频封面 / 分镜背景板",
+      "note": ""
+    },
+    "brand_hero": {
+      "path": "images/brand/hero.png",
+      "url": "http://127.0.0.1:8000/p4-assets/images/brand/hero.png",
+      "mime_type": "image/png",
+      "width": 1536,
+      "height": 1024,
+      "purpose": "品牌主视觉 / 片尾",
+      "note": "暗调电竞产品渲染，适合片尾品牌帧"
+    }
+  },
+  "downloads": [
+    {
+      "kind": "driver",
+      "title": "P4 无线鼠标 Lite（入门） 驱动",
+      "file_url": "/api/drivers/62bd00771aef4888b8f0d30d419ffe14/download?os=Windows",
+      "sha256": "b621d67c6e146a6003898a1cb5a67200779ef0f2d7144c8fe10c2759651cdba5"
+    },
+    {
+      "kind": "driver",
+      "title": "P4 无线鼠标 Lite（入门） 驱动",
+      "file_url": "/api/drivers/74cfb6bc684c47a79c63a2eeda97479a/download?os=macOS",
+      "sha256": "21696065c89b77607c154676c81a810deff3ec1c8373767f49cc8d9fcc71f0a1"
+    },
+    {
+      "kind": "driver",
+      "title": "P4 无线鼠标 Lite（入门） 驱动",
+      "file_url": "/api/drivers/84ff6a34cbf04adfb521e65e29702f8f/download?os=Linux",
+      "sha256": "41b4a75d90a367621fe8a37124dc83df1bae6733178f8dda6ffebaa8299b7d11"
+    },
+    {
+      "kind": "manual",
+      "title": "P4 无线鼠标 Lite（入门） 用户手册",
+      "file_url": "/api/resources/manual/a5eb5bfde5fd463baef1d2b812395e97/download",
+      "sha256": "d8b0b8002c07de3f87b76debdcf16fe2137868e9abb5cf56cf5950a3bda3b75a"
+    },
+    {
+      "kind": "resource",
+      "title": "P4 无线鼠标 Lite（入门） 快速入门指南",
+      "file_url": "/api/resources/resource/92447b7b51f94a1e851aab535a858d33/download",
+      "sha256": "0761f933ae01a202b30add69668f24754c1fa411a1945565187be79d46576c8f"
+    },
+    {
+      "kind": "resource",
+      "title": "P4 无线鼠标 Lite（入门） 保修服务卡",
+      "file_url": "/api/resources/resource/347e3388347b4dc68a354a325f28067e/download",
+      "sha256": "6d99f5c8debb42bd4898b4a322fcb715e3f9d122e36d42978457a5cc9c6cf722"
+    }
+  ],
+  "provenance": {
+    "source": "P4 外设商城 · products 表",
+    "generated_by": "backend/tools/build_assets.py",
+    "copy_generator": "backend/app/services/asset_copy.py（确定性模板 + 真实规格）",
+    "asset_base_url": "http://127.0.0.1:8000/p4-assets"
+  }
+}

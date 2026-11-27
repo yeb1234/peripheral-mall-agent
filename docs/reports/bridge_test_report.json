@@ -1,0 +1,76 @@
+{
+  "generated_at": "2026-11-25T00:06:30",
+  "p4": "http://127.0.0.1:8000",
+  "p6": "http://127.0.0.1:12706",
+  "sku": "KB-PRO87",
+  "passed": 13,
+  "total": 13,
+  "elapsed_s": 3.19,
+  "checks": [
+    {
+      "name": "p4.health",
+      "ok": true,
+      "detail": "{\"status\":\"ok\",\"llm\":\"openai\",\"llm_provider\":\"external\",\"cache\":\"redis\",\"rag_reranker\":true,\"websearch\":true,\"nlu_mode\":"
+    },
+    {
+      "name": "p4.vector.status",
+      "ok": true,
+      "detail": "total=442 by_kind={'knowledge': 416, 'product': 26}"
+    },
+    {
+      "name": "p4.vector.search",
+      "ok": true,
+      "detail": "top=KB-PRO87"
+    },
+    {
+      "name": "p4.files.manifest",
+      "ok": true,
+      "detail": "count=156"
+    },
+    {
+      "name": "p4.catalog.card",
+      "ok": true,
+      "detail": "points=5 files=6"
+    },
+    {
+      "name": "p6.health",
+      "ok": true,
+      "detail": "{\"status\": \"ok\", \"service\": \"p6\", \"db\": true, \"p4_base_url\": \"http://host.docker.internal:8000\"}"
+    },
+    {
+      "name": "p6.copy.rest",
+      "ok": true,
+      "detail": "title=P4Gear P4 机械键盘 Pro 87 points=5"
+    },
+    {
+      "name": "p4.to.p6.client",
+      "ok": true,
+      "detail": "source={'product': 'p4:/api/catalog', 'copy': 'p6:template'} reason="
+    },
+    {
+      "name": "p4.tool.generate_product_copy",
+      "ok": true,
+      "detail": "registered=True obs=【P4Gear P4 机械键盘 Pro 87·detail】\n1. 75% / 87 键｜桌面留出更多鼠标空间，视线更聚焦\n2. 机械轴（线性/段落可选）｜每一次触发都干净利落，长时间输入不累手\n3."
+    },
+    {
+      "name": "p4.mcp.list",
+      "ok": true,
+      "detail": "tools=12"
+    },
+    {
+      "name": "p4.mcp.call",
+      "ok": true,
+      "detail": "{\n  \"ok\": true,\n  \"sku\": \"KB-PRO87\",\n  \"data\": {\n    \"sku\": \"KB-PRO87\",\n    \"name\": \"P4 机械键盘 Pro 87\",\n    \"brand\": \"P4Gear\",\n    \"category\": \"keyboard\",\n    \"price\": 499.0,\n    \"sp"
+    },
+    {
+      "name": "p6.mcp.list",
+      "ok": true,
+      "detail": "tools=1"
+    },
+    {
+      "name": "p6.mcp.call",
+      "ok": true,
+      "detail": "{\n  \"ok\": true,\n  \"sku\": \"KB-PRO87\",\n  \"source\": {\n    \"product\": \"p4:/api/catalog\",\n    \"copy\": \"p6:template\"\n  },\n  \"copy\": {\n    \"title\": \"P4Gear P4 机械键盘 Pro 87\",\n    \"selling_p"
+    }
+  ]
+}

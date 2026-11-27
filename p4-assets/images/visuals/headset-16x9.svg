@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8f9fb"/><stop offset="1" stop-color="#e9ecf1"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#15161a" stroke-width="1" opacity=".045"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <rect x="90" y="120" width="8" height="120" fill="#d92626"/>
+  <text x="128" y="205" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="34"
+        letter-spacing="8" fill="#8a8f98">HEADSET / P4 ASSET LIBRARY</text>
+  <text x="126" y="360" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="96"
+        font-weight="700" fill="#15161a">游戏耳机</text>
+  <text x="130" y="440" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="38"
+        fill="#15161a" opacity=".78">只留下该听见的声音。</text>
+  <text x="130" y="510" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="22"
+        fill="#8a8f98">1600 × 900 · 16:9 · 视频封面 / 分镜背景板</text>
+  <path d="M1050 500 V400 a180 180 0 0 1 360 0 V500" fill="none" stroke="#15161a" stroke-width="26" stroke-linecap="round"/>
+      <rect x="1020" y="450" width="72" height="150" rx="28" fill="#ffffff" stroke="#15161a" stroke-width="3"/>
+      <rect x="1368" y="450" width="72" height="150" rx="28" fill="#ffffff" stroke="#15161a" stroke-width="3"/>
+      <circle cx="1056" cy="525" r="12" fill="#d92626"/><circle cx="1404" cy="525" r="12" fill="#d92626"/>
+  <line x1="90" y1="760" x2="1510" y2="760" stroke="#15161a" stroke-width="1" opacity=".15"/>
+  <text x="90" y="820" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#15161a">P4</text>
+  <text x="170" y="818" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="22" fill="#8a8f98">为每一次操作负责</text>
+  <text x="1510" y="818" text-anchor="end" font-family="Arial, sans-serif" font-size="20"
+        fill="#8a8f98" letter-spacing="3">HEADSET / VISUAL 01</text>
+</svg>

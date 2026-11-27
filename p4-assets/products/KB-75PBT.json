@@ -1,0 +1,279 @@
+{
+  "schema_version": "1.0.0",
+  "sku": "KB-75PBT",
+  "identity": {
+    "sku": "KB-75PBT",
+    "name": "P4 机械键盘 75 PBT",
+    "brand": "P4Gear",
+    "category": "keyboard",
+    "price": 459.0,
+    "description": "82 键 75% 配列，强调 PBT 材质手感：原厂高度 PBT 双色键帽 + 铝合金上盖，热插拔三模。",
+    "featured": false,
+    "category_cn": "机械键盘",
+    "currency": "CNY",
+    "stock": 90
+  },
+  "specs": {
+    "核心参数": {
+      "配列": "75% / 82 键",
+      "键数": 82,
+      "轴体类型": "机械轴（线性/段落可选）",
+      "轴座": "热插拔 5pin",
+      "触发键程": "2.0 mm",
+      "触发压力": "45 g",
+      "连接": "三模（USB-C / 2.4G / 蓝牙 5.1）"
+    },
+    "做工与材质": {
+      "上盖材质": "铝合金上盖",
+      "键帽材质": "原厂高度 PBT 双色",
+      "字符工艺": "双色注塑",
+      "结构": "Gasket 结构"
+    },
+    "性能与灯效": {
+      "回报率": "1000 Hz",
+      "全键无冲": "支持",
+      "板载内存": "支持",
+      "RGB 背光": "RGB（南向）",
+      "可编程": "全键自定义"
+    },
+    "软件": {
+      "驱动软件": "P4 Master / VIA",
+      "板载配置": "支持（免驱切换）"
+    },
+    "兼容系统": [
+      "Windows 10+",
+      "macOS 11+",
+      "Linux"
+    ],
+    "设计": {
+      "尺寸": "332×125×30",
+      "重量": "760 g"
+    }
+  },
+  "specs_flat": {
+    "配列": "75% / 82 键",
+    "键数": "82",
+    "轴体类型": "机械轴（线性/段落可选）",
+    "轴座": "热插拔 5pin",
+    "触发键程": "2.0 mm",
+    "触发压力": "45 g",
+    "连接": "三模（USB-C / 2.4G / 蓝牙 5.1）",
+    "上盖材质": "铝合金上盖",
+    "键帽材质": "原厂高度 PBT 双色",
+    "字符工艺": "双色注塑",
+    "结构": "Gasket 结构",
+    "回报率": "1000 Hz",
+    "全键无冲": "支持",
+    "板载内存": "支持",
+    "RGB 背光": "RGB（南向）",
+    "可编程": "全键自定义",
+    "驱动软件": "P4 Master / VIA",
+    "板载配置": "支持（免驱切换）",
+    "兼容系统": "Windows 10+、macOS 11+、Linux",
+    "尺寸": "332×125×30",
+    "重量": "760 g"
+  },
+  "copy": {
+    "tagline": "手感，由你定义。",
+    "lead": "把配列、轴体与触发都交回给你自己",
+    "short_copy": "P4 机械键盘 75 PBT｜把配列、轴体与触发都交回给你自己。82 键 75% 配列，强调 PBT 材质手感：原厂高度 PBT 双色键帽 + 铝合金上盖，热插拔三模。",
+    "long_copy": "P4 机械键盘 75 PBT 是 P4Gear 面向键盘玩家与长时间打字用户推出的机械键盘。82 键 75% 配列，强调 PBT 材质手感：原厂高度 PBT 双色键帽 + 铝合金上盖，热插拔三模。\n我们不把参数藏在宣传页脚注里：配列 75% / 82 键、轴体 机械轴（线性/段落可选）、轴座 热插拔 5pin。从连接方式到驱动软件，完整规格都可以在商品页与资源下载中心查到；驱动、用户手册与快速入门支持按型号检索下载，下载文件提供 SHA256 校验。\nP4Gear 手感，由你定义。",
+    "selling_points": [
+      {
+        "key": "layout",
+        "label": "配列",
+        "fact": "75% / 82 键",
+        "headline": "配列 · 75% / 82 键",
+        "benefit": "桌面留出更多鼠标空间，视线更聚焦",
+        "copy": "75% / 82 键｜桌面留出更多鼠标空间，视线更聚焦"
+      },
+      {
+        "key": "switch_kind",
+        "label": "轴体",
+        "fact": "机械轴（线性/段落可选）",
+        "headline": "轴体 · 机械轴（线性/段落可选）",
+        "benefit": "每一次触发都干净利落，长时间输入不累手",
+        "copy": "机械轴（线性/段落可选）｜每一次触发都干净利落，长时间输入不累手"
+      },
+      {
+        "key": "hotswap",
+        "label": "轴座",
+        "fact": "热插拔 5pin",
+        "headline": "轴座 · 热插拔 5pin",
+        "benefit": "换轴不焊接，风格随时改",
+        "copy": "热插拔 5pin｜换轴不焊接，风格随时改"
+      },
+      {
+        "key": "polling_hz",
+        "label": "回报率",
+        "fact": "1000 Hz",
+        "headline": "回报率 · 1000 Hz",
+        "benefit": "高频回报把输入延迟压到感知之外",
+        "copy": "1000 Hz｜高频回报把输入延迟压到感知之外"
+      },
+      {
+        "key": "rgb",
+        "label": "灯效",
+        "fact": "RGB（南向）",
+        "headline": "灯效 · RGB（南向）",
+        "benefit": "桌面氛围自己定，也可以一键关灯",
+        "copy": "RGB（南向）｜桌面氛围自己定，也可以一键关灯"
+      }
+    ],
+    "scenes": [
+      {
+        "scene": "深夜单排 FPS 的紧凑桌面",
+        "angle": "以「深夜单排 FPS 的紧凑桌面」为真实使用场景，突出把配列、轴体与触发都交回给你自己"
+      },
+      {
+        "scene": "开放式办公区的长时间码字",
+        "angle": "以「开放式办公区的长时间码字」为真实使用场景，突出把配列、轴体与触发都交回给你自己"
+      },
+      {
+        "scene": "周末自己动手换轴",
+        "angle": "以「周末自己动手换轴」为真实使用场景，突出把配列、轴体与触发都交回给你自己"
+      }
+    ],
+    "video_script": {
+      "title": "P4 机械键盘 75 PBT · 30 秒产品短片",
+      "duration_seconds": 30,
+      "aspect_ratio": "16:9",
+      "style": "浅色专业电竞外设 / 干净棚拍 / 快切；中性灰底 + 单一红色强调",
+      "brand_tone": "克制、专业、参数说话；不堆形容词，不承诺未标注的性能",
+      "shots": [
+        {
+          "no": 1,
+          "timecode": "0-4",
+          "visual": "俯拍桌面全景：浅灰桌垫、键盘居中、鼠标留出大面积空间；柔光侧打",
+          "overlay_text": "75% / 82 键 配列，桌面刚刚好",
+          "voiceover": "P4 机械键盘 75 PBT。把空间还给鼠标，也把注意力还给屏幕。",
+          "asset_ref": "category_visual"
+        },
+        {
+          "no": 2,
+          "timecode": "4-10",
+          "visual": "微距推近轴体与键帽，手指连续敲击三下，慢动作捕捉回弹",
+          "overlay_text": "机械轴（线性/段落可选）",
+          "voiceover": "轴体决定手感，热插拔让你随时改变主意。",
+          "asset_ref": "product_card"
+        },
+        {
+          "no": 3,
+          "timecode": "10-17",
+          "visual": "侧逆光扫过铝合金上盖与 PBT 键帽纹理，镜头缓慢平移",
+          "overlay_text": "铝合金上盖 · 原厂高度 PBT 双色",
+          "voiceover": "看得见的结构，听得见的克制。",
+          "asset_ref": "category_visual"
+        },
+        {
+          "no": 4,
+          "timecode": "17-24",
+          "visual": "驱动界面录屏：调触发行程 / 灯效 / 保存板载，UI 快切三格",
+          "overlay_text": "官方驱动可调，配置保存到板载",
+          "voiceover": "参数不是出厂就锁死的，P4 Master / VIA 里都能改。",
+          "asset_ref": "product_card"
+        },
+        {
+          "no": 5,
+          "timecode": "24-30",
+          "visual": "回到桌面全景，屏幕亮起游戏画面，键盘灯效与画面同步；右下角出现 SKU 与品牌字标",
+          "overlay_text": "P4 机械键盘 75 PBT · KB-75PBT",
+          "voiceover": "P4Gear 手感，由你定义。 官网资源页可下载驱动与完整说明书。",
+          "asset_ref": "brand_hero"
+        }
+      ],
+      "bgm_hint": "低频电子 / 70-90 BPM / 干净无鼓点堆叠，敲击声做拟音重点",
+      "cta": "前往 P4 资源下载中心搜索 KB-75PBT，获取驱动与完整说明书",
+      "compliance_note": "字幕与口播中的数字参数均取自商品库真实规格，不得自行追加未标注性能；个别规格缺失处使用不含数字的描述性措辞，仅为语句完整，不作为性能承诺"
+    },
+    "keywords": [
+      "KB-75PBT",
+      "P4 机械键盘 75 PBT",
+      "P4Gear",
+      "机械键盘",
+      "深夜单排 FPS 的紧凑桌面",
+      "开放式办公区的长时间码字",
+      "周末自己动手换轴",
+      "配列",
+      "轴体",
+      "轴座",
+      "回报率",
+      "灯效",
+      "官方驱动",
+      "说明书"
+    ]
+  },
+  "images": {
+    "product_card": {
+      "path": "images/products/KB-75PBT.svg",
+      "url": "http://127.0.0.1:8000/p4-assets/images/products/KB-75PBT.svg",
+      "mime_type": "image/svg+xml",
+      "width": 600,
+      "height": 400,
+      "purpose": "产品卡图 / 视频内嵌素材",
+      "note": "矢量，可无损放大；浅色卡片含品牌、品类图标与产品名"
+    },
+    "category_visual": {
+      "path": "images/visuals/keyboard-16x9.svg",
+      "url": "http://127.0.0.1:8000/p4-assets/images/visuals/keyboard-16x9.svg",
+      "mime_type": "image/svg+xml",
+      "width": 1600,
+      "height": 900,
+      "purpose": "16:9 视频封面 / 分镜背景板",
+      "note": ""
+    },
+    "brand_hero": {
+      "path": "images/brand/hero.png",
+      "url": "http://127.0.0.1:8000/p4-assets/images/brand/hero.png",
+      "mime_type": "image/png",
+      "width": 1536,
+      "height": 1024,
+      "purpose": "品牌主视觉 / 片尾",
+      "note": "暗调电竞产品渲染，适合片尾品牌帧"
+    }
+  },
+  "downloads": [
+    {
+      "kind": "driver",
+      "title": "P4 机械键盘 75 PBT 驱动",
+      "file_url": "/api/drivers/c95f6e5156b6428fb16133032d465262/download?os=Windows",
+      "sha256": "5e0166df73f9477e34a755d06fe4f1532535411d99ab8fa49ae7f1d0ba0ced6c"
+    },
+    {
+      "kind": "driver",
+      "title": "P4 机械键盘 75 PBT 驱动",
+      "file_url": "/api/drivers/97bd7df6f5ab44059bbda2b473f8e35a/download?os=macOS",
+      "sha256": "2eae1b524e1abf8dba8b27817f889a52c89c36b1aa0e78795af995cfa550f79e"
+    },
+    {
+      "kind": "driver",
+      "title": "P4 机械键盘 75 PBT 驱动",
+      "file_url": "/api/drivers/6c4c8396eda84770b04258c0b01a4747/download?os=Linux",
+      "sha256": "a5c3ad906cf0ca064b1dd75409de7dea4df2e379efdd85dde2da7e45f9474f39"
+    },
+    {
+      "kind": "manual",
+      "title": "P4 机械键盘 75 PBT 用户手册",
+      "file_url": "/api/resources/manual/07447249cbf64dc3ae9b04e6a928bfb0/download",
+      "sha256": "efe215d2c38b0a7c099dd30f0c38b5a4ceecafba580b39b766e028c09bb2901e"
+    },
+    {
+      "kind": "resource",
+      "title": "P4 机械键盘 75 PBT 快速入门指南",
+      "file_url": "/api/resources/resource/b2b85cfad876485b9845fb2847c3665b/download",
+      "sha256": "216e3ab0f9193e3cd07ed4d6409abb07ee5780845c3227d92590e1306461c3a8"
+    },
+    {
+      "kind": "resource",
+      "title": "P4 机械键盘 75 PBT 保修服务卡",
+      "file_url": "/api/resources/resource/eedde4f42c5f4652b2c1a6d0b0eaf4ce/download",
+      "sha256": "88b2773bb4ed49e6fcaa7e7e96b7d9e60236fe956e1b3e016cbd81b80daff9fd"
+    }
+  ],
+  "provenance": {
+    "source": "P4 外设商城 · products 表",
+    "generated_by": "backend/tools/build_assets.py",
+    "copy_generator": "backend/app/services/asset_copy.py（确定性模板 + 真实规格）",
+    "asset_base_url": "http://127.0.0.1:8000/p4-assets"
+  }
+}

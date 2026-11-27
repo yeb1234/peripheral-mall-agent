@@ -1,0 +1,261 @@
+{
+  "schema_version": "1.0.0",
+  "sku": "DOCK-TB4",
+  "identity": {
+    "sku": "DOCK-TB4",
+    "name": "P4 雷电扩展坞 TB4",
+    "brand": "P4Connect",
+    "category": "dock",
+    "price": 899.0,
+    "description": "Thunderbolt 4 40Gbps 旗舰扩展坞，双 4K@60 / 单 8K，PD 96W，2.5G 网口。",
+    "featured": true,
+    "category_cn": "扩展坞",
+    "currency": "CNY",
+    "stock": 40
+  },
+  "specs": {
+    "核心参数": {
+      "接口总数": "12 合 1",
+      "视频输出": "2× TB4（DP Alt，双 4K@60 / 单 8K@30）",
+      "最大分辨率": "双 4K@60Hz",
+      "PD 供电": "96 W",
+      "网口": "2.5G RJ45",
+      "读卡器": "SD 4.0 / microSD",
+      "数据接口": "3× USB-A 10Gbps + 1× TB4 下行"
+    },
+    "连接": {
+      "主机接口": "Thunderbolt 4 / USB4",
+      "兼容系统": [
+        "Windows 10+",
+        "macOS 11+",
+        "Linux",
+        "iPadOS",
+        "Android"
+      ]
+    },
+    "设计": {
+      "重量": "260 g",
+      "尺寸": "160×80×22",
+      "散热": "铝合金被动散热",
+      "外壳": "CNC 铝合金"
+    }
+  },
+  "specs_flat": {
+    "接口总数": "12 合 1",
+    "视频输出": "2× TB4（DP Alt，双 4K@60 / 单 8K@30）",
+    "最大分辨率": "双 4K@60Hz",
+    "PD 供电": "96 W",
+    "网口": "2.5G RJ45",
+    "读卡器": "SD 4.0 / microSD",
+    "数据接口": "3× USB-A 10Gbps + 1× TB4 下行",
+    "主机接口": "Thunderbolt 4 / USB4",
+    "兼容系统": "Windows 10+、macOS 11+、Linux、iPadOS、Android",
+    "重量": "260 g",
+    "尺寸": "160×80×22",
+    "散热": "铝合金被动散热",
+    "外壳": "CNC 铝合金"
+  },
+  "copy": {
+    "tagline": "一根线，收好整张桌面。",
+    "lead": "显示、供电、网口与读卡，全部归到一处",
+    "short_copy": "P4 雷电扩展坞 TB4｜显示、供电、网口与读卡，全部归到一处。Thunderbolt 4 40Gbps 旗舰扩展坞，双 4K@60 / 单 8K，PD 96W，2.5G 网口。",
+    "long_copy": "P4 雷电扩展坞 TB4 是 P4Connect 面向多屏办公与内容创作者推出的扩展坞。Thunderbolt 4 40Gbps 旗舰扩展坞，双 4K@60 / 单 8K，PD 96W，2.5G 网口。\n我们不把参数藏在宣传页脚注里：接口数量 12 合 1、视频输出 2× TB4（DP Alt，双 4K@60 / 单 8K@30）、最高分辨率 双 4K@60Hz。从连接方式到驱动软件，完整规格都可以在商品页与资源下载中心查到；驱动、用户手册与快速入门支持按型号检索下载，下载文件提供 SHA256 校验。\nP4Connect 一根线，收好整张桌面。",
+    "selling_points": [
+      {
+        "key": "ports_total",
+        "label": "接口数量",
+        "fact": "12 合 1",
+        "headline": "接口数量 · 12 合 1",
+        "benefit": "外设一次接齐，不再反复插拔",
+        "copy": "12 合 1｜外设一次接齐，不再反复插拔"
+      },
+      {
+        "key": "video",
+        "label": "视频输出",
+        "fact": "2× TB4（DP Alt，双 4K@60 / 单 8K@30）",
+        "headline": "视频输出 · 2× TB4（DP Alt，双 4K@60 / 单 8K@30）",
+        "benefit": "外接显示器即插即亮",
+        "copy": "2× TB4（DP Alt，双 4K@60 / 单 8K@30）｜外接显示器即插即亮"
+      },
+      {
+        "key": "max_res",
+        "label": "最高分辨率",
+        "fact": "双 4K@60Hz",
+        "headline": "最高分辨率 · 双 4K@60Hz",
+        "benefit": "高刷与高分辨率都留有余量",
+        "copy": "双 4K@60Hz｜高刷与高分辨率都留有余量"
+      },
+      {
+        "key": "pd_w",
+        "label": "反向供电",
+        "fact": "96 W",
+        "headline": "反向供电 · 96 W",
+        "benefit": "一根线同时给笔记本充电",
+        "copy": "96 W｜一根线同时给笔记本充电"
+      },
+      {
+        "key": "ethernet",
+        "label": "网口",
+        "fact": "2.5G RJ45",
+        "headline": "网口 · 2.5G RJ45",
+        "benefit": "有线网络更稳，会议不掉线",
+        "copy": "2.5G RJ45｜有线网络更稳，会议不掉线"
+      }
+    ],
+    "scenes": [
+      {
+        "scene": "工位一根线切换笔记本",
+        "angle": "以「工位一根线切换笔记本」为真实使用场景，突出显示、供电、网口与读卡，全部归到一处"
+      },
+      {
+        "scene": "双屏剪辑或看盘",
+        "angle": "以「双屏剪辑或看盘」为真实使用场景，突出显示、供电、网口与读卡，全部归到一处"
+      },
+      {
+        "scene": "会议室投屏",
+        "angle": "以「会议室投屏」为真实使用场景，突出显示、供电、网口与读卡，全部归到一处"
+      }
+    ],
+    "video_script": {
+      "title": "P4 雷电扩展坞 TB4 · 30 秒产品短片",
+      "duration_seconds": 30,
+      "aspect_ratio": "16:9",
+      "style": "浅色专业电竞外设 / 干净棚拍 / 快切；中性灰底 + 单一红色强调",
+      "brand_tone": "克制、专业、参数说话；不堆形容词，不承诺未标注的性能",
+      "shots": [
+        {
+          "no": 1,
+          "timecode": "0-4",
+          "visual": "俯拍凌乱桌面 → 一根 Type-C 插入，线缆与外设依次「归位」的定格动画",
+          "overlay_text": "12 合 1",
+          "voiceover": "P4 雷电扩展坞 TB4。桌面乱，多半只是接口不够用。",
+          "asset_ref": "category_visual"
+        },
+        {
+          "no": 2,
+          "timecode": "4-10",
+          "visual": "接口侧面巡览：HDMI / DP / 网口 / 读卡器逐个点亮",
+          "overlay_text": "2× TB4（DP Alt，双 4K@60 / 单 8K@30） · 2.5G RJ45",
+          "voiceover": "该有的口，一次给齐。",
+          "asset_ref": "product_card"
+        },
+        {
+          "no": 3,
+          "timecode": "10-17",
+          "visual": "双屏点亮，窗口从笔记本拖到外接显示器",
+          "overlay_text": "双 4K@60Hz",
+          "voiceover": "屏幕多了，桌面反而更干净。",
+          "asset_ref": "category_visual"
+        },
+        {
+          "no": 4,
+          "timecode": "17-24",
+          "visual": "笔记本电量图标上升动画，字幕标供电功率",
+          "overlay_text": "96 W 反向供电",
+          "voiceover": "显示和充电，同一根线就够。",
+          "asset_ref": "product_card"
+        },
+        {
+          "no": 5,
+          "timecode": "24-30",
+          "visual": "收纳完成的桌面定格 + 品牌字标与 SKU",
+          "overlay_text": "P4 雷电扩展坞 TB4 · DOCK-TB4",
+          "voiceover": "P4Connect 一根线，收好整张桌面。 规格与说明书可在资源下载中心查到。",
+          "asset_ref": "brand_hero"
+        }
+      ],
+      "bgm_hint": "克制的环境电子 / 每次「归位」给一个轻点击音",
+      "cta": "前往 P4 资源下载中心搜索 DOCK-TB4，获取驱动与完整说明书",
+      "compliance_note": "字幕与口播中的数字参数均取自商品库真实规格，不得自行追加未标注性能；个别规格缺失处使用不含数字的描述性措辞，仅为语句完整，不作为性能承诺"
+    },
+    "keywords": [
+      "DOCK-TB4",
+      "P4 雷电扩展坞 TB4",
+      "P4Connect",
+      "扩展坞",
+      "工位一根线切换笔记本",
+      "双屏剪辑或看盘",
+      "会议室投屏",
+      "接口数量",
+      "视频输出",
+      "最高分辨率",
+      "反向供电",
+      "网口",
+      "官方驱动",
+      "说明书"
+    ]
+  },
+  "images": {
+    "product_card": {
+      "path": "images/products/DOCK-TB4.svg",
+      "url": "http://127.0.0.1:8000/p4-assets/images/products/DOCK-TB4.svg",
+      "mime_type": "image/svg+xml",
+      "width": 600,
+      "height": 400,
+      "purpose": "产品卡图 / 视频内嵌素材",
+      "note": "矢量，可无损放大；浅色卡片含品牌、品类图标与产品名"
+    },
+    "category_visual": {
+      "path": "images/visuals/dock-16x9.svg",
+      "url": "http://127.0.0.1:8000/p4-assets/images/visuals/dock-16x9.svg",
+      "mime_type": "image/svg+xml",
+      "width": 1600,
+      "height": 900,
+      "purpose": "16:9 视频封面 / 分镜背景板",
+      "note": ""
+    },
+    "brand_hero": {
+      "path": "images/brand/hero.png",
+      "url": "http://127.0.0.1:8000/p4-assets/images/brand/hero.png",
+      "mime_type": "image/png",
+      "width": 1536,
+      "height": 1024,
+      "purpose": "品牌主视觉 / 片尾",
+      "note": "暗调电竞产品渲染，适合片尾品牌帧"
+    }
+  },
+  "downloads": [
+    {
+      "kind": "driver",
+      "title": "P4 雷电扩展坞 TB4 驱动",
+      "file_url": "/api/drivers/fcfb301f826b4e6895575668bf8d63cd/download?os=Windows",
+      "sha256": "ae0175ba08e52534cbba820a83f7615956df6315320813f9fce63840b1f71682"
+    },
+    {
+      "kind": "driver",
+      "title": "P4 雷电扩展坞 TB4 驱动",
+      "file_url": "/api/drivers/4da7fc9093b54d81bbc493d69a30a54c/download?os=macOS",
+      "sha256": "4dd181394632b245c623d74f7e22f8d1b93a4af4693240e3ae187f518acd2318"
+    },
+    {
+      "kind": "driver",
+      "title": "P4 雷电扩展坞 TB4 驱动",
+      "file_url": "/api/drivers/ea7942eb26f444a097140d104a16b66f/download?os=Linux",
+      "sha256": "b6bcf43194f1bde93ac78e0a268c7c28fb6345dcafb2e5175a1502a79b419631"
+    },
+    {
+      "kind": "manual",
+      "title": "P4 雷电扩展坞 TB4 用户手册",
+      "file_url": "/api/resources/manual/75e0228f95944c5dafc95037d33edffa/download",
+      "sha256": "508e605b3519fb575ccc6c126e2068f8a0e81342f504462a72803b06f4053b99"
+    },
+    {
+      "kind": "resource",
+      "title": "P4 雷电扩展坞 TB4 快速入门指南",
+      "file_url": "/api/resources/resource/cb44535a152a4e66ad9cd60ac6614ed2/download",
+      "sha256": "821fb555640607c6d354e0b7ee15118a1157b503e21959f38f392b7460e1e891"
+    },
+    {
+      "kind": "resource",
+      "title": "P4 雷电扩展坞 TB4 保修服务卡",
+      "file_url": "/api/resources/resource/313568fff92c4853a572d74739c123d3/download",
+      "sha256": "995d261ace5ec3bcd81dc6b60fa00cc070644e49dae58ded2b7c0bc25914010f"
+    }
+  ],
+  "provenance": {
+    "source": "P4 外设商城 · products 表",
+    "generated_by": "backend/tools/build_assets.py",
+    "copy_generator": "backend/app/services/asset_copy.py（确定性模板 + 真实规格）",
+    "asset_base_url": "http://127.0.0.1:8000/p4-assets"
+  }
+}

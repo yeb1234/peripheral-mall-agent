@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8f9fb"/><stop offset="1" stop-color="#e9ecf1"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#15161a" stroke-width="1" opacity=".045"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <rect x="90" y="120" width="8" height="120" fill="#d92626"/>
+  <text x="128" y="205" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="34"
+        letter-spacing="8" fill="#8a8f98">MOUSE / P4 ASSET LIBRARY</text>
+  <text x="126" y="360" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="96"
+        font-weight="700" fill="#15161a">电竞鼠标</text>
+  <text x="130" y="440" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="38"
+        fill="#15161a" opacity=".78">每一次移动，都算数。</text>
+  <text x="130" y="510" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="22"
+        fill="#8a8f98">1600 × 900 · 16:9 · 视频封面 / 分镜背景板</text>
+  <ellipse cx="1230" cy="450" rx="150" ry="215" fill="#ffffff" stroke="#15161a" stroke-width="3"/>
+      <path d="M1230 240 V390" stroke="#15161a" stroke-width="3" opacity=".5"/>
+      <rect x="1218" y="330" width="24" height="60" rx="12" fill="#d92626"/>
+      <path d="M1080 450 H1380" stroke="#15161a" stroke-width="2" opacity=".15"/>
+  <line x1="90" y1="760" x2="1510" y2="760" stroke="#15161a" stroke-width="1" opacity=".15"/>
+  <text x="90" y="820" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#15161a">P4</text>
+  <text x="170" y="818" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="22" fill="#8a8f98">为每一次操作负责</text>
+  <text x="1510" y="818" text-anchor="end" font-family="Arial, sans-serif" font-size="20"
+        fill="#8a8f98" letter-spacing="3">MOUSE / VISUAL 01</text>
+</svg>

@@ -1,0 +1,87 @@
+# 企业级外设商城 + 客服 Agent Demo
+# 本地快速体验（无需 docker）：见 README「方式一」
+# 完整异步/高并发演示（Redis + Postgres + pgvector）：docker compose up --build
+#
+# 镜像源可用 PGVECTOR_IMAGE 覆盖（内网/镜像站），默认官方 pgvector/pgvector:pg16。
+services:
+  db:
+    image: ${PGVECTOR_IMAGE:-pgvector/pgvector:pg16}
+    environment:
+      POSTGRES_USER: p4
+      POSTGRES_PASSWORD: p4pass
+      POSTGRES_DB: p4agent
+    ports:
+      - "${P4_DB_PORT:-12500}:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U p4 -d p4agent"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "${P4_REDIS_PORT:-12600}:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  backend:
+    build: ./backend
+    env_file:
+      - ./backend/.env          # 联网检索 / RAG 等密钥从这里进入容器（.env 不进镜像）
+    environment:
+      DATABASE_URL: postgresql+asyncpg://p4:p4pass@db:5432/p4agent
+      CACHE_BACKEND: redis
+      REDIS_URL: redis://redis:6379/0
+      LLM_BACKEND: mock            # 想接真模型改 openai
+      OPENAI_BASE_URL: ${OPENAI_BASE_URL:-https://api.openai.com/v1}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      OPENAI_MODEL: ${OPENAI_MODEL:-gpt-4o-mini}
+      CORS_ORIGINS: http://localhost:5173
+      # pgvector + 文件资产：向量只写 PG，文档/驱动落挂载卷
+      PGVECTOR_ENABLED: "true"
+      PGVECTOR_DIM: "1024"
+      STORAGE_DIR: /data/storage
+      # P6 与 P4 不在同一个 compose 项目，用宿主网关互通（P6 侧配 P4_BASE_URL 同理）
+      P6_BASE_URL: ${P6_BASE_URL:-http://host.docker.internal:12706}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - p4storage:/data/storage
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-c",
+             "import urllib.request;urllib.request.urlopen('http://127.0.0.1:8000/api/health',timeout=3).read()"]
+      interval: 10s
+      timeout: 5s
+      retries: 6
+      start_period: 25s
+
+  frontend:
+    image: node:20-alpine
+    working_dir: /app
+    environment:
+      VITE_API_BASE: http://localhost:8000
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    command: sh -c "npm install && npm run dev -- --host 0.0.0.0 --port 5173"
+    ports:
+      - "5173:5173"
+    depends_on:
+      - backend
+
+volumes:
+  pgdata:
+  p4storage:

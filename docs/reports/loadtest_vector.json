@@ -1,0 +1,20 @@
+{
+  "target": "vector",
+  "base_url": "http://127.0.0.1:8000",
+  "concurrency": 5,
+  "requests": 20,
+  "ok": 20,
+  "error": 0,
+  "rps": 2.7,
+  "latency_ms": {
+    "avg": 1808.0,
+    "p50": 1796.7,
+    "p95": 2760.0,
+    "p99": 2760.6,
+    "max": 2760.6
+  },
+  "status_codes": {
+    "200": 20
+  },
+  "elapsed_s": 7.27
+}

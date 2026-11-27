@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8f9fb"/><stop offset="1" stop-color="#e9ecf1"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#15161a" stroke-width="1" opacity=".045"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <rect x="90" y="120" width="8" height="120" fill="#d92626"/>
+  <text x="128" y="205" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="34"
+        letter-spacing="8" fill="#8a8f98">KEYBOARD / P4 ASSET LIBRARY</text>
+  <text x="126" y="360" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="96"
+        font-weight="700" fill="#15161a">机械键盘</text>
+  <text x="130" y="440" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="38"
+        fill="#15161a" opacity=".78">手感，由你定义。</text>
+  <text x="130" y="510" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="22"
+        fill="#8a8f98">1600 × 900 · 16:9 · 视频封面 / 分镜背景板</text>
+  <rect x="980" y="330" width="500" height="220" rx="18" fill="#ffffff" stroke="#15161a" stroke-width="3"/>
+      <g fill="#15161a" opacity=".16"><rect x="1000" y="355" width="26" height="30" rx="4"/><rect x="1033" y="355" width="26" height="30" rx="4"/><rect x="1066" y="355" width="26" height="30" rx="4"/><rect x="1099" y="355" width="26" height="30" rx="4"/><rect x="1132" y="355" width="26" height="30" rx="4"/><rect x="1165" y="355" width="26" height="30" rx="4"/><rect x="1198" y="355" width="26" height="30" rx="4"/><rect x="1231" y="355" width="26" height="30" rx="4"/><rect x="1264" y="355" width="26" height="30" rx="4"/><rect x="1297" y="355" width="26" height="30" rx="4"/><rect x="1330" y="355" width="26" height="30" rx="4"/><rect x="1363" y="355" width="26" height="30" rx="4"/><rect x="1396" y="355" width="26" height="30" rx="4"/><rect x="1429" y="355" width="26" height="30" rx="4"/><rect x="1000" y="397" width="26" height="30" rx="4"/><rect x="1033" y="397" width="26" height="30" rx="4"/><rect x="1066" y="397" width="26" height="30" rx="4"/><rect x="1099" y="397" width="26" height="30" rx="4"/><rect x="1132" y="397" width="26" height="30" rx="4"/><rect x="1165" y="397" width="26" height="30" rx="4"/><rect x="1198" y="397" width="26" height="30" rx="4"/><rect x="1231" y="397" width="26" height="30" rx="4"/><rect x="1264" y="397" width="26" height="30" rx="4"/><rect x="1297" y="397" width="26" height="30" rx="4"/><rect x="1330" y="397" width="26" height="30" rx="4"/><rect x="1363" y="397" width="26" height="30" rx="4"/><rect x="1396" y="397" width="26" height="30" rx="4"/><rect x="1429" y="397" width="26" height="30" rx="4"/><rect x="1000" y="439" width="26" height="30" rx="4"/><rect x="1033" y="439" width="26" height="30" rx="4"/><rect x="1066" y="439" width="26" height="30" rx="4"/><rect x="1099" y="439" width="26" height="30" rx="4"/><rect x="1132" y="439" width="26" height="30" rx="4"/><rect x="1165" y="439" width="26" height="30" rx="4"/><rect x="1198" y="439" width="26" height="30" rx="4"/><rect x="1231" y="439" width="26" height="30" rx="4"/><rect x="1264" y="439" width="26" height="30" rx="4"/><rect x="1297" y="439" width="26" height="30" rx="4"/><rect x="1330" y="439" width="26" height="30" rx="4"/><rect x="1363" y="439" width="26" height="30" rx="4"/><rect x="1396" y="439" width="26" height="30" rx="4"/><rect x="1429" y="439" width="26" height="30" rx="4"/><rect x="1000" y="481" width="26" height="30" rx="4"/><rect x="1033" y="481" width="26" height="30" rx="4"/><rect x="1066" y="481" width="26" height="30" rx="4"/><rect x="1099" y="481" width="26" height="30" rx="4"/><rect x="1132" y="481" width="26" height="30" rx="4"/><rect x="1165" y="481" width="26" height="30" rx="4"/><rect x="1198" y="481" width="26" height="30" rx="4"/><rect x="1231" y="481" width="26" height="30" rx="4"/><rect x="1264" y="481" width="26" height="30" rx="4"/><rect x="1297" y="481" width="26" height="30" rx="4"/><rect x="1330" y="481" width="26" height="30" rx="4"/><rect x="1363" y="481" width="26" height="30" rx="4"/><rect x="1396" y="481" width="26" height="30" rx="4"/><rect x="1429" y="481" width="26" height="30" rx="4"/><rect x="1000" y="523" width="26" height="30" rx="4"/><rect x="1033" y="523" width="26" height="30" rx="4"/><rect x="1066" y="523" width="26" height="30" rx="4"/><rect x="1099" y="523" width="26" height="30" rx="4"/><rect x="1132" y="523" width="26" height="30" rx="4"/><rect x="1165" y="523" width="26" height="30" rx="4"/><rect x="1198" y="523" width="26" height="30" rx="4"/><rect x="1231" y="523" width="26" height="30" rx="4"/><rect x="1264" y="523" width="26" height="30" rx="4"/><rect x="1297" y="523" width="26" height="30" rx="4"/><rect x="1330" y="523" width="26" height="30" rx="4"/><rect x="1363" y="523" width="26" height="30" rx="4"/><rect x="1396" y="523" width="26" height="30" rx="4"/><rect x="1429" y="523" width="26" height="30" rx="4"/></g>
+  <line x1="90" y1="760" x2="1510" y2="760" stroke="#15161a" stroke-width="1" opacity=".15"/>
+  <text x="90" y="820" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#15161a">P4</text>
+  <text x="170" y="818" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="22" fill="#8a8f98">为每一次操作负责</text>
+  <text x="1510" y="818" text-anchor="end" font-family="Arial, sans-serif" font-size="20"
+        fill="#8a8f98" letter-spacing="3">KEYBOARD / VISUAL 01</text>
+</svg>

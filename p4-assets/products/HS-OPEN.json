@@ -1,0 +1,277 @@
+{
+  "schema_version": "1.0.0",
+  "sku": "HS-OPEN",
+  "identity": {
+    "sku": "HS-OPEN",
+    "name": "P4 开放式耳机 Open（无线）",
+    "brand": "P4Audio",
+    "category": "headset",
+    "price": 649.0,
+    "description": "开放式头戴耳机，定向声场不闷耳，40mm 单元，长续航，运动 / 通勤友好。",
+    "featured": false,
+    "category_cn": "游戏耳机",
+    "currency": "CNY",
+    "stock": 50
+  },
+  "specs": {
+    "核心参数": {
+      "单元直径": "40 mm",
+      "单元类型": "动圈",
+      "频响范围": "20Hz–20kHz",
+      "阻抗": "32 Ω",
+      "灵敏度": "104 dB"
+    },
+    "降噪": {
+      "主动降噪 ANC": "不支持",
+      "ANC 类型": "—",
+      "通透模式": "开放式（天然通透）",
+      "通话降噪 ENC": "AI 双麦 ENC"
+    },
+    "连接": {
+      "连接方式": "蓝牙 5.3 + 3.5mm",
+      "无线协议": "AAC / SBC",
+      "续航": "50 h",
+      "游戏延迟": "70 ms",
+      "多点连接": "支持"
+    },
+    "麦克风": {
+      "指向性": "全指向",
+      "可拆卸": "不可拆卸",
+      "采样率": "48kHz / 16bit",
+      "AI 防风噪": "支持"
+    },
+    "兼容平台": [
+      "Windows",
+      "macOS",
+      "Android",
+      "iOS",
+      "PS5",
+      "Switch"
+    ],
+    "设计": {
+      "重量": "260 g",
+      "耳罩": "网布透气耳罩",
+      "头梁": "轻量头梁",
+      "尺寸": "180×160×75"
+    }
+  },
+  "specs_flat": {
+    "单元直径": "40 mm",
+    "单元类型": "动圈",
+    "频响范围": "20Hz–20kHz",
+    "阻抗": "32 Ω",
+    "灵敏度": "104 dB",
+    "主动降噪 ANC": "不支持",
+    "ANC 类型": "—",
+    "通透模式": "开放式（天然通透）",
+    "通话降噪 ENC": "AI 双麦 ENC",
+    "连接方式": "蓝牙 5.3 + 3.5mm",
+    "无线协议": "AAC / SBC",
+    "续航": "50 h",
+    "游戏延迟": "70 ms",
+    "多点连接": "支持",
+    "指向性": "全指向",
+    "可拆卸": "不可拆卸",
+    "采样率": "48kHz / 16bit",
+    "AI 防风噪": "支持",
+    "兼容平台": "Windows、macOS、Android、iOS、PS5、Switch",
+    "重量": "260 g",
+    "耳罩": "网布透气耳罩",
+    "头梁": "轻量头梁",
+    "尺寸": "180×160×75"
+  },
+  "copy": {
+    "tagline": "只留下该听见的声音。",
+    "lead": "定位、语音与佩戴，一场比赛都不掉线",
+    "short_copy": "P4 开放式耳机 Open（无线）｜定位、语音与佩戴，一场比赛都不掉线。开放式头戴耳机，定向声场不闷耳，40mm 单元，长续航，运动 / 通勤友好。",
+    "long_copy": "P4 开放式耳机 Open（无线） 是 P4Audio 面向FPS 玩家与远程会议用户推出的游戏耳机。开放式头戴耳机，定向声场不闷耳，40mm 单元，长续航，运动 / 通勤友好。\n我们不把参数藏在宣传页脚注里：单元 40 mm、麦克风 全指向、连接 蓝牙 5.3 + 3.5mm。从连接方式到驱动软件，完整规格都可以在商品页与资源下载中心查到；驱动、用户手册与快速入门支持按型号检索下载，下载文件提供 SHA256 校验。\nP4Audio 只留下该听见的声音。",
+    "selling_points": [
+      {
+        "key": "driver",
+        "label": "单元",
+        "fact": "40 mm",
+        "headline": "单元 · 40 mm",
+        "benefit": "声场开阔，方位感更清楚",
+        "copy": "40 mm｜声场开阔，方位感更清楚"
+      },
+      {
+        "key": "mic",
+        "label": "麦克风",
+        "fact": "全指向",
+        "headline": "麦克风 · 全指向",
+        "benefit": "通话清晰，指挥不重复第二遍",
+        "copy": "全指向｜通话清晰，指挥不重复第二遍"
+      },
+      {
+        "key": "connect",
+        "label": "连接",
+        "fact": "蓝牙 5.3 + 3.5mm",
+        "headline": "连接 · 蓝牙 5.3 + 3.5mm",
+        "benefit": "低延迟无线与蓝牙可同时待机",
+        "copy": "蓝牙 5.3 + 3.5mm｜低延迟无线与蓝牙可同时待机"
+      },
+      {
+        "key": "battery",
+        "label": "续航",
+        "fact": "50 h",
+        "headline": "续航 · 50 h",
+        "benefit": "一次充电覆盖整周训练",
+        "copy": "50 h｜一次充电覆盖整周训练"
+      }
+    ],
+    "scenes": [
+      {
+        "scene": "深夜排位不想吵到家人",
+        "angle": "以「深夜排位不想吵到家人」为真实使用场景，突出定位、语音与佩戴，一场比赛都不掉线"
+      },
+      {
+        "scene": "开黑语音指挥",
+        "angle": "以「开黑语音指挥」为真实使用场景，突出定位、语音与佩戴，一场比赛都不掉线"
+      },
+      {
+        "scene": "通勤路上切到手机听歌",
+        "angle": "以「通勤路上切到手机听歌」为真实使用场景，突出定位、语音与佩戴，一场比赛都不掉线"
+      }
+    ],
+    "video_script": {
+      "title": "P4 开放式耳机 Open（无线） · 30 秒产品短片",
+      "duration_seconds": 30,
+      "aspect_ratio": "16:9",
+      "style": "浅色专业电竞外设 / 干净棚拍 / 快切；中性灰底 + 单一红色强调",
+      "brand_tone": "克制、专业、参数说话；不堆形容词，不承诺未标注的性能",
+      "shots": [
+        {
+          "no": 1,
+          "timecode": "0-4",
+          "visual": "暗环境侧光：耳罩轮廓缓缓亮起，环境音波形被「压平」的图形动画",
+          "overlay_text": "沉浸式听感",
+          "voiceover": "P4 开放式耳机 Open（无线）。先安静下来，再谈听声辨位。",
+          "asset_ref": "category_visual"
+        },
+        {
+          "no": 2,
+          "timecode": "4-10",
+          "visual": "耳机佩戴特写，头梁与耳罩贴合，镜头绕半圈",
+          "overlay_text": "40 mm",
+          "voiceover": "包耳不夹头，戴满一整场也不想摘。",
+          "asset_ref": "product_card"
+        },
+        {
+          "no": 3,
+          "timecode": "10-17",
+          "visual": "游戏画面录屏 + 脚步声方位指示环，字幕标出前后左右",
+          "overlay_text": "精准声场",
+          "voiceover": "脚步从哪来，耳朵先于眼睛知道。",
+          "asset_ref": "category_visual"
+        },
+        {
+          "no": 4,
+          "timecode": "17-24",
+          "visual": "麦克风杆翻下/上翻的静音动作，语音波形随之消失",
+          "overlay_text": "全指向 · 上翻静音",
+          "voiceover": "一个动作就能闭麦，不用在软件里找按钮。",
+          "asset_ref": "product_card"
+        },
+        {
+          "no": 5,
+          "timecode": "24-30",
+          "visual": "桌面定格，耳机灯效与屏幕同步，品牌字标淡入",
+          "overlay_text": "P4 开放式耳机 Open（无线） · HS-OPEN",
+          "voiceover": "P4Audio 只留下该听见的声音。 官方驱动与说明书可下载。",
+          "asset_ref": "brand_hero"
+        }
+      ],
+      "bgm_hint": "空间感氛围铺底 / 脚步与语音做前景拟音",
+      "cta": "前往 P4 资源下载中心搜索 HS-OPEN，获取驱动与完整说明书",
+      "compliance_note": "字幕与口播中的数字参数均取自商品库真实规格，不得自行追加未标注性能；个别规格缺失处使用不含数字的描述性措辞，仅为语句完整，不作为性能承诺"
+    },
+    "keywords": [
+      "HS-OPEN",
+      "P4 开放式耳机 Open（无线）",
+      "P4Audio",
+      "游戏耳机",
+      "深夜排位不想吵到家人",
+      "开黑语音指挥",
+      "通勤路上切到手机听歌",
+      "单元",
+      "麦克风",
+      "连接",
+      "续航",
+      "官方驱动",
+      "说明书"
+    ]
+  },
+  "images": {
+    "product_card": {
+      "path": "images/products/HS-OPEN.svg",
+      "url": "http://127.0.0.1:8000/p4-assets/images/products/HS-OPEN.svg",
+      "mime_type": "image/svg+xml",
+      "width": 600,
+      "height": 400,
+      "purpose": "产品卡图 / 视频内嵌素材",
+      "note": "矢量，可无损放大；浅色卡片含品牌、品类图标与产品名"
+    },
+    "category_visual": {
+      "path": "images/visuals/headset-16x9.svg",
+      "url": "http://127.0.0.1:8000/p4-assets/images/visuals/headset-16x9.svg",
+      "mime_type": "image/svg+xml",
+      "width": 1600,
+      "height": 900,
+      "purpose": "16:9 视频封面 / 分镜背景板",
+      "note": ""
+    },
+    "brand_hero": {
+      "path": "images/brand/hero.png",
+      "url": "http://127.0.0.1:8000/p4-assets/images/brand/hero.png",
+      "mime_type": "image/png",
+      "width": 1536,
+      "height": 1024,
+      "purpose": "品牌主视觉 / 片尾",
+      "note": "暗调电竞产品渲染，适合片尾品牌帧"
+    }
+  },
+  "downloads": [
+    {
+      "kind": "driver",
+      "title": "P4 开放式耳机 Open（无线） 驱动",
+      "file_url": "/api/drivers/7465ab10ed3a4e14a2eefef8e4ad8490/download?os=Windows",
+      "sha256": "4ec5ffb0bd786e4c5411a35c00e15fcb7fcf83a3a816ca217953599f0c4a5cf6"
+    },
+    {
+      "kind": "driver",
+      "title": "P4 开放式耳机 Open（无线） 驱动",
+      "file_url": "/api/drivers/ca58231910414d54bc87e4208183b680/download?os=macOS",
+      "sha256": "f391db2e0620d188625d0c5a5af348b4e406602a6f4f7d0a10e4200348cd34d8"
+    },
+    {
+      "kind": "driver",
+      "title": "P4 开放式耳机 Open（无线） 驱动",
+      "file_url": "/api/drivers/d5c918496da34030999530412e391149/download?os=Linux",
+      "sha256": "4e4d14fb7705b47e80bc80bda38ba1dbb762d36fcbd7656b4aa0ee9a7b9d59e9"
+    },
+    {
+      "kind": "manual",
+      "title": "P4 开放式耳机 Open（无线） 用户手册",
+      "file_url": "/api/resources/manual/ac01ce8d389348d191228147347282a7/download",
+      "sha256": "e97c62fb6d489a3111c398f3fa156e37e0321cc60db8bc2b4b162d113837fac4"
+    },
+    {
+      "kind": "resource",
+      "title": "P4 开放式耳机 Open（无线） 快速入门指南",
+      "file_url": "/api/resources/resource/4a0cd42883f34db8a1e12c0b008cf579/download",
+      "sha256": "844894b99987a8cabeb8b76a3cd9274f0a89747c07203dc52b76b8d0272dd037"
+    },
+    {
+      "kind": "resource",
+      "title": "P4 开放式耳机 Open（无线） 保修服务卡",
+      "file_url": "/api/resources/resource/98bc934bf2c947d886f3945b8ee8f748/download",
+      "sha256": "a240024f0c218d205e84b9a960c0a64146a1bc6c1620c0195253f2d92782c274"
+    }
+  ],
+  "provenance": {
+    "source": "P4 外设商城 · products 表",
+    "generated_by": "backend/tools/build_assets.py",
+    "copy_generator": "backend/app/services/asset_copy.py（确定性模板 + 真实规格）",
+    "asset_base_url": "http://127.0.0.1:8000/p4-assets"
+  }
+}

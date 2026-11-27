@@ -1,0 +1,252 @@
+{
+  "schema_version": "1.0.0",
+  "sku": "DOCK-MINI",
+  "identity": {
+    "sku": "DOCK-MINI",
+    "name": "P4 扩展坞 Mini 7 合 1",
+    "brand": "P4Connect",
+    "category": "dock",
+    "price": 329.0,
+    "description": "便携 7 合 1 扩展坞，PD 65W，HDMI 4K，适合笔记本党随身带。",
+    "featured": false,
+    "category_cn": "扩展坞",
+    "currency": "CNY",
+    "stock": 110
+  },
+  "specs": {
+    "核心参数": {
+      "接口总数": "7 合 1",
+      "视频输出": "1× HDMI 2.0（4K@30）",
+      "最大分辨率": "单 4K@30Hz",
+      "PD 供电": "65 W",
+      "网口": "无",
+      "读卡器": "SD / microSD",
+      "数据接口": "2× USB-A 3.0"
+    },
+    "连接": {
+      "主机接口": "USB-C（DP Alt + PD）",
+      "兼容系统": [
+        "Windows 10+",
+        "macOS 11+",
+        "Linux",
+        "iPadOS",
+        "Android"
+      ]
+    },
+    "设计": {
+      "重量": "80 g",
+      "尺寸": "110×45×15",
+      "散热": "被动散热",
+      "外壳": "铝合金"
+    }
+  },
+  "specs_flat": {
+    "接口总数": "7 合 1",
+    "视频输出": "1× HDMI 2.0（4K@30）",
+    "最大分辨率": "单 4K@30Hz",
+    "PD 供电": "65 W",
+    "网口": "无",
+    "读卡器": "SD / microSD",
+    "数据接口": "2× USB-A 3.0",
+    "主机接口": "USB-C（DP Alt + PD）",
+    "兼容系统": "Windows 10+、macOS 11+、Linux、iPadOS、Android",
+    "重量": "80 g",
+    "尺寸": "110×45×15",
+    "散热": "被动散热",
+    "外壳": "铝合金"
+  },
+  "copy": {
+    "tagline": "一根线，收好整张桌面。",
+    "lead": "显示、供电、网口与读卡，全部归到一处",
+    "short_copy": "P4 扩展坞 Mini 7 合 1｜显示、供电、网口与读卡，全部归到一处。便携 7 合 1 扩展坞，PD 65W，HDMI 4K，适合笔记本党随身带。",
+    "long_copy": "P4 扩展坞 Mini 7 合 1 是 P4Connect 面向多屏办公与内容创作者推出的扩展坞。便携 7 合 1 扩展坞，PD 65W，HDMI 4K，适合笔记本党随身带。\n我们不把参数藏在宣传页脚注里：接口数量 7 合 1、视频输出 1× HDMI 2.0（4K@30）、最高分辨率 单 4K@30Hz。从连接方式到驱动软件，完整规格都可以在商品页与资源下载中心查到；驱动、用户手册与快速入门支持按型号检索下载，下载文件提供 SHA256 校验。\nP4Connect 一根线，收好整张桌面。",
+    "selling_points": [
+      {
+        "key": "ports_total",
+        "label": "接口数量",
+        "fact": "7 合 1",
+        "headline": "接口数量 · 7 合 1",
+        "benefit": "外设一次接齐，不再反复插拔",
+        "copy": "7 合 1｜外设一次接齐，不再反复插拔"
+      },
+      {
+        "key": "video",
+        "label": "视频输出",
+        "fact": "1× HDMI 2.0（4K@30）",
+        "headline": "视频输出 · 1× HDMI 2.0（4K@30）",
+        "benefit": "外接显示器即插即亮",
+        "copy": "1× HDMI 2.0（4K@30）｜外接显示器即插即亮"
+      },
+      {
+        "key": "max_res",
+        "label": "最高分辨率",
+        "fact": "单 4K@30Hz",
+        "headline": "最高分辨率 · 单 4K@30Hz",
+        "benefit": "高刷与高分辨率都留有余量",
+        "copy": "单 4K@30Hz｜高刷与高分辨率都留有余量"
+      },
+      {
+        "key": "pd_w",
+        "label": "反向供电",
+        "fact": "65 W",
+        "headline": "反向供电 · 65 W",
+        "benefit": "一根线同时给笔记本充电",
+        "copy": "65 W｜一根线同时给笔记本充电"
+      }
+    ],
+    "scenes": [
+      {
+        "scene": "工位一根线切换笔记本",
+        "angle": "以「工位一根线切换笔记本」为真实使用场景，突出显示、供电、网口与读卡，全部归到一处"
+      },
+      {
+        "scene": "双屏剪辑或看盘",
+        "angle": "以「双屏剪辑或看盘」为真实使用场景，突出显示、供电、网口与读卡，全部归到一处"
+      },
+      {
+        "scene": "会议室投屏",
+        "angle": "以「会议室投屏」为真实使用场景，突出显示、供电、网口与读卡，全部归到一处"
+      }
+    ],
+    "video_script": {
+      "title": "P4 扩展坞 Mini 7 合 1 · 30 秒产品短片",
+      "duration_seconds": 30,
+      "aspect_ratio": "16:9",
+      "style": "浅色专业电竞外设 / 干净棚拍 / 快切；中性灰底 + 单一红色强调",
+      "brand_tone": "克制、专业、参数说话；不堆形容词，不承诺未标注的性能",
+      "shots": [
+        {
+          "no": 1,
+          "timecode": "0-4",
+          "visual": "俯拍凌乱桌面 → 一根 Type-C 插入，线缆与外设依次「归位」的定格动画",
+          "overlay_text": "7 合 1",
+          "voiceover": "P4 扩展坞 Mini 7 合 1。桌面乱，多半只是接口不够用。",
+          "asset_ref": "category_visual"
+        },
+        {
+          "no": 2,
+          "timecode": "4-10",
+          "visual": "接口侧面巡览：HDMI / DP / 网口 / 读卡器逐个点亮",
+          "overlay_text": "1× HDMI 2.0（4K@30） · 有线网口",
+          "voiceover": "该有的口，一次给齐。",
+          "asset_ref": "product_card"
+        },
+        {
+          "no": 3,
+          "timecode": "10-17",
+          "visual": "双屏点亮，窗口从笔记本拖到外接显示器",
+          "overlay_text": "单 4K@30Hz",
+          "voiceover": "屏幕多了，桌面反而更干净。",
+          "asset_ref": "category_visual"
+        },
+        {
+          "no": 4,
+          "timecode": "17-24",
+          "visual": "笔记本电量图标上升动画，字幕标供电功率",
+          "overlay_text": "65 W 反向供电",
+          "voiceover": "显示和充电，同一根线就够。",
+          "asset_ref": "product_card"
+        },
+        {
+          "no": 5,
+          "timecode": "24-30",
+          "visual": "收纳完成的桌面定格 + 品牌字标与 SKU",
+          "overlay_text": "P4 扩展坞 Mini 7 合 1 · DOCK-MINI",
+          "voiceover": "P4Connect 一根线，收好整张桌面。 规格与说明书可在资源下载中心查到。",
+          "asset_ref": "brand_hero"
+        }
+      ],
+      "bgm_hint": "克制的环境电子 / 每次「归位」给一个轻点击音",
+      "cta": "前往 P4 资源下载中心搜索 DOCK-MINI，获取驱动与完整说明书",
+      "compliance_note": "字幕与口播中的数字参数均取自商品库真实规格，不得自行追加未标注性能；个别规格缺失处使用不含数字的描述性措辞，仅为语句完整，不作为性能承诺"
+    },
+    "keywords": [
+      "DOCK-MINI",
+      "P4 扩展坞 Mini 7 合 1",
+      "P4Connect",
+      "扩展坞",
+      "工位一根线切换笔记本",
+      "双屏剪辑或看盘",
+      "会议室投屏",
+      "接口数量",
+      "视频输出",
+      "最高分辨率",
+      "反向供电",
+      "官方驱动",
+      "说明书"
+    ]
+  },
+  "images": {
+    "product_card": {
+      "path": "images/products/DOCK-MINI.svg",
+      "url": "http://127.0.0.1:8000/p4-assets/images/products/DOCK-MINI.svg",
+      "mime_type": "image/svg+xml",
+      "width": 600,
+      "height": 400,
+      "purpose": "产品卡图 / 视频内嵌素材",
+      "note": "矢量，可无损放大；浅色卡片含品牌、品类图标与产品名"
+    },
+    "category_visual": {
+      "path": "images/visuals/dock-16x9.svg",
+      "url": "http://127.0.0.1:8000/p4-assets/images/visuals/dock-16x9.svg",
+      "mime_type": "image/svg+xml",
+      "width": 1600,
+      "height": 900,
+      "purpose": "16:9 视频封面 / 分镜背景板",
+      "note": ""
+    },
+    "brand_hero": {
+      "path": "images/brand/hero.png",
+      "url": "http://127.0.0.1:8000/p4-assets/images/brand/hero.png",
+      "mime_type": "image/png",
+      "width": 1536,
+      "height": 1024,
+      "purpose": "品牌主视觉 / 片尾",
+      "note": "暗调电竞产品渲染，适合片尾品牌帧"
+    }
+  },
+  "downloads": [
+    {
+      "kind": "driver",
+      "title": "P4 扩展坞 Mini 7 合 1 驱动",
+      "file_url": "/api/drivers/02c2b4e2d14d4897a1134074127b411f/download?os=Windows",
+      "sha256": "9b4351349f6604f7b7122ddd5af87490ea982fadb948e86b1ade1ec0571e105f"
+    },
+    {
+      "kind": "driver",
+      "title": "P4 扩展坞 Mini 7 合 1 驱动",
+      "file_url": "/api/drivers/5ac61fe40b5b4923a90c52fc12611787/download?os=macOS",
+      "sha256": "e9915b678cac98281e6ae167b97df0a29636a5b8729d2243f2135899a730544b"
+    },
+    {
+      "kind": "driver",
+      "title": "P4 扩展坞 Mini 7 合 1 驱动",
+      "file_url": "/api/drivers/2712e049c5d346009e75d6aa0e2dbaf8/download?os=Linux",
+      "sha256": "d7e715a781c0eff75ac2599007b0c031a3976c34bea2ec6086f59c8c26fd7364"
+    },
+    {
+      "kind": "manual",
+      "title": "P4 扩展坞 Mini 7 合 1 用户手册",
+      "file_url": "/api/resources/manual/50811e648dce49fc9cd4be2ab8ac4c87/download",
+      "sha256": "226bb138ed4cc6709bb122ceab8c9d2cb20f2bb25921163c198a7ff2a140b2b9"
+    },
+    {
+      "kind": "resource",
+      "title": "P4 扩展坞 Mini 7 合 1 快速入门指南",
+      "file_url": "/api/resources/resource/2503eff562e145bab36cf0e1842fd624/download",
+      "sha256": "bbc160b971892bf6627f91b118327a41d867af65954c61ebb2dff35aa70f3aa9"
+    },
+    {
+      "kind": "resource",
+      "title": "P4 扩展坞 Mini 7 合 1 保修服务卡",
+      "file_url": "/api/resources/resource/992c25b7c53f45d28127aaf52e0e1ec0/download",
+      "sha256": "a2de211aec0e8ac7ca6dd25c7c3d3e49d4c31d7940d7c258ac6194569aaaad0c"
+    }
+  ],
+  "provenance": {
+    "source": "P4 外设商城 · products 表",
+    "generated_by": "backend/tools/build_assets.py",
+    "copy_generator": "backend/app/services/asset_copy.py（确定性模板 + 真实规格）",
+    "asset_base_url": "http://127.0.0.1:8000/p4-assets"
+  }
+}

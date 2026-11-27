@@ -1,0 +1,279 @@
+{
+  "schema_version": "1.0.0",
+  "sku": "KB-TKL",
+  "identity": {
+    "sku": "KB-TKL",
+    "name": "P4 客制化键盘 TKL",
+    "brand": "P4Gear",
+    "category": "keyboard",
+    "price": 699.0,
+    "description": "84 键 TKL 铝坨坨客制化键盘，CNC 一体成型，PBT 热升华键帽，支持 QMK/VIA 全键可编程。",
+    "featured": false,
+    "category_cn": "机械键盘",
+    "currency": "CNY",
+    "stock": 40
+  },
+  "specs": {
+    "核心参数": {
+      "配列": "80% / TKL 84 键",
+      "键数": 84,
+      "轴体类型": "机械轴（客制化）",
+      "轴座": "热插拔 5pin",
+      "触发键程": "2.0 mm",
+      "触发压力": "50 g",
+      "连接": "三模（USB-C / 2.4G / 蓝牙 5.1）"
+    },
+    "做工与材质": {
+      "上盖材质": "CNC 铝合金（阳极）",
+      "键帽材质": "PBT 热升华",
+      "字符工艺": "热升华",
+      "结构": "定位板 + 硅胶垫"
+    },
+    "性能与灯效": {
+      "回报率": "1000 Hz",
+      "全键无冲": "支持",
+      "板载内存": "支持",
+      "RGB 背光": "RGB（北向）",
+      "可编程": "全键自定义"
+    },
+    "软件": {
+      "驱动软件": "QMK / VIA",
+      "板载配置": "支持（免驱切换）"
+    },
+    "兼容系统": [
+      "Windows 10+",
+      "macOS 11+",
+      "Linux"
+    ],
+    "设计": {
+      "尺寸": "360×135×33",
+      "重量": "1100 g"
+    }
+  },
+  "specs_flat": {
+    "配列": "80% / TKL 84 键",
+    "键数": "84",
+    "轴体类型": "机械轴（客制化）",
+    "轴座": "热插拔 5pin",
+    "触发键程": "2.0 mm",
+    "触发压力": "50 g",
+    "连接": "三模（USB-C / 2.4G / 蓝牙 5.1）",
+    "上盖材质": "CNC 铝合金（阳极）",
+    "键帽材质": "PBT 热升华",
+    "字符工艺": "热升华",
+    "结构": "定位板 + 硅胶垫",
+    "回报率": "1000 Hz",
+    "全键无冲": "支持",
+    "板载内存": "支持",
+    "RGB 背光": "RGB（北向）",
+    "可编程": "全键自定义",
+    "驱动软件": "QMK / VIA",
+    "板载配置": "支持（免驱切换）",
+    "兼容系统": "Windows 10+、macOS 11+、Linux",
+    "尺寸": "360×135×33",
+    "重量": "1100 g"
+  },
+  "copy": {
+    "tagline": "手感，由你定义。",
+    "lead": "把配列、轴体与触发都交回给你自己",
+    "short_copy": "P4 客制化键盘 TKL｜把配列、轴体与触发都交回给你自己。84 键 TKL 铝坨坨客制化键盘，CNC 一体成型，PBT 热升华键帽，支持 QMK/VIA 全键可编程。",
+    "long_copy": "P4 客制化键盘 TKL 是 P4Gear 面向键盘玩家与长时间打字用户推出的机械键盘。84 键 TKL 铝坨坨客制化键盘，CNC 一体成型，PBT 热升华键帽，支持 QMK/VIA 全键可编程。\n我们不把参数藏在宣传页脚注里：配列 80% / TKL 84 键、轴体 机械轴（客制化）、轴座 热插拔 5pin。从连接方式到驱动软件，完整规格都可以在商品页与资源下载中心查到；驱动、用户手册与快速入门支持按型号检索下载，下载文件提供 SHA256 校验。\nP4Gear 手感，由你定义。",
+    "selling_points": [
+      {
+        "key": "layout",
+        "label": "配列",
+        "fact": "80% / TKL 84 键",
+        "headline": "配列 · 80% / TKL 84 键",
+        "benefit": "桌面留出更多鼠标空间，视线更聚焦",
+        "copy": "80% / TKL 84 键｜桌面留出更多鼠标空间，视线更聚焦"
+      },
+      {
+        "key": "switch_kind",
+        "label": "轴体",
+        "fact": "机械轴（客制化）",
+        "headline": "轴体 · 机械轴（客制化）",
+        "benefit": "每一次触发都干净利落，长时间输入不累手",
+        "copy": "机械轴（客制化）｜每一次触发都干净利落，长时间输入不累手"
+      },
+      {
+        "key": "hotswap",
+        "label": "轴座",
+        "fact": "热插拔 5pin",
+        "headline": "轴座 · 热插拔 5pin",
+        "benefit": "换轴不焊接，风格随时改",
+        "copy": "热插拔 5pin｜换轴不焊接，风格随时改"
+      },
+      {
+        "key": "polling_hz",
+        "label": "回报率",
+        "fact": "1000 Hz",
+        "headline": "回报率 · 1000 Hz",
+        "benefit": "高频回报把输入延迟压到感知之外",
+        "copy": "1000 Hz｜高频回报把输入延迟压到感知之外"
+      },
+      {
+        "key": "rgb",
+        "label": "灯效",
+        "fact": "RGB（北向）",
+        "headline": "灯效 · RGB（北向）",
+        "benefit": "桌面氛围自己定，也可以一键关灯",
+        "copy": "RGB（北向）｜桌面氛围自己定，也可以一键关灯"
+      }
+    ],
+    "scenes": [
+      {
+        "scene": "深夜单排 FPS 的紧凑桌面",
+        "angle": "以「深夜单排 FPS 的紧凑桌面」为真实使用场景，突出把配列、轴体与触发都交回给你自己"
+      },
+      {
+        "scene": "开放式办公区的长时间码字",
+        "angle": "以「开放式办公区的长时间码字」为真实使用场景，突出把配列、轴体与触发都交回给你自己"
+      },
+      {
+        "scene": "周末自己动手换轴",
+        "angle": "以「周末自己动手换轴」为真实使用场景，突出把配列、轴体与触发都交回给你自己"
+      }
+    ],
+    "video_script": {
+      "title": "P4 客制化键盘 TKL · 30 秒产品短片",
+      "duration_seconds": 30,
+      "aspect_ratio": "16:9",
+      "style": "浅色专业电竞外设 / 干净棚拍 / 快切；中性灰底 + 单一红色强调",
+      "brand_tone": "克制、专业、参数说话；不堆形容词，不承诺未标注的性能",
+      "shots": [
+        {
+          "no": 1,
+          "timecode": "0-4",
+          "visual": "俯拍桌面全景：浅灰桌垫、键盘居中、鼠标留出大面积空间；柔光侧打",
+          "overlay_text": "80% / TKL 84 键 配列，桌面刚刚好",
+          "voiceover": "P4 客制化键盘 TKL。把空间还给鼠标，也把注意力还给屏幕。",
+          "asset_ref": "category_visual"
+        },
+        {
+          "no": 2,
+          "timecode": "4-10",
+          "visual": "微距推近轴体与键帽，手指连续敲击三下，慢动作捕捉回弹",
+          "overlay_text": "机械轴（客制化）",
+          "voiceover": "轴体决定手感，热插拔让你随时改变主意。",
+          "asset_ref": "product_card"
+        },
+        {
+          "no": 3,
+          "timecode": "10-17",
+          "visual": "侧逆光扫过铝合金上盖与 PBT 键帽纹理，镜头缓慢平移",
+          "overlay_text": "CNC 铝合金（阳极） · PBT 热升华",
+          "voiceover": "看得见的结构，听得见的克制。",
+          "asset_ref": "category_visual"
+        },
+        {
+          "no": 4,
+          "timecode": "17-24",
+          "visual": "驱动界面录屏：调触发行程 / 灯效 / 保存板载，UI 快切三格",
+          "overlay_text": "官方驱动可调，配置保存到板载",
+          "voiceover": "参数不是出厂就锁死的，QMK / VIA 里都能改。",
+          "asset_ref": "product_card"
+        },
+        {
+          "no": 5,
+          "timecode": "24-30",
+          "visual": "回到桌面全景，屏幕亮起游戏画面，键盘灯效与画面同步；右下角出现 SKU 与品牌字标",
+          "overlay_text": "P4 客制化键盘 TKL · KB-TKL",
+          "voiceover": "P4Gear 手感，由你定义。 官网资源页可下载驱动与完整说明书。",
+          "asset_ref": "brand_hero"
+        }
+      ],
+      "bgm_hint": "低频电子 / 70-90 BPM / 干净无鼓点堆叠，敲击声做拟音重点",
+      "cta": "前往 P4 资源下载中心搜索 KB-TKL，获取驱动与完整说明书",
+      "compliance_note": "字幕与口播中的数字参数均取自商品库真实规格，不得自行追加未标注性能；个别规格缺失处使用不含数字的描述性措辞，仅为语句完整，不作为性能承诺"
+    },
+    "keywords": [
+      "KB-TKL",
+      "P4 客制化键盘 TKL",
+      "P4Gear",
+      "机械键盘",
+      "深夜单排 FPS 的紧凑桌面",
+      "开放式办公区的长时间码字",
+      "周末自己动手换轴",
+      "配列",
+      "轴体",
+      "轴座",
+      "回报率",
+      "灯效",
+      "官方驱动",
+      "说明书"
+    ]
+  },
+  "images": {
+    "product_card": {
+      "path": "images/products/KB-TKL.svg",
+      "url": "http://127.0.0.1:8000/p4-assets/images/products/KB-TKL.svg",
+      "mime_type": "image/svg+xml",
+      "width": 600,
+      "height": 400,
+      "purpose": "产品卡图 / 视频内嵌素材",
+      "note": "矢量，可无损放大；浅色卡片含品牌、品类图标与产品名"
+    },
+    "category_visual": {
+      "path": "images/visuals/keyboard-16x9.svg",
+      "url": "http://127.0.0.1:8000/p4-assets/images/visuals/keyboard-16x9.svg",
+      "mime_type": "image/svg+xml",
+      "width": 1600,
+      "height": 900,
+      "purpose": "16:9 视频封面 / 分镜背景板",
+      "note": ""
+    },
+    "brand_hero": {
+      "path": "images/brand/hero.png",
+      "url": "http://127.0.0.1:8000/p4-assets/images/brand/hero.png",
+      "mime_type": "image/png",
+      "width": 1536,
+      "height": 1024,
+      "purpose": "品牌主视觉 / 片尾",
+      "note": "暗调电竞产品渲染，适合片尾品牌帧"
+    }
+  },
+  "downloads": [
+    {
+      "kind": "driver",
+      "title": "P4 客制化键盘 TKL 驱动",
+      "file_url": "/api/drivers/3f0b6ba652df4a79bd1fb262e9537f6f/download?os=Windows",
+      "sha256": "024aac48eccc77a30e643db10f06871ebb0373b49ab712ee5bd7e9f25f32e041"
+    },
+    {
+      "kind": "driver",
+      "title": "P4 客制化键盘 TKL 驱动",
+      "file_url": "/api/drivers/ffcc04b6222c4bc08d2f3f72df6837f5/download?os=macOS",
+      "sha256": "74def839ca11d2677f1f01312b8043adaad78e82bdd59c124dee8dc9ccb7ae3f"
+    },
+    {
+      "kind": "driver",
+      "title": "P4 客制化键盘 TKL 驱动",
+      "file_url": "/api/drivers/2eaca64a414d4587a7414fe75513fc1c/download?os=Linux",
+      "sha256": "f0a8cedef30e0ccc45dd7cca318c5c93c8e67f8108bb802d3df5d30018485dbc"
+    },
+    {
+      "kind": "manual",
+      "title": "P4 客制化键盘 TKL 用户手册",
+      "file_url": "/api/resources/manual/fc98b004799b400e9f11b498c4a0b7a2/download",
+      "sha256": "984aa6c52477f12d9ac83cad6a5f47707d576613a2b314a512b88c0d655c1857"
+    },
+    {
+      "kind": "resource",
+      "title": "P4 客制化键盘 TKL 快速入门指南",
+      "file_url": "/api/resources/resource/442411e7016548ea89d07b1d921f8d57/download",
+      "sha256": "0016f255d2ac6a0810e96dfb2e5cbf9382254a9a4386a35ecdb422f0be92db3e"
+    },
+    {
+      "kind": "resource",
+      "title": "P4 客制化键盘 TKL 保修服务卡",
+      "file_url": "/api/resources/resource/112e6e65f75d410593748866c48d3532/download",
+      "sha256": "c4e5f044d019f99290cbc6dfe8d109461795a924311c7325a2f3471e578f57d7"
+    }
+  ],
+  "provenance": {
+    "source": "P4 外设商城 · products 表",
+    "generated_by": "backend/tools/build_assets.py",
+    "copy_generator": "backend/app/services/asset_copy.py（确定性模板 + 真实规格）",
+    "asset_base_url": "http://127.0.0.1:8000/p4-assets"
+  }
+}

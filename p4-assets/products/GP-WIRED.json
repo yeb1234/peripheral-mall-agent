@@ -1,0 +1,253 @@
+{
+  "schema_version": "1.0.0",
+  "sku": "GP-WIRED",
+  "identity": {
+    "sku": "GP-WIRED",
+    "name": "P4 有线手柄 W",
+    "brand": "P4Gear",
+    "category": "gamepad",
+    "price": 199.0,
+    "description": "性价比有线手柄，碳膜摇杆，3.5mm 耳麦接口，2m 编织线。",
+    "featured": false,
+    "category_cn": "游戏手柄",
+    "currency": "CNY",
+    "stock": 180
+  },
+  "specs": {
+    "核心参数": {
+      "摇杆类型": "碳膜摇杆",
+      "扳机": "普通线性扳机",
+      "马达": "非对称双马达",
+      "背键数": 0,
+      "面键": "导电胶面键"
+    },
+    "连接": {
+      "连接方式": "有线 USB-A",
+      "回报率": "500 Hz",
+      "续航": "0 h",
+      "延迟": "1 ms",
+      "有线接口": "USB-A（2m 编织线）"
+    },
+    "兼容平台": [
+      "Windows 10+",
+      "Android",
+      "Switch",
+      "Linux"
+    ],
+    "设计": {
+      "重量": "230 g",
+      "尺寸": "150×100×60",
+      "表面": "抛光涂层"
+    }
+  },
+  "specs_flat": {
+    "摇杆类型": "碳膜摇杆",
+    "扳机": "普通线性扳机",
+    "马达": "非对称双马达",
+    "背键数": "0",
+    "面键": "导电胶面键",
+    "连接方式": "有线 USB-A",
+    "回报率": "500 Hz",
+    "续航": "0 h",
+    "延迟": "1 ms",
+    "有线接口": "USB-A（2m 编织线）",
+    "兼容平台": "Windows 10+、Android、Switch、Linux",
+    "重量": "230 g",
+    "尺寸": "150×100×60",
+    "表面": "抛光涂层"
+  },
+  "copy": {
+    "tagline": "手感对了，才轮到操作。",
+    "lead": "跨平台、可映射、低延迟，一把打通",
+    "short_copy": "P4 有线手柄 W｜跨平台、可映射、低延迟，一把打通。性价比有线手柄，碳膜摇杆，3.5mm 耳麦接口，2m 编织线。",
+    "long_copy": "P4 有线手柄 W 是 P4Gear 面向多平台游戏玩家推出的游戏手柄。性价比有线手柄，碳膜摇杆，3.5mm 耳麦接口，2m 编织线。\n我们不把参数藏在宣传页脚注里：连接 有线 USB-A、摇杆 碳膜摇杆、扳机 普通线性扳机。从连接方式到驱动软件，完整规格都可以在商品页与资源下载中心查到；驱动、用户手册与快速入门支持按型号检索下载，下载文件提供 SHA256 校验。\nP4Gear 手感对了，才轮到操作。",
+    "selling_points": [
+      {
+        "key": "connect",
+        "label": "连接",
+        "fact": "有线 USB-A",
+        "headline": "连接 · 有线 USB-A",
+        "benefit": "主机 / PC / 手机按模式切换",
+        "copy": "有线 USB-A｜主机 / PC / 手机按模式切换"
+      },
+      {
+        "key": "sticks",
+        "label": "摇杆",
+        "fact": "碳膜摇杆",
+        "headline": "摇杆 · 碳膜摇杆",
+        "benefit": "死区可调，漂移可校准",
+        "copy": "碳膜摇杆｜死区可调，漂移可校准"
+      },
+      {
+        "key": "triggers",
+        "label": "扳机",
+        "fact": "普通线性扳机",
+        "headline": "扳机 · 普通线性扳机",
+        "benefit": "线性行程，赛车与射击各取所需",
+        "copy": "普通线性扳机｜线性行程，赛车与射击各取所需"
+      },
+      {
+        "key": "compat",
+        "label": "兼容平台",
+        "fact": "Windows 10+、Android、Switch、Linux",
+        "headline": "兼容平台 · Windows 10+、Android、Switch、Linux",
+        "benefit": "一台手柄覆盖常用设备",
+        "copy": "Windows 10+、Android、Switch、Linux｜一台手柄覆盖常用设备"
+      }
+    ],
+    "scenes": [
+      {
+        "scene": "客厅主机上的赛车游戏",
+        "angle": "以「客厅主机上的赛车游戏」为真实使用场景，突出跨平台、可映射、低延迟，一把打通"
+      },
+      {
+        "scene": "PC 上用手柄玩动作游戏",
+        "angle": "以「PC 上用手柄玩动作游戏」为真实使用场景，突出跨平台、可映射、低延迟，一把打通"
+      },
+      {
+        "scene": "手机串流临时来一局",
+        "angle": "以「手机串流临时来一局」为真实使用场景，突出跨平台、可映射、低延迟，一把打通"
+      }
+    ],
+    "video_script": {
+      "title": "P4 有线手柄 W · 30 秒产品短片",
+      "duration_seconds": 30,
+      "aspect_ratio": "16:9",
+      "style": "浅色专业电竞外设 / 干净棚拍 / 快切；中性灰底 + 单一红色强调",
+      "brand_tone": "克制、专业、参数说话；不堆形容词，不承诺未标注的性能",
+      "shots": [
+        {
+          "no": 1,
+          "timecode": "0-4",
+          "visual": "暗背景产品旋转，灯条亮起，模式开关被拨动",
+          "overlay_text": "有线 USB-A",
+          "voiceover": "P4 有线手柄 W。设备换了，手柄不用换。",
+          "asset_ref": "category_visual"
+        },
+        {
+          "no": 2,
+          "timecode": "4-10",
+          "visual": "拇指推摇杆的微距慢动作，叠死区调节 UI",
+          "overlay_text": "碳膜摇杆",
+          "voiceover": "死区多大，由你的手决定。",
+          "asset_ref": "product_card"
+        },
+        {
+          "no": 3,
+          "timecode": "10-17",
+          "visual": "扳机扣到底的侧拍，字幕标行程档位",
+          "overlay_text": "普通线性扳机",
+          "voiceover": "线性扳机，油门与开火都能拿捏。",
+          "asset_ref": "category_visual"
+        },
+        {
+          "no": 4,
+          "timecode": "17-24",
+          "visual": "背键映射界面录屏，两枚背键点亮",
+          "overlay_text": "自定义背键",
+          "voiceover": "常用动作挪到手背，拇指不用离开摇杆。",
+          "asset_ref": "product_card"
+        },
+        {
+          "no": 5,
+          "timecode": "24-30",
+          "visual": "手柄定格 + 品牌字标与 SKU",
+          "overlay_text": "P4 有线手柄 W · GP-WIRED",
+          "voiceover": "P4Gear 手感对了，才轮到操作。 驱动与说明书可下载。",
+          "asset_ref": "brand_hero"
+        }
+      ],
+      "bgm_hint": "节奏明确的电子鼓点 / 110 BPM",
+      "cta": "前往 P4 资源下载中心搜索 GP-WIRED，获取驱动与完整说明书",
+      "compliance_note": "字幕与口播中的数字参数均取自商品库真实规格，不得自行追加未标注性能；个别规格缺失处使用不含数字的描述性措辞，仅为语句完整，不作为性能承诺"
+    },
+    "keywords": [
+      "GP-WIRED",
+      "P4 有线手柄 W",
+      "P4Gear",
+      "游戏手柄",
+      "客厅主机上的赛车游戏",
+      "PC 上用手柄玩动作游戏",
+      "手机串流临时来一局",
+      "连接",
+      "摇杆",
+      "扳机",
+      "兼容平台",
+      "官方驱动",
+      "说明书"
+    ]
+  },
+  "images": {
+    "product_card": {
+      "path": "images/products/GP-WIRED.svg",
+      "url": "http://127.0.0.1:8000/p4-assets/images/products/GP-WIRED.svg",
+      "mime_type": "image/svg+xml",
+      "width": 600,
+      "height": 400,
+      "purpose": "产品卡图 / 视频内嵌素材",
+      "note": "矢量，可无损放大；浅色卡片含品牌、品类图标与产品名"
+    },
+    "category_visual": {
+      "path": "images/visuals/gamepad-16x9.svg",
+      "url": "http://127.0.0.1:8000/p4-assets/images/visuals/gamepad-16x9.svg",
+      "mime_type": "image/svg+xml",
+      "width": 1600,
+      "height": 900,
+      "purpose": "16:9 视频封面 / 分镜背景板",
+      "note": ""
+    },
+    "brand_hero": {
+      "path": "images/brand/hero.png",
+      "url": "http://127.0.0.1:8000/p4-assets/images/brand/hero.png",
+      "mime_type": "image/png",
+      "width": 1536,
+      "height": 1024,
+      "purpose": "品牌主视觉 / 片尾",
+      "note": "暗调电竞产品渲染，适合片尾品牌帧"
+    }
+  },
+  "downloads": [
+    {
+      "kind": "driver",
+      "title": "P4 有线手柄 W 驱动",
+      "file_url": "/api/drivers/963999fd128146daa7ddb1acb7042cc6/download?os=Windows",
+      "sha256": "b75954f8e235b531e466d9fa5c5acc1110791d66e80cb6b0b0941be31403c5c7"
+    },
+    {
+      "kind": "driver",
+      "title": "P4 有线手柄 W 驱动",
+      "file_url": "/api/drivers/f515f8eaeb044953bfda9eb3da709522/download?os=macOS",
+      "sha256": "b1ee36ea67dc2cffa1614d39bcc1b07f7c57a815edc8e1594ec004c30fae559c"
+    },
+    {
+      "kind": "driver",
+      "title": "P4 有线手柄 W 驱动",
+      "file_url": "/api/drivers/db1db90357894ea980d7856aeb757742/download?os=Linux",
+      "sha256": "b18786146579ea9e6e684421c0baf9a85228b9d454c1549862faf17c24b0de0f"
+    },
+    {
+      "kind": "manual",
+      "title": "P4 有线手柄 W 用户手册",
+      "file_url": "/api/resources/manual/7c72fc2a932e438bba64c5f22e775ac2/download",
+      "sha256": "9bfcf5fb8d5290f4ba9e67473e55f7f94e6b17ddb2e3895a191fa439bb373074"
+    },
+    {
+      "kind": "resource",
+      "title": "P4 有线手柄 W 快速入门指南",
+      "file_url": "/api/resources/resource/c59837bb5c2b43bcb2ec634e4b1b6a49/download",
+      "sha256": "370701ad828f21a71b626d28fd694c26ee2925c607f133b1b02cfbbed2fdefbc"
+    },
+    {
+      "kind": "resource",
+      "title": "P4 有线手柄 W 保修服务卡",
+      "file_url": "/api/resources/resource/8d4ec6414d814c5090aa58e8eadeea18/download",
+      "sha256": "804f8a10a4fe68d6fd9d25740217b64281449084b10e80f1061eba98d8f3ad0e"
+    }
+  ],
+  "provenance": {
+    "source": "P4 外设商城 · products 表",
+    "generated_by": "backend/tools/build_assets.py",
+    "copy_generator": "backend/app/services/asset_copy.py（确定性模板 + 真实规格）",
+    "asset_base_url": "http://127.0.0.1:8000/p4-assets"
+  }
+}

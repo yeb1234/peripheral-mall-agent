@@ -1,0 +1,262 @@
+{
+  "schema_version": "1.0.0",
+  "sku": "GP-XBOX",
+  "identity": {
+    "sku": "GP-XBOX",
+    "name": "P4 无线手柄 X",
+    "brand": "P4Gear",
+    "category": "gamepad",
+    "price": 349.0,
+    "description": "多平台无线手柄，霍尔摇杆 + 霍尔线性扳机，4 背键，PC/安卓/Switch 通吃。",
+    "featured": true,
+    "category_cn": "游戏手柄",
+    "currency": "CNY",
+    "stock": 150
+  },
+  "specs": {
+    "核心参数": {
+      "摇杆类型": "霍尔效应摇杆（无漂移）",
+      "扳机": "霍尔线性扳机",
+      "马达": "非对称双马达",
+      "背键数": 4,
+      "面键": "导电胶面键"
+    },
+    "连接": {
+      "连接方式": "2.4G + 蓝牙 5.2 + 有线",
+      "回报率": "1000 Hz",
+      "续航": "25 h",
+      "延迟": "4 ms",
+      "有线接口": "USB-C"
+    },
+    "兼容平台": [
+      "Windows 10+",
+      "Android",
+      "Switch",
+      "Linux"
+    ],
+    "设计": {
+      "重量": "245 g",
+      "尺寸": "155×105×62",
+      "表面": "磨砂涂层"
+    }
+  },
+  "specs_flat": {
+    "摇杆类型": "霍尔效应摇杆（无漂移）",
+    "扳机": "霍尔线性扳机",
+    "马达": "非对称双马达",
+    "背键数": "4",
+    "面键": "导电胶面键",
+    "连接方式": "2.4G + 蓝牙 5.2 + 有线",
+    "回报率": "1000 Hz",
+    "续航": "25 h",
+    "延迟": "4 ms",
+    "有线接口": "USB-C",
+    "兼容平台": "Windows 10+、Android、Switch、Linux",
+    "重量": "245 g",
+    "尺寸": "155×105×62",
+    "表面": "磨砂涂层"
+  },
+  "copy": {
+    "tagline": "手感对了，才轮到操作。",
+    "lead": "跨平台、可映射、低延迟，一把打通",
+    "short_copy": "P4 无线手柄 X｜跨平台、可映射、低延迟，一把打通。多平台无线手柄，霍尔摇杆 + 霍尔线性扳机，4 背键，PC/安卓/Switch 通吃。",
+    "long_copy": "P4 无线手柄 X 是 P4Gear 面向多平台游戏玩家推出的游戏手柄。多平台无线手柄，霍尔摇杆 + 霍尔线性扳机，4 背键，PC/安卓/Switch 通吃。\n我们不把参数藏在宣传页脚注里：连接 2.4G + 蓝牙 5.2 + 有线、摇杆 霍尔效应摇杆（无漂移）、扳机 霍尔线性扳机。从连接方式到驱动软件，完整规格都可以在商品页与资源下载中心查到；驱动、用户手册与快速入门支持按型号检索下载，下载文件提供 SHA256 校验。\nP4Gear 手感对了，才轮到操作。",
+    "selling_points": [
+      {
+        "key": "connect",
+        "label": "连接",
+        "fact": "2.4G + 蓝牙 5.2 + 有线",
+        "headline": "连接 · 2.4G + 蓝牙 5.2 + 有线",
+        "benefit": "主机 / PC / 手机按模式切换",
+        "copy": "2.4G + 蓝牙 5.2 + 有线｜主机 / PC / 手机按模式切换"
+      },
+      {
+        "key": "sticks",
+        "label": "摇杆",
+        "fact": "霍尔效应摇杆（无漂移）",
+        "headline": "摇杆 · 霍尔效应摇杆（无漂移）",
+        "benefit": "死区可调，漂移可校准",
+        "copy": "霍尔效应摇杆（无漂移）｜死区可调，漂移可校准"
+      },
+      {
+        "key": "triggers",
+        "label": "扳机",
+        "fact": "霍尔线性扳机",
+        "headline": "扳机 · 霍尔线性扳机",
+        "benefit": "线性行程，赛车与射击各取所需",
+        "copy": "霍尔线性扳机｜线性行程，赛车与射击各取所需"
+      },
+      {
+        "key": "back_buttons",
+        "label": "背键",
+        "fact": "4",
+        "headline": "背键 · 4",
+        "benefit": "多两个不用离手的操作",
+        "copy": "4｜多两个不用离手的操作"
+      },
+      {
+        "key": "compat",
+        "label": "兼容平台",
+        "fact": "Windows 10+、Android、Switch、Linux",
+        "headline": "兼容平台 · Windows 10+、Android、Switch、Linux",
+        "benefit": "一台手柄覆盖常用设备",
+        "copy": "Windows 10+、Android、Switch、Linux｜一台手柄覆盖常用设备"
+      }
+    ],
+    "scenes": [
+      {
+        "scene": "客厅主机上的赛车游戏",
+        "angle": "以「客厅主机上的赛车游戏」为真实使用场景，突出跨平台、可映射、低延迟，一把打通"
+      },
+      {
+        "scene": "PC 上用手柄玩动作游戏",
+        "angle": "以「PC 上用手柄玩动作游戏」为真实使用场景，突出跨平台、可映射、低延迟，一把打通"
+      },
+      {
+        "scene": "手机串流临时来一局",
+        "angle": "以「手机串流临时来一局」为真实使用场景，突出跨平台、可映射、低延迟，一把打通"
+      }
+    ],
+    "video_script": {
+      "title": "P4 无线手柄 X · 30 秒产品短片",
+      "duration_seconds": 30,
+      "aspect_ratio": "16:9",
+      "style": "浅色专业电竞外设 / 干净棚拍 / 快切；中性灰底 + 单一红色强调",
+      "brand_tone": "克制、专业、参数说话；不堆形容词，不承诺未标注的性能",
+      "shots": [
+        {
+          "no": 1,
+          "timecode": "0-4",
+          "visual": "暗背景产品旋转，灯条亮起，模式开关被拨动",
+          "overlay_text": "2.4G + 蓝牙 5.2 + 有线",
+          "voiceover": "P4 无线手柄 X。设备换了，手柄不用换。",
+          "asset_ref": "category_visual"
+        },
+        {
+          "no": 2,
+          "timecode": "4-10",
+          "visual": "拇指推摇杆的微距慢动作，叠死区调节 UI",
+          "overlay_text": "霍尔效应摇杆（无漂移）",
+          "voiceover": "死区多大，由你的手决定。",
+          "asset_ref": "product_card"
+        },
+        {
+          "no": 3,
+          "timecode": "10-17",
+          "visual": "扳机扣到底的侧拍，字幕标行程档位",
+          "overlay_text": "霍尔线性扳机",
+          "voiceover": "线性扳机，油门与开火都能拿捏。",
+          "asset_ref": "category_visual"
+        },
+        {
+          "no": 4,
+          "timecode": "17-24",
+          "visual": "背键映射界面录屏，两枚背键点亮",
+          "overlay_text": "4",
+          "voiceover": "常用动作挪到手背，拇指不用离开摇杆。",
+          "asset_ref": "product_card"
+        },
+        {
+          "no": 5,
+          "timecode": "24-30",
+          "visual": "手柄定格 + 品牌字标与 SKU",
+          "overlay_text": "P4 无线手柄 X · GP-XBOX",
+          "voiceover": "P4Gear 手感对了，才轮到操作。 驱动与说明书可下载。",
+          "asset_ref": "brand_hero"
+        }
+      ],
+      "bgm_hint": "节奏明确的电子鼓点 / 110 BPM",
+      "cta": "前往 P4 资源下载中心搜索 GP-XBOX，获取驱动与完整说明书",
+      "compliance_note": "字幕与口播中的数字参数均取自商品库真实规格，不得自行追加未标注性能；个别规格缺失处使用不含数字的描述性措辞，仅为语句完整，不作为性能承诺"
+    },
+    "keywords": [
+      "GP-XBOX",
+      "P4 无线手柄 X",
+      "P4Gear",
+      "游戏手柄",
+      "客厅主机上的赛车游戏",
+      "PC 上用手柄玩动作游戏",
+      "手机串流临时来一局",
+      "连接",
+      "摇杆",
+      "扳机",
+      "背键",
+      "兼容平台",
+      "官方驱动",
+      "说明书"
+    ]
+  },
+  "images": {
+    "product_card": {
+      "path": "images/products/GP-XBOX.svg",
+      "url": "http://127.0.0.1:8000/p4-assets/images/products/GP-XBOX.svg",
+      "mime_type": "image/svg+xml",
+      "width": 600,
+      "height": 400,
+      "purpose": "产品卡图 / 视频内嵌素材",
+      "note": "矢量，可无损放大；浅色卡片含品牌、品类图标与产品名"
+    },
+    "category_visual": {
+      "path": "images/visuals/gamepad-16x9.svg",
+      "url": "http://127.0.0.1:8000/p4-assets/images/visuals/gamepad-16x9.svg",
+      "mime_type": "image/svg+xml",
+      "width": 1600,
+      "height": 900,
+      "purpose": "16:9 视频封面 / 分镜背景板",
+      "note": ""
+    },
+    "brand_hero": {
+      "path": "images/brand/hero.png",
+      "url": "http://127.0.0.1:8000/p4-assets/images/brand/hero.png",
+      "mime_type": "image/png",
+      "width": 1536,
+      "height": 1024,
+      "purpose": "品牌主视觉 / 片尾",
+      "note": "暗调电竞产品渲染，适合片尾品牌帧"
+    }
+  },
+  "downloads": [
+    {
+      "kind": "driver",
+      "title": "P4 无线手柄 X 驱动",
+      "file_url": "/api/drivers/3f82cd3ae5f64e609fcbc8610323347a/download?os=Windows",
+      "sha256": "22315e9756fc65d8421989b5c7924ad3b1f2b88ead27d5eb71d5bfbcd4c74a9c"
+    },
+    {
+      "kind": "driver",
+      "title": "P4 无线手柄 X 驱动",
+      "file_url": "/api/drivers/e12e0dc784074e23b55e8f9265ab7fba/download?os=macOS",
+      "sha256": "47af9042c1f909a22287c5ec34cee803c99635ab1cdbf5c08ea7a4078b40411e"
+    },
+    {
+      "kind": "driver",
+      "title": "P4 无线手柄 X 驱动",
+      "file_url": "/api/drivers/6b6bdfb783fe4cd7aaf921421fa45560/download?os=Linux",
+      "sha256": "668920dd6b3331392917b6c1ec9490490626bf46a0f90367542f6455bf7d056a"
+    },
+    {
+      "kind": "manual",
+      "title": "P4 无线手柄 X 用户手册",
+      "file_url": "/api/resources/manual/4f249d68351f490fa5d02b7a7df4912e/download",
+      "sha256": "abeb3fbdf4e6db1be3f72c25d5043c4683320ee5dcec5f933d52acb0da6a0602"
+    },
+    {
+      "kind": "resource",
+      "title": "P4 无线手柄 X 快速入门指南",
+      "file_url": "/api/resources/resource/b4ebdb8b5d4447a0a5a5181f26a622f1/download",
+      "sha256": "50a75e0e86448d0263f2bf1461911a859e2a063f4f2d38325e5f294c06179881"
+    },
+    {
+      "kind": "resource",
+      "title": "P4 无线手柄 X 保修服务卡",
+      "file_url": "/api/resources/resource/15bffc0716544bc9b5975fc0c02220bb/download",
+      "sha256": "76fc3d612aaf6d86296f3a499e6dbe539998055e364493be1e8057905176ab69"
+    }
+  ],
+  "provenance": {
+    "source": "P4 外设商城 · products 表",
+    "generated_by": "backend/tools/build_assets.py",
+    "copy_generator": "backend/app/services/asset_copy.py（确定性模板 + 真实规格）",
+    "asset_base_url": "http://127.0.0.1:8000/p4-assets"
+  }
+}

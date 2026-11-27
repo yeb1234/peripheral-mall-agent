@@ -1,0 +1,283 @@
+{
+  "schema_version": "1.0.0",
+  "sku": "MS-SMALL-W",
+  "identity": {
+    "sku": "MS-SMALL-W",
+    "name": "P4 无线鼠标 Small-W（小手）",
+    "brand": "P4Gear",
+    "category": "mouse",
+    "price": 279.0,
+    "description": "小手型超轻无线鼠标，49g 极致轻量，原相 PAW3395，适合 17cm 以下手型指握。",
+    "featured": true,
+    "category_cn": "电竞鼠标",
+    "currency": "CNY",
+    "stock": 160
+  },
+  "specs": {
+    "核心参数": {
+      "传感器": "原相 PAW3395",
+      "最高 DPI": "26000",
+      "追踪速度": "650 IPS",
+      "最大加速度": "50 G",
+      "微动": "光学微动",
+      "按键数": 5,
+      "分辨率档位": "板载 5 档 + 软体自定义"
+    },
+    "人体工学": {
+      "适用手型": "小手（≤17cm）",
+      "推荐握姿": "指握 / 抓握",
+      "重量": "49 g",
+      "尺寸": "116×58×36",
+      "表面处理": "细磨砂涂层",
+      "按键寿命": "80 万次"
+    },
+    "连接": {
+      "连接方式": "2.4G 无线 + 蓝牙 5.0",
+      "回报率": "4000 Hz",
+      "续航": "75 h",
+      "充电": "USB-C（1.2h 充满）",
+      "无线延迟": "1.2 ms"
+    },
+    "电竞特性": {
+      "静默高度 LOD": "1.0 mm",
+      "点击延迟": "1.0 ms",
+      "板载内存": "支持",
+      "脚贴": "100% PTFE",
+      "表面校准": "支持"
+    },
+    "兼容系统": [
+      "Windows 10+",
+      "macOS 11+",
+      "Linux"
+    ]
+  },
+  "specs_flat": {
+    "传感器": "原相 PAW3395",
+    "最高 DPI": "26000",
+    "追踪速度": "650 IPS",
+    "最大加速度": "50 G",
+    "微动": "光学微动",
+    "按键数": "5",
+    "分辨率档位": "板载 5 档 + 软体自定义",
+    "适用手型": "小手（≤17cm）",
+    "推荐握姿": "指握 / 抓握",
+    "重量": "49 g",
+    "尺寸": "116×58×36",
+    "表面处理": "细磨砂涂层",
+    "按键寿命": "80 万次",
+    "连接方式": "2.4G 无线 + 蓝牙 5.0",
+    "回报率": "4000 Hz",
+    "续航": "75 h",
+    "充电": "USB-C（1.2h 充满）",
+    "无线延迟": "1.2 ms",
+    "静默高度 LOD": "1.0 mm",
+    "点击延迟": "1.0 ms",
+    "板载内存": "支持",
+    "脚贴": "100% PTFE",
+    "表面校准": "支持",
+    "兼容系统": "Windows 10+、macOS 11+、Linux"
+  },
+  "copy": {
+    "tagline": "每一次移动，都算数。",
+    "lead": "重量、握感与追踪，只服务于准星",
+    "short_copy": "P4 无线鼠标 Small-W（小手）｜重量、握感与追踪，只服务于准星。小手型超轻无线鼠标，49g 极致轻量，原相 PAW3395，适合 17cm 以下手型指握。",
+    "long_copy": "P4 无线鼠标 Small-W（小手） 是 P4Gear 面向竞技玩家与中大手用户推出的电竞鼠标。小手型超轻无线鼠标，49g 极致轻量，原相 PAW3395，适合 17cm 以下手型指握。\n我们不把参数藏在宣传页脚注里：重量 49 g、传感器 原相 PAW3395、DPI 26000。从连接方式到驱动软件，完整规格都可以在商品页与资源下载中心查到；驱动、用户手册与快速入门支持按型号检索下载，下载文件提供 SHA256 校验。\nP4Gear 每一次移动，都算数。",
+    "selling_points": [
+      {
+        "key": "weight_g",
+        "label": "重量",
+        "fact": "49 g",
+        "headline": "重量 · 49 g",
+        "benefit": "轻量化让长时间甩枪不拖手腕",
+        "copy": "49 g｜轻量化让长时间甩枪不拖手腕"
+      },
+      {
+        "key": "sensor",
+        "label": "传感器",
+        "fact": "原相 PAW3395",
+        "headline": "传感器 · 原相 PAW3395",
+        "benefit": "高 IPS 与加速度，快速转身不丢帧",
+        "copy": "原相 PAW3395｜高 IPS 与加速度，快速转身不丢帧"
+      },
+      {
+        "key": "dpi",
+        "label": "DPI",
+        "fact": "26000",
+        "headline": "DPI · 26000",
+        "benefit": "档位随手感切换，FPS 与 MOBA 各一套",
+        "copy": "26000｜档位随手感切换，FPS 与 MOBA 各一套"
+      },
+      {
+        "key": "polling_hz",
+        "label": "回报率",
+        "fact": "4000 Hz",
+        "headline": "回报率 · 4000 Hz",
+        "benefit": "高频轮询让光标跟手",
+        "copy": "4000 Hz｜高频轮询让光标跟手"
+      },
+      {
+        "key": "connect",
+        "label": "连接",
+        "fact": "2.4G 无线 + 蓝牙 5.0",
+        "headline": "连接 · 2.4G 无线 + 蓝牙 5.0",
+        "benefit": "有线 / 2.4G / 蓝牙按需切换",
+        "copy": "2.4G 无线 + 蓝牙 5.0｜有线 / 2.4G / 蓝牙按需切换"
+      }
+    ],
+    "scenes": [
+      {
+        "scene": "FPS 训练场连续甩枪",
+        "angle": "以「FPS 训练场连续甩枪」为真实使用场景，突出重量、握感与追踪，只服务于准星"
+      },
+      {
+        "scene": "长时间 MOBA 对线",
+        "angle": "以「长时间 MOBA 对线」为真实使用场景，突出重量、握感与追踪，只服务于准星"
+      },
+      {
+        "scene": "出差带着笔记本轻量办公",
+        "angle": "以「出差带着笔记本轻量办公」为真实使用场景，突出重量、握感与追踪，只服务于准星"
+      }
+    ],
+    "video_script": {
+      "title": "P4 无线鼠标 Small-W（小手） · 30 秒产品短片",
+      "duration_seconds": 30,
+      "aspect_ratio": "16:9",
+      "style": "浅色专业电竞外设 / 干净棚拍 / 快切；中性灰底 + 单一红色强调",
+      "brand_tone": "克制、专业、参数说话；不堆形容词，不承诺未标注的性能",
+      "shots": [
+        {
+          "no": 1,
+          "timecode": "0-4",
+          "visual": "低机位贴桌推轨：鼠标在浅色布垫上快速划过，留一点运动模糊",
+          "overlay_text": "49 g · 轻量化",
+          "voiceover": "P4 无线鼠标 Small-W（小手）。移动之前，先让手腕没有负担。",
+          "asset_ref": "category_visual"
+        },
+        {
+          "no": 2,
+          "timecode": "4-10",
+          "visual": "俯拍手掌握持特写，切换趴握 / 抓握两种姿势",
+          "overlay_text": "小手（≤17cm）",
+          "voiceover": "模具跟着手型走，不是手去迁就模具。",
+          "asset_ref": "product_card"
+        },
+        {
+          "no": 3,
+          "timecode": "10-17",
+          "visual": "屏幕录制准星急停点射，画中画叠传感器参数字幕",
+          "overlay_text": "原相 PAW3395 · 26000",
+          "voiceover": "追踪稳，急停才停得住。",
+          "asset_ref": "category_visual"
+        },
+        {
+          "no": 4,
+          "timecode": "17-24",
+          "visual": "切换有线 / 2.4G / 蓝牙三个连接状态灯，快切三格",
+          "overlay_text": "2.4G 无线 + 蓝牙 5.0",
+          "voiceover": "桌面、赛场、出差，一台就够。",
+          "asset_ref": "product_card"
+        },
+        {
+          "no": 5,
+          "timecode": "24-30",
+          "visual": "定格产品侧影 + 品牌字标，右下角 SKU",
+          "overlay_text": "P4 无线鼠标 Small-W（小手） · MS-SMALL-W",
+          "voiceover": "P4Gear 每一次移动，都算数。 驱动与说明书在资源下载中心。",
+          "asset_ref": "brand_hero"
+        }
+      ],
+      "bgm_hint": "极简电子脉冲 / 100 BPM / 甩枪瞬间留白一拍",
+      "cta": "前往 P4 资源下载中心搜索 MS-SMALL-W，获取驱动与完整说明书",
+      "compliance_note": "字幕与口播中的数字参数均取自商品库真实规格，不得自行追加未标注性能；个别规格缺失处使用不含数字的描述性措辞，仅为语句完整，不作为性能承诺"
+    },
+    "keywords": [
+      "MS-SMALL-W",
+      "P4 无线鼠标 Small-W（小手）",
+      "P4Gear",
+      "电竞鼠标",
+      "FPS 训练场连续甩枪",
+      "长时间 MOBA 对线",
+      "出差带着笔记本轻量办公",
+      "重量",
+      "传感器",
+      "DPI",
+      "回报率",
+      "连接",
+      "官方驱动",
+      "说明书"
+    ]
+  },
+  "images": {
+    "product_card": {
+      "path": "images/products/MS-SMALL-W.svg",
+      "url": "http://127.0.0.1:8000/p4-assets/images/products/MS-SMALL-W.svg",
+      "mime_type": "image/svg+xml",
+      "width": 600,
+      "height": 400,
+      "purpose": "产品卡图 / 视频内嵌素材",
+      "note": "矢量，可无损放大；浅色卡片含品牌、品类图标与产品名"
+    },
+    "category_visual": {
+      "path": "images/visuals/mouse-16x9.svg",
+      "url": "http://127.0.0.1:8000/p4-assets/images/visuals/mouse-16x9.svg",
+      "mime_type": "image/svg+xml",
+      "width": 1600,
+      "height": 900,
+      "purpose": "16:9 视频封面 / 分镜背景板",
+      "note": ""
+    },
+    "brand_hero": {
+      "path": "images/brand/hero.png",
+      "url": "http://127.0.0.1:8000/p4-assets/images/brand/hero.png",
+      "mime_type": "image/png",
+      "width": 1536,
+      "height": 1024,
+      "purpose": "品牌主视觉 / 片尾",
+      "note": "暗调电竞产品渲染，适合片尾品牌帧"
+    }
+  },
+  "downloads": [
+    {
+      "kind": "driver",
+      "title": "P4 无线鼠标 Small-W（小手） 驱动",
+      "file_url": "/api/drivers/1d16aaf07b76456298e243f5af8bd9cf/download?os=Windows",
+      "sha256": "7a696577affeb192b73a6f500440fb1e4f65747fdc16793145e3bd8032f6adf8"
+    },
+    {
+      "kind": "driver",
+      "title": "P4 无线鼠标 Small-W（小手） 驱动",
+      "file_url": "/api/drivers/5375e7de6bef4f7f9468b9c834e35437/download?os=macOS",
+      "sha256": "848c3eee3e8d4ce3c8da84c0237a793f128733c280c84ada27d7003e28d9f917"
+    },
+    {
+      "kind": "driver",
+      "title": "P4 无线鼠标 Small-W（小手） 驱动",
+      "file_url": "/api/drivers/e2d39c4fc29b47f8915e7745bb23c741/download?os=Linux",
+      "sha256": "7283f73720a183eff55a4bee3dc066108df494cd21155d0b19b288a342281954"
+    },
+    {
+      "kind": "manual",
+      "title": "P4 无线鼠标 Small-W（小手） 用户手册",
+      "file_url": "/api/resources/manual/45605a25b019457c960fc47838065d45/download",
+      "sha256": "f4d7aa955f90f492340a6a04a702a02628cf4f37001b4d9a850f2eefb3d8c99a"
+    },
+    {
+      "kind": "resource",
+      "title": "P4 无线鼠标 Small-W（小手） 快速入门指南",
+      "file_url": "/api/resources/resource/58a339f178d748e2ae021fb592142f18/download",
+      "sha256": "db54334ae76eec3d712a11ead6cb84ae04a5ed3bd2b0576d2c960a5e1c6f3085"
+    },
+    {
+      "kind": "resource",
+      "title": "P4 无线鼠标 Small-W（小手） 保修服务卡",
+      "file_url": "/api/resources/resource/1acb38011fa04e58904637ed4937115b/download",
+      "sha256": "37474feaf2bd2a076c905a756fcdf14e795f8b972ca136096d3c71a1b90aeb0b"
+    }
+  ],
+  "provenance": {
+    "source": "P4 外设商城 · products 表",
+    "generated_by": "backend/tools/build_assets.py",
+    "copy_generator": "backend/app/services/asset_copy.py（确定性模板 + 真实规格）",
+    "asset_base_url": "http://127.0.0.1:8000/p4-assets"
+  }
+}

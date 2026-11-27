@@ -1,0 +1,273 @@
+{
+  "schema_version": "1.0.0",
+  "sku": "CAM-1440",
+  "identity": {
+    "sku": "CAM-1440",
+    "name": "P4 2K 主播摄像头 Facecam",
+    "brand": "P4Vision",
+    "category": "webcam",
+    "price": 299.0,
+    "description": "2K（2560×1440）60fps 主播 Facecam，大底传感器 + 无畸变镜头，自动构图。",
+    "featured": true,
+    "category_cn": "高清摄像头",
+    "currency": "CNY",
+    "stock": 75
+  },
+  "specs": {
+    "核心参数": {
+      "分辨率": "2560×1440",
+      "帧率": "2K@60 / 1080P@120",
+      "传感器": "1/2\" 背照式 CMOS",
+      "光圈": "f/1.8",
+      "视场角 FOV": "82°",
+      "对焦": "定焦（不可调）",
+      "数码变焦": "无"
+    },
+    "连接": {
+      "接口": "USB-C 3.0",
+      "带宽": "5Gbps",
+      "线缆长度": "2.0 m",
+      "兼容": [
+        "Windows 10+",
+        "macOS 11+",
+        "Linux (UVC)"
+      ]
+    },
+    "特性": {
+      "隐私遮罩": "磁吸遮罩",
+      "智能补光": "无（外置补光推荐）",
+      "自动取景构图": "AI 自动构图 + 跟踪",
+      "麦克风": "无（外接麦推荐）",
+      "AI 降噪": "支持"
+    },
+    "设计": {
+      "重量": "130 g",
+      "尺寸": "85×48×48",
+      "支架": "1/4 螺孔 + 桌面夹"
+    }
+  },
+  "specs_flat": {
+    "分辨率": "2560×1440",
+    "帧率": "2K@60 / 1080P@120",
+    "传感器": "1/2\" 背照式 CMOS",
+    "光圈": "f/1.8",
+    "视场角 FOV": "82°",
+    "对焦": "定焦（不可调）",
+    "数码变焦": "无",
+    "接口": "USB-C 3.0",
+    "带宽": "5Gbps",
+    "线缆长度": "2.0 m",
+    "兼容": "Windows 10+、macOS 11+、Linux (UVC)",
+    "隐私遮罩": "磁吸遮罩",
+    "智能补光": "无（外置补光推荐）",
+    "自动取景构图": "AI 自动构图 + 跟踪",
+    "麦克风": "无（外接麦推荐）",
+    "AI 降噪": "支持",
+    "重量": "130 g",
+    "尺寸": "85×48×48",
+    "支架": "1/4 螺孔 + 桌面夹"
+  },
+  "copy": {
+    "tagline": "让画面替你说清楚。",
+    "lead": "会议、直播与录课，开箱即用",
+    "short_copy": "P4 2K 主播摄像头 Facecam｜会议、直播与录课，开箱即用。2K（2560×1440）60fps 主播 Facecam，大底传感器 + 无畸变镜头，自动构图。",
+    "long_copy": "P4 2K 主播摄像头 Facecam 是 P4Vision 面向会议、直播与录课用户推出的高清摄像头。2K（2560×1440）60fps 主播 Facecam，大底传感器 + 无畸变镜头，自动构图。\n我们不把参数藏在宣传页脚注里：分辨率 2560×1440、帧率 2K@60 / 1080P@120、对焦 定焦（不可调）。从连接方式到驱动软件，完整规格都可以在商品页与资源下载中心查到；驱动、用户手册与快速入门支持按型号检索下载，下载文件提供 SHA256 校验。\nP4Vision 让画面替你说清楚。",
+    "selling_points": [
+      {
+        "key": "resolution",
+        "label": "分辨率",
+        "fact": "2560×1440",
+        "headline": "分辨率 · 2560×1440",
+        "benefit": "细节清楚，白板文字也读得出",
+        "copy": "2560×1440｜细节清楚，白板文字也读得出"
+      },
+      {
+        "key": "fps",
+        "label": "帧率",
+        "fact": "2K@60 / 1080P@120",
+        "headline": "帧率 · 2K@60 / 1080P@120",
+        "benefit": "口型与动作不脱节",
+        "copy": "2K@60 / 1080P@120｜口型与动作不脱节"
+      },
+      {
+        "key": "focus",
+        "label": "对焦",
+        "fact": "定焦（不可调）",
+        "headline": "对焦 · 定焦（不可调）",
+        "benefit": "走近走远都保持清晰",
+        "copy": "定焦（不可调）｜走近走远都保持清晰"
+      },
+      {
+        "key": "mic",
+        "label": "麦克风",
+        "fact": "无（外接麦推荐）",
+        "headline": "麦克风 · 无（外接麦推荐）",
+        "benefit": "不用额外再架一支麦",
+        "copy": "无（外接麦推荐）｜不用额外再架一支麦"
+      },
+      {
+        "key": "privacy",
+        "label": "隐私",
+        "fact": "磁吸遮罩",
+        "headline": "隐私 · 磁吸遮罩",
+        "benefit": "物理遮挡盖，不开会就盖上",
+        "copy": "磁吸遮罩｜物理遮挡盖，不开会就盖上"
+      }
+    ],
+    "scenes": [
+      {
+        "scene": "远程周会共享方案",
+        "angle": "以「远程周会共享方案」为真实使用场景，突出会议、直播与录课，开箱即用"
+      },
+      {
+        "scene": "在家直播或录课",
+        "angle": "以「在家直播或录课」为真实使用场景，突出会议、直播与录课，开箱即用"
+      },
+      {
+        "scene": "面试前的画面检查",
+        "angle": "以「面试前的画面检查」为真实使用场景，突出会议、直播与录课，开箱即用"
+      }
+    ],
+    "video_script": {
+      "title": "P4 2K 主播摄像头 Facecam · 30 秒产品短片",
+      "duration_seconds": 30,
+      "aspect_ratio": "16:9",
+      "style": "浅色专业电竞外设 / 干净棚拍 / 快切；中性灰底 + 单一红色强调",
+      "brand_tone": "克制、专业、参数说话；不堆形容词，不承诺未标注的性能",
+      "shots": [
+        {
+          "no": 1,
+          "timecode": "0-4",
+          "visual": "显示器上沿特写：镜头卡扣扣上，指示灯亮起",
+          "overlay_text": "2560×1440 · 即插即用",
+          "voiceover": "P4 2K 主播摄像头 Facecam。插上就能开始，不必先装驱动。",
+          "asset_ref": "category_visual"
+        },
+        {
+          "no": 2,
+          "timecode": "4-10",
+          "visual": "画面由模糊到清晰的对焦动画，字幕叠参数",
+          "overlay_text": "定焦（不可调）",
+          "voiceover": "人一动，焦点也跟着走。",
+          "asset_ref": "product_card"
+        },
+        {
+          "no": 3,
+          "timecode": "10-17",
+          "visual": "分屏：会议窗口里的人物特写 + 白板文字可辨",
+          "overlay_text": "2560×1440 · 2K@60 / 1080P@120",
+          "voiceover": "脸清楚，写的东西也清楚。",
+          "asset_ref": "category_visual"
+        },
+        {
+          "no": 4,
+          "timecode": "17-24",
+          "visual": "手指拨上物理遮挡盖，指示灯熄灭",
+          "overlay_text": "磁吸遮罩",
+          "voiceover": "会议结束，画面就该彻底关掉。",
+          "asset_ref": "product_card"
+        },
+        {
+          "no": 5,
+          "timecode": "24-30",
+          "visual": "桌面全景定格 + 品牌字标与 SKU",
+          "overlay_text": "P4 2K 主播摄像头 Facecam · CAM-1440",
+          "voiceover": "P4Vision 让画面替你说清楚。 固件与说明书在资源下载中心。",
+          "asset_ref": "brand_hero"
+        }
+      ],
+      "bgm_hint": "轻快干净的原声吉他 / 90 BPM",
+      "cta": "前往 P4 资源下载中心搜索 CAM-1440，获取驱动与完整说明书",
+      "compliance_note": "字幕与口播中的数字参数均取自商品库真实规格，不得自行追加未标注性能；个别规格缺失处使用不含数字的描述性措辞，仅为语句完整，不作为性能承诺"
+    },
+    "keywords": [
+      "CAM-1440",
+      "P4 2K 主播摄像头 Facecam",
+      "P4Vision",
+      "高清摄像头",
+      "远程周会共享方案",
+      "在家直播或录课",
+      "面试前的画面检查",
+      "分辨率",
+      "帧率",
+      "对焦",
+      "麦克风",
+      "隐私",
+      "官方驱动",
+      "说明书"
+    ]
+  },
+  "images": {
+    "product_card": {
+      "path": "images/products/CAM-1440.svg",
+      "url": "http://127.0.0.1:8000/p4-assets/images/products/CAM-1440.svg",
+      "mime_type": "image/svg+xml",
+      "width": 600,
+      "height": 400,
+      "purpose": "产品卡图 / 视频内嵌素材",
+      "note": "矢量，可无损放大；浅色卡片含品牌、品类图标与产品名"
+    },
+    "category_visual": {
+      "path": "images/visuals/webcam-16x9.svg",
+      "url": "http://127.0.0.1:8000/p4-assets/images/visuals/webcam-16x9.svg",
+      "mime_type": "image/svg+xml",
+      "width": 1600,
+      "height": 900,
+      "purpose": "16:9 视频封面 / 分镜背景板",
+      "note": ""
+    },
+    "brand_hero": {
+      "path": "images/brand/hero.png",
+      "url": "http://127.0.0.1:8000/p4-assets/images/brand/hero.png",
+      "mime_type": "image/png",
+      "width": 1536,
+      "height": 1024,
+      "purpose": "品牌主视觉 / 片尾",
+      "note": "暗调电竞产品渲染，适合片尾品牌帧"
+    }
+  },
+  "downloads": [
+    {
+      "kind": "driver",
+      "title": "P4 2K 主播摄像头 Facecam 驱动",
+      "file_url": "/api/drivers/16a7317e7c2a4cc489d09429dc915047/download?os=Windows",
+      "sha256": "167b35c32af9331559229b6c3d578855959203bf2143e9fefc6157bd2f4a7004"
+    },
+    {
+      "kind": "driver",
+      "title": "P4 2K 主播摄像头 Facecam 驱动",
+      "file_url": "/api/drivers/e6141c1147134e959cf0adcaf64c1b05/download?os=macOS",
+      "sha256": "4029fca3ba9ecda0f4d594f4b293d9523320c6efc0c65901e1b50089ceaff383"
+    },
+    {
+      "kind": "driver",
+      "title": "P4 2K 主播摄像头 Facecam 驱动",
+      "file_url": "/api/drivers/ccff94bb798a4f2daf53a4c88b018224/download?os=Linux",
+      "sha256": "f73929f504afcc1ea75f8b2b5bd083e616ecc58b88305fcfe18d06f44e32796a"
+    },
+    {
+      "kind": "manual",
+      "title": "P4 2K 主播摄像头 Facecam 用户手册",
+      "file_url": "/api/resources/manual/439933ce747d479eb17af496b266dbd0/download",
+      "sha256": "5a3b0ec7cab512aa40475cac477d19684a6cabd634cf555d071055d760f98414"
+    },
+    {
+      "kind": "resource",
+      "title": "P4 2K 主播摄像头 Facecam 快速入门指南",
+      "file_url": "/api/resources/resource/36cacea924684d9ebe4397e1d774acdc/download",
+      "sha256": "6f39ada779d48b21fb1d9344be9ade46ff48e28e626bbdb893d375371876dca4"
+    },
+    {
+      "kind": "resource",
+      "title": "P4 2K 主播摄像头 Facecam 保修服务卡",
+      "file_url": "/api/resources/resource/b2e78c5ab5ef46e9a45bf22fd6e0f47e/download",
+      "sha256": "ad045bc7597410196a434ead0214923f00b42568838dda78e2174e63c4ec16ef"
+    }
+  ],
+  "provenance": {
+    "source": "P4 外设商城 · products 表",
+    "generated_by": "backend/tools/build_assets.py",
+    "copy_generator": "backend/app/services/asset_copy.py（确定性模板 + 真实规格）",
+    "asset_base_url": "http://127.0.0.1:8000/p4-assets"
+  }
+}
