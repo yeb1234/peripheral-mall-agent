@@ -16,6 +16,14 @@ frontend/dist/
 .idea/
 .vscode/
 
+# 本地运行时 LLM 配置（含真实密钥，模板见 backend/llm_config.example.json）
+backend/llm_config.json
+backend/llm_config.json.tmp
+
+# SQLite WAL / SHM 旁文件
+*.db-wal
+*.db-shm
+
 # Project runtime data (not source)
 .workbuddy/
 
