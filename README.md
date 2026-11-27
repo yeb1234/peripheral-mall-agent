@@ -1,5 +1,7 @@
 # P4Gear 智能电商中台
 
+**简体中文** · [English](README.en.md) · [架构说明](docs/ARCHITECTURE.md) · [文档索引](docs/README.md)
+
 **P4Gear Commerce Agent** —— 面向电竞外设零售的多 Agent 电商中台，把商品、订单、知识库与客服编排放在同一套可运行、可测试、可运维的系统里。
 
 [![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)](https://www.python.org/)
@@ -168,10 +170,12 @@ P4Gear/
 ├── docs/
 │   ├── images/              # 架构图与界面截图
 │   ├── reports/             # 测试与压测报告（机器可读）
+│   ├── ARCHITECTURE.md      # 分层、链路与关键设计
 │   ├── OPS_RUNBOOK.md
 │   ├── P4-P6-BRIDGE.md
 │   ├── P3-MCP-INTEGRATION.md
-│   └── SOURCE-PRIORITY.md
+│   ├── SOURCE-PRIORITY.md
+│   └── README.md            # 文档索引
 ├── docker-compose.yml
 └── .env.example
 ```
@@ -209,6 +213,7 @@ python backend/scripts/loadtest.py --target vector -c 5 -n 20
 - 跨系统契约：[docs/P4-P6-BRIDGE.md](docs/P4-P6-BRIDGE.md)
 - 信源规则：[docs/SOURCE-PRIORITY.md](docs/SOURCE-PRIORITY.md)
 - P3 接入：[docs/P3-MCP-INTEGRATION.md](docs/P3-MCP-INTEGRATION.md)
+- 文档索引：[docs/README.md](docs/README.md)（全仓库文档导航）
 
 端口约定：后端 8000、前端 5173（Compose 内前端由 node 容器提供）、数据库 12500、缓存 12600；P6 为 12706、P3 MCP 为 12415。
 
