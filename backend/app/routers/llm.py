@@ -37,7 +37,6 @@ def _model_kind(mid: str) -> str:
 class ProviderPatch(BaseModel):
     label: str | None = None
     base_url: str | None = None
-    api_key: str | None = None
     model: str | None = None
 
 
@@ -51,7 +50,6 @@ class ConfigPayload(BaseModel):
 class TestPayload(BaseModel):
     provider: str = "local"
     base_url: str | None = None
-    api_key: str | None = None
     model: str | None = None
 
 
@@ -119,10 +117,7 @@ async def test_connection(payload: TestPayload):
     reg = get_registry()
     cfg = reg.get(payload.provider)
     base = payload.base_url or cfg.get("base_url")
-    key = payload.api_key or cfg.get("api_key")
-    if key and "****" in key:
-        # 前端表单里是脱敏值，握手时用注册表里的真实 key
-        key = cfg.get("api_key")
+    key = cfg.get("api_key")   # 只来自 .env，前端不再传 key
     model = payload.model or cfg.get("model")
     out: dict = {
         "ok": False, "provider": payload.provider, "model": model,

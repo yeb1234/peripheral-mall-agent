@@ -120,8 +120,9 @@ npm run dev -- --port 5173
 
 配置集中在 `backend/app/config.py`，通过环境变量或 `backend/.env` 覆盖，完整清单见 [.env.example](.env.example)。
 
-运行时的模型切换另存 `backend/llm_config.json`（`/settings` 页写入）。仓库只带
-`backend/llm_config.example.json`，首次运行复制一份再填 key；真实配置文件已在 `.gitignore` 中，不入库。
+运行时的模型切换另存 `backend/llm_config.json`（`/settings` 页写入），只保留 base_url / model 等非机密字段。
+**所有密钥只从 `backend/.env` 读取**（`OPENAI_API_KEY` / `LOCAL_LLM_API_KEY` / `SILICONFLOW_API_KEY` / `WEBSEARCH_API_KEY` / `TAVILY_API_KEY`），
+设置页对 key 只读，改 key 后重启后端生效。仓库只带 `backend/llm_config.example.json`。
 
 | 变量 | 默认 | 说明 |
 | --- | --- | --- |

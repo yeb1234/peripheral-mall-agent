@@ -7,9 +7,10 @@ LLM 提供方注册表 —— 运行时可切换，无需重启服务。
 - mock     ：内置确定性决策，无网络、无密钥，适合离线学习整个 Agent 编排
 
 设计要点：
-- 配置持久化在 backend/llm_config.json，**不写回 .env**：.env 仍是启动默认值，
-  运行时的切换单独存，互不污染。
-- 对外返回时 API key 一律脱敏；前端把脱敏值原样回传时保留原 key（不会把密钥洗掉）。
+- 非机密配置（active / base_url / model / label）持久化在 backend/llm_config.json；
+- 所有密钥只从 .env 读取（OPENAI_API_KEY / LOCAL_LLM_API_KEY），
+  本文件、接口响应、前端页面都不保存明文 key。
+- 对外返回时 API key 一律脱敏，并附 key_source 说明来自哪个环境变量。
 - fingerprint 让 get_llm() 的客户端缓存自动失效，切换后下一次调用立刻用新配置。
 """
 from __future__ import annotations
@@ -26,6 +27,22 @@ _CONFIG_PATH = os.path.abspath(
 )
 PROVIDER_IDS = ("local", "external", "mock")
 
+# 密钥来源：只认 .env。llm_config.json 只存 base_url / model 这类非机密配置。
+KEY_ENV = {
+    "local": "LOCAL_LLM_API_KEY",
+    "external": "OPENAI_API_KEY",
+    "mock": "",
+}
+
+
+def resolve_key(pid: str) -> str:
+    """按提供方从环境配置取密钥；空值表示未配置。"""
+    env_name = KEY_ENV.get(pid, "")
+    if not env_name:
+        return ""
+    value = getattr(settings, env_name, "") or ""
+    return str(value)
+
 
 def _defaults() -> dict:
     return {
@@ -34,19 +51,16 @@ def _defaults() -> dict:
             "local": {
                 "label": "LM Studio（本地）",
                 "base_url": "http://127.0.0.1:1234/v1",
-                "api_key": "lm-studio",
                 "model": "",
             },
             "external": {
                 "label": "外部 LLM（DeepSeek / SenseNova）",
                 "base_url": settings.OPENAI_BASE_URL,
-                "api_key": settings.OPENAI_API_KEY,
                 "model": settings.OPENAI_MODEL,
             },
             "mock": {
                 "label": "Mock（离线确定性）",
                 "base_url": "",
-                "api_key": "",
                 "model": "mock-deterministic",
             },
         },
@@ -76,9 +90,10 @@ class LLMRegistry:
             saved = raw.get("providers") or {}
             for pid in PROVIDER_IDS:
                 if isinstance(saved.get(pid), dict):
+                    # 旧版文件里可能残留明文 api_key，这里一律忽略（密钥只从 .env 读）
                     base["providers"][pid].update(
                         {k: v for k, v in saved[pid].items()
-                         if k in ("label", "base_url", "api_key", "model")}
+                         if k in ("label", "base_url", "model")}
                     )
         except Exception:  # 配置损坏就回退默认值，不让服务起不来
             pass
@@ -86,9 +101,18 @@ class LLMRegistry:
 
     def save(self) -> None:
         with self._lock:
+            # 落盘只写非机密字段；api_key 永远来自 .env
+            payload = {
+                "_note": "密钥只从 backend/.env 读取，本文件不保存 key",
+                "active": self.data["active"],
+                "providers": {
+                    pid: {k: v for k, v in cfg.items() if k in ("label", "base_url", "model")}
+                    for pid, cfg in self.data["providers"].items()
+                },
+            }
             tmp = _CONFIG_PATH + ".tmp"
             with open(tmp, "w", encoding="utf-8") as f:
-                json.dump(self.data, f, ensure_ascii=False, indent=2)
+                json.dump(payload, f, ensure_ascii=False, indent=2)
             os.replace(tmp, _CONFIG_PATH)
 
     @property
@@ -96,8 +120,11 @@ class LLMRegistry:
         return self.data["active"]
 
     def get(self, pid: str) -> dict:
+        """返回运行时配置：非机密字段 + 从 .env 解析出的 key（不落盘）。"""
         with self._lock:
-            return dict(self.data["providers"].get(pid, {}))
+            cfg = dict(self.data["providers"].get(pid, {}))
+        cfg["api_key"] = resolve_key(pid)
+        return cfg
 
     def active_config(self) -> tuple[str, dict]:
         pid = self.active
@@ -118,24 +145,24 @@ class LLMRegistry:
             raise ValueError(f"未知提供方：{pid}")
         with self._lock:
             cfg = self.data["providers"][pid]
-            for k in ("label", "base_url", "api_key", "model"):
+            # 只接受非机密字段；api_key 一律忽略，密钥只在 .env 里配
+            for k in ("label", "base_url", "model"):
                 if k not in patch or patch[k] is None:
                     continue
                 v = patch[k]
-                # 前端回传的是脱敏值（或空）→ 保留原 key，避免把密钥洗掉
-                if k == "api_key" and (not v or "****" in str(v)):
-                    continue
                 cfg[k] = str(v).strip() if isinstance(v, str) else v
 
     def public(self) -> dict:
-        """给前端的安全视图：key 脱敏 + has_key 标记。"""
+        """给前端的安全视图：key 只回脱敏值与来源，前端不再能改写 key。"""
         with self._lock:
             providers = {}
             for pid, cfg in self.data["providers"].items():
+                key = resolve_key(pid)
                 providers[pid] = {
                     **cfg,
-                    "has_key": bool(cfg.get("api_key")),
-                    "api_key": _mask(cfg.get("api_key", "")),
+                    "has_key": bool(key),
+                    "api_key": _mask(key),
+                    "key_source": f".env · {KEY_ENV[pid]}" if KEY_ENV.get(pid) else "",
                 }
             return {"active": self.active, "providers": providers, "config_path": _CONFIG_PATH}
 

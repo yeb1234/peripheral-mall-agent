@@ -1,23 +1,20 @@
 {
-  "_comment": "复制为 backend/llm_config.json 后按需修改；该文件已被 .gitignore 忽略，真实密钥不要提交。",
+  "_comment": "复制为 backend/llm_config.json 后按需改 base_url / model。密钥统一在 backend/.env，本文件不保存 key。",
   "active": "mock",
   "providers": {
     "local": {
       "label": "LM Studio（本地）",
       "base_url": "http://127.0.0.1:1234/v1",
-      "api_key": "lm-studio",
       "model": ""
     },
     "external": {
       "label": "外部 LLM（OpenAI 协议兼容端点）",
       "base_url": "https://your-endpoint.example.com/v1",
-      "api_key": "",
       "model": "your-model-name"
     },
     "mock": {
       "label": "Mock（离线确定性）",
       "base_url": "",
-      "api_key": "",
       "model": "mock-deterministic"
     }
   }

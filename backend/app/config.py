@@ -32,10 +32,12 @@ class Settings(BaseSettings):
 
     # ---- 大模型 ----
     # mock（内置确定性决策，无需密钥）| openai（OpenAI 协议，含本地 vLLM）
+    # 所有密钥统一从 .env 读取，运行配置（base_url / model）才落 llm_config.json。
     LLM_BACKEND: str = "mock"
     OPENAI_API_KEY: str = ""
     OPENAI_BASE_URL: str = "https://api.openai.com/v1"
     OPENAI_MODEL: str = "gpt-4o-mini"
+    LOCAL_LLM_API_KEY: str = "lm-studio"   # 本地端点占位密钥，不是真凭据
 
     # ---- 第一层语义理解（NLU：改写 + 意图识别 + 槽位 + 多意图拆解）----
     # auto：直白业务句走确定性规则短路（省一次模型调用），只有指代消解、

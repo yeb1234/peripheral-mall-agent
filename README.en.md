@@ -120,6 +120,8 @@ Defaults are `DATABASE_URL=sqlite+aiosqlite:///./p4agent.db`, `CACHE_BACKEND=mem
 
 Configuration lives in `backend/app/config.py` and is overridden by environment variables or `backend/.env`. The full list is in [.env.example](.env.example).
 
+API keys live **only** in `backend/.env` (`OPENAI_API_KEY`, `LOCAL_LLM_API_KEY`, `SILICONFLOW_API_KEY`, `WEBSEARCH_API_KEY`, `TAVILY_API_KEY`); `backend/llm_config.json` keeps base_url / model only, and the settings page shows keys read-only.
+
 | Variable | Default | Notes |
 | --- | --- | --- |
 | `DATABASE_URL` | `sqlite+aiosqlite:///./p4agent.db` | Business database; use `postgresql+asyncpg://...` in production |

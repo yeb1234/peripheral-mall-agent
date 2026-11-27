@@ -343,9 +343,10 @@ export type LLMProviderId = 'local' | 'external' | 'mock'
 export interface LLMProviderCfg {
   label: string
   base_url: string
-  api_key: string   // 后端返回脱敏值，原样回传即可（后端会保留真实 key）
+  api_key: string   // 后端返回脱敏值，仅供展示；真实 key 只从 .env 读
   model: string
   has_key: boolean
+  key_source: string   // 例如 ".env · OPENAI_API_KEY"
 }
 
 export interface LLMProviders {
@@ -382,7 +383,6 @@ export interface LLMTestResult {
 export interface LLMConfigPatch {
   label?: string
   base_url?: string
-  api_key?: string
   model?: string
 }
 
@@ -416,7 +416,6 @@ export function llmSaveConfig(payload: {
 export function llmTest(payload: {
   provider: LLMProviderId
   base_url?: string
-  api_key?: string
   model?: string
 }): Promise<LLMTestResult> {
   return postJSON('/api/llm/test', payload)

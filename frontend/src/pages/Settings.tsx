@@ -28,7 +28,6 @@ const META: Record<LLMProviderId, { title: string; sub: string; tag: string }> =
 
 interface FormState {
   base_url: string
-  api_key: string
   model: string
 }
 
@@ -42,7 +41,7 @@ function pickDefaultChat(models: LocalModel[]): string {
 export default function Settings() {
   const [data, setData] = useState<LLMProviders | null>(null)
   const [tab, setTab] = useState<LLMProviderId>('local')
-  const [form, setForm] = useState<FormState>({ base_url: '', api_key: '', model: '' })
+  const [form, setForm] = useState<FormState>({ base_url: '', model: '' })
   const [models, setModels] = useState<LocalModel[]>([])
   const [modelsMsg, setModelsMsg] = useState('')
   const [busy, setBusy] = useState(false)
@@ -118,7 +117,7 @@ export default function Settings() {
 
   const syncForm = (d: LLMProviders, pid: LLMProviderId) => {
     const p = d.providers[pid]
-    setForm({ base_url: p.base_url || '', api_key: p.api_key || '', model: p.model || '' })
+    setForm({ base_url: p.base_url || '', model: p.model || '' })
   }
 
   const refreshModels = async (baseUrl: string, autoPick = false) => {
@@ -373,7 +372,7 @@ export default function Settings() {
       <div className="settings-panel">
         <div className="settings-panel-head">
           <h2>编辑 · {META[tab].title}</h2>
-          <span className="hint">密钥只存本机 llm_config.json，返回前端时脱敏</span>
+          <span className="hint">Base URL / 模型可改；密钥统一在 backend/.env，页面只读</span>
         </div>
 
         {tab === 'mock' ? (
@@ -435,14 +434,19 @@ export default function Settings() {
             )}
 
             <label className="field">
-              <span>API Key{tab === 'local' && '（LM Studio 通常任意填即可）'}</span>
+              <span>API Key（只读）</span>
               <input
                 className="input"
-                type="password"
-                value={form.api_key}
-                onChange={(e) => patch('api_key', e.target.value)}
-                placeholder={tab === 'local' ? 'lm-studio' : 'sk-…'}
+                type="text"
+                value={data.providers[tab].has_key ? data.providers[tab].api_key : '未配置'}
+                readOnly
+                disabled
               />
+              <small className={data.providers[tab].has_key ? 'hint' : 'settings-warn'}>
+                {data.providers[tab].has_key
+                  ? `来自 ${data.providers[tab].key_source || '.env'} · 改 key 请改 backend/.env 后重启后端`
+                  : `未在 ${data.providers[tab].key_source || 'backend/.env'} 配置，填好后重启后端生效`}
+              </small>
             </label>
           </div>
         )}
