@@ -7,6 +7,7 @@
 [![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white)](https://react.dev/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16%20%2B%20pgvector-4169E1?logo=postgresql&logoColor=white)](https://github.com/pgvector/pgvector)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![CI](https://github.com/yeb1234/peripheral-mall-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/yeb1234/peripheral-mall-agent/actions/workflows/ci.yml)
 
 ---
 
@@ -216,7 +217,7 @@ python backend/scripts/loadtest.py --target vector -c 5 -n 20
 - [ ] 向量查询缓存与本地 embedding，把检索 P50 压到 50ms 级
 - [ ] Prompt 全部外置为 YAML，结构自检 WARN 降到 3 条以内
 - [ ] 23 个工具的端到端用例补齐（当前 22 条）
-- [ ] CI 在远端仓库真实跑通并挂构建徽章
+- [x] CI 在远端仓库真实跑通并挂构建徽章（backend + frontend 均通过）
 - [ ] P3 增加外设 domain（轴体 / 续航 / 回报率 / 键帽），外设对比进入第一信源
 
 ## 许可证

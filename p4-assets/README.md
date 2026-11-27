@@ -1,4 +1,4 @@
-# P4 产品资源库 · P4 Asset Library
+# P4Gear 商品资产库 · P4 Asset Library
 
 版本 `1.0.0` · 26 个 SKU · 自包含静态资产目录。
 **这个文件夹可以直接拷给别的项目 / 传 CDN / 进 git，不依赖 P4 商城的数据库或 Python 环境。**

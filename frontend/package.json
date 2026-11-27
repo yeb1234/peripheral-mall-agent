@@ -1,7 +1,8 @@
 {
-  "name": "p4-frontend",
+  "name": "p4gear-frontend",
   "private": true,
   "version": "1.0.0",
+  "description": "P4Gear 智能电商中台前端（React + Vite）",
   "type": "module",
   "scripts": {
     "dev": "vite",

@@ -18,7 +18,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 class Settings(BaseSettings):
     model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8", extra="ignore")
 
-    APP_NAME: str = "P4 外设商城 · 企业级 Agent Demo"
+    APP_NAME: str = "P4Gear 智能电商中台"
     ENV: str = "dev"
 
     # ---- 数据库 ----
